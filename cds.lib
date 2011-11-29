@@ -1,0 +1,2 @@
+INCLUDE /cae/apps/data/cadence-2011/installs/IC615/share/cdssetup/cds.lib
+DEFINE ECE555 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/ECE555
