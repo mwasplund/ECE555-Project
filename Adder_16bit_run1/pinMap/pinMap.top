@@ -1,0 +1,17 @@
+(pinMapTop
+   mapFileList (
+      ("ECE555/NAND/schematic" "pinMap.1")
+      ("ECE555/XOR/schematic" "pinMap.2")
+      ("ECE555/INV_540_270/schematic" "pinMap.3")
+      ("ECE555/Prop_Gen/schematic" "pinMap.4")
+      ("ECE555/AND_OR_NOT/schematic" "pinMap.5")
+      ("ECE555/GREY_CELL/schematic" "pinMap.6")
+      ("ECE555/Sum/schematic" "pinMap.7")
+      ("ECE555/Buffer/schematic" "pinMap.8")
+      ("ECE555/BLACK_CELL/schematic" "pinMap.9")
+      ("ECE555/Buffer_1bit/schematic" "pinMap.10")
+      ("ECE555/Adder_16bit/schematic" "pinMap.11")
+  )
+  topCell ("ECE555/Adder_16bit/schematic" "pinMap.11")
+  nextFileIndex 12
+)

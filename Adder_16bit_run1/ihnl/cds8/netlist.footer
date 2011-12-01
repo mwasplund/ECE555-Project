@@ -1,0 +1,6 @@
+AND_OR_NOT I3 ( net09, cdsNet3, cdsNet1, cdsNet4);
+NAND I1 ( net15, cdsNet1, cdsNet0);
+INV_540_270 I4 ( cdsNet5, net09);
+INV_540_270 I2 ( cdsNet2, net15);
+
+endmodule

@@ -1,0 +1,20 @@
+CADENCE IHNL01070
+$model
+ECE555/XOR/schematic XOR
+ECE555/Buffer_1bit/schematic Buffer_1bit
+ECE555/INV_540_270/schematic INV_540_270
+ECE555/NAND/schematic NAND
+ECE555/Prop_Gen/schematic Prop_Gen
+ECE555/AND_OR_NOT/schematic AND_OR_NOT
+ECE555/Adder_16bit/schematic Adder_16bit
+ECE555/Buffer/schematic Buffer
+ECE555/GREY_CELL/schematic GREY_CELL
+ECE555/BLACK_CELL/schematic BLACK_CELL
+ECE555/Sum/schematic Sum
+$endmodel
+$net
+gnd! cds_globals.gnd_
+vdd! cds_globals.vdd_
+$endnet
+$param
+$endparam

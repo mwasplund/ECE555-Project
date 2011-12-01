@@ -1,0 +1,13 @@
+CADENCE IHNL010711
+
+ECE555 NAND schematic cds0
+ECE555 XOR schematic cds1
+ECE555 INV_540_270 schematic cds2
+ECE555 Prop_Gen schematic cds3
+ECE555 AND_OR_NOT schematic cds4
+ECE555 GREY_CELL schematic cds5
+ECE555 Sum schematic cds6
+ECE555 Buffer schematic cds7
+ECE555 BLACK_CELL schematic cds8
+ECE555 Buffer_1bit schematic cds9
+ECE555 Adder_16bit schematic cds10

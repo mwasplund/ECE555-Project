@@ -1,0 +1,45 @@
+// Verilog HDL and netlist files of
+// "ECE555 Adder_16bit schematic"
+
+// HDL models
+
+// HDL file - NCSU_Analog_Parts, pmos4, functional.
+/cae/apps/data/cadence-2011/NCSU/installs/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/pmos4/functional/verilog.v
+
+// HDL file - NCSU_Analog_Parts, nmos4, functional.
+/cae/apps/data/cadence-2011/NCSU/installs/ncsu-cdk-1.6.0.beta/lib/NCSU_Analog_Parts/nmos4/functional/verilog.v
+
+
+// End HDL models
+
+// Netlisted models
+
+// netlist file - ECE555, NAND, schematic.
+ihnl/cds0/netlist
+// netlist file - ECE555, XOR, schematic.
+ihnl/cds1/netlist
+// netlist file - ECE555, INV_540_270, schematic.
+ihnl/cds2/netlist
+// netlist file - ECE555, Prop_Gen, schematic.
+ihnl/cds3/netlist
+// netlist file - ECE555, AND_OR_NOT, schematic.
+ihnl/cds4/netlist
+// netlist file - ECE555, GREY_CELL, schematic.
+ihnl/cds5/netlist
+// netlist file - ECE555, Sum, schematic.
+ihnl/cds6/netlist
+// netlist file - ECE555, Buffer, schematic.
+ihnl/cds7/netlist
+// netlist file - ECE555, BLACK_CELL, schematic.
+ihnl/cds8/netlist
+// netlist file - ECE555, Buffer_1bit, schematic.
+ihnl/cds9/netlist
+// netlist file - ECE555, Adder_16bit, schematic.
+ihnl/cds10/netlist
+
+
+// End HDL models
+
+// globals file 
+hdlFilesDir/cds_globals.v
+

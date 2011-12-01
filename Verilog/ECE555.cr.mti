@@ -1,0 +1,78 @@
+/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module Adder_16bit
+
+Top level modules:
+	Adder_16bit
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module Sum
+
+Top level modules:
+	Sum
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module XOR
+
+Top level modules:
+	XOR
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module Buffer_1bit
+
+Top level modules:
+	Buffer_1bit
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module INV_540_270
+
+Top level modules:
+	INV_540_270
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module GREY_CELL
+
+Top level modules:
+	GREY_CELL
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module NAND
+
+Top level modules:
+	NAND
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module Prop_Gen
+
+Top level modules:
+	Prop_Gen
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module Buffer
+
+Top level modules:
+	Buffer
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module AND_OR_NOT
+
+Top level modules:
+	AND_OR_NOT
+
+} {} {}} /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v {1 {vlog -work work -vopt -nocovercells /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v
+Model Technology ModelSim SE vlog 10.0c_1 Compiler 2011.08 Aug 26 2011
+-- Compiling module BLACK_CELL
+
+Top level modules:
+	BLACK_CELL
+
+} {} {}}
