@@ -2,232 +2,430 @@ m255
 K3
 13
 cModel Technology
-d/filespace/people/a/asplund/ECE555/cadence/cad3/Verilog
+Z0 d/filespace/people/a/asplund/ECE555/cadence/cad3/Verilog
+T_opt
+VOdmMP0LGILLWRkVlId;R[1
+04 14 4 work TB_Adder_16bit fast 0
+=1-2c27d71ab9be-4ed81755-b78a6-4818
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.0c_1;49
+Z1 d/filespace/people/a/asplund/ECE555/cadence/cad3/Verilog
 vAdder_16bit
+IY:H]RlCTC6Acz:ZgRWo;i2
 VT[LN9;]1cYAO43;Q^13KZ1
-r1
-31
-I19lz4G7;29Pj:GG`6fV<52
-Z0 d/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog
-Z1 w1322782187
+Z2 d/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog
+Z3 w1322796615
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v
 L0 6
-Z2 OE;L;10.0c_1;49
-Z3 !s102 -nocovercells
-Z4 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z4 OE;L;10.0c_1;49
+r1
+31
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 n@adder_16bit
-!s100 WlgS5KZRSOz^[YhRFmC_I1
+!s100 S];Md1kGe]2U6RloMKGm[2
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v|
-!s108 1322782190.881626
+!s108 1322796637.429497
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit.v|
 !s85 0
+vAdder_16bit_nlogic
+I0:;N=LkSJLQ9E:jB>OMTg3
+VcU`9[9a>WnF;dIRFg6AlQ1
+R2
+R3
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit_nlogic.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit_nlogic.v
+L0 6
+R4
+r1
+31
+R5
+R6
+n@adder_16bit_nlogic
+!s100 mYR^[S<fO42QTUOI;2K^E1
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit_nlogic.v|
+!s108 1322796641.421759
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_16bit_nlogic.v|
+!s85 0
+vAdder_32bit_nlogic
+V6gJXPV23`968;OAdWAU]72
+r1
+31
+IF5aoiUQKDaKJl]o[_6KlV1
+R2
+R3
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_32bit_nlogic.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_32bit_nlogic.v
+L0 6
+R4
+R5
+R6
+n@adder_32bit_nlogic
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_32bit_nlogic.v|
+!s100 hiA_mX3S[nFoFTgjc>Y5Z1
+!s108 1322796642.720044
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Adder_32bit_nlogic.v|
 vAND_OR_NOT
 VOdiI79?h33b7VSX7;82<E1
 r1
 31
 I?Wh_HH5_]A?3FjNl_H;iK3
-Z5 d/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog
-R1
+R2
+R3
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v
 L0 6
-R2
-R3
 R4
-n@a@n@d_@o@r_@n@o@t
-!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v|
-!s100 N@=nMTm?K@R7f`9EEKj0C3
-!s108 1322782190.946114
-!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v|
-!s85 0
-vBLACK_CELL
-V^JYb@=R1jjWTXD9DnN;H^3
-r1
-31
-Ib2bI?8WaFd3[_jR[@?QU^3
 R5
-R1
+R6
+n@a@n@d_@o@r_@n@o@t
+!s85 0
+!s100 N@=nMTm?K@R7f`9EEKj0C3
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v|
+!s108 1322796638.392136
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/AND_OR_NOT.v|
+vBLACK_CELL
+Ib2bI?8WaFd3[_jR[@?QU^3
+V^JYb@=R1jjWTXD9DnN;H^3
+R2
+Z7 w1322796616
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v
 L0 6
-R2
-R3
 R4
+r1
+31
+R5
+R6
 n@b@l@a@c@k_@c@e@l@l
 !s100 jSAm=2J`?>C7kVP6V`jD>2
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v|
-!s108 1322782191.001858
+!s108 1322796639.059218
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL.v|
 !s85 0
+vBLACK_CELL_n
+VofdgDY`j=ceZPdaSMGAMj3
+r1
+31
+I@Knj;EH=aGjJB1@gJi1OR0
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL_n.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL_n.v
+L0 6
+R4
+R5
+R6
+n@b@l@a@c@k_@c@e@l@l_n
+!s85 0
+!s100 XZC8`;Un`DRiWGbG>eJRG3
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL_n.v|
+!s108 1322796641.612607
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/BLACK_CELL_n.v|
 vBuffer
 VQ=jV82XzkBZ9ZDF5bD@hD0
 r1
 31
 IJ^KY2XP[JBE^mmA9`0C>B0
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@buffer
+!s85 0
 !s100 0>YBjPnIL[Hf35UTMJhm41
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v|
-!s108 1322782191.059050
+!s108 1322796639.243826
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer.v|
-!s85 0
 vBuffer_1bit
 VI]F:kR;G0<X72?Ln7eO^C0
 r1
 31
 IR8z99dA<dAP01NV:GcMUV3
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@buffer_1bit
+!s85 0
 !s100 =J;W>O@J>58dJe8AY0>^61
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v|
-!s108 1322782191.113409
+!s108 1322796639.804179
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Buffer_1bit.v|
-!s85 0
 vGREY_CELL
 VL<JW:B^zdNj=`85fXTNVh3
 r1
 31
 InK7mFbo=n=VzWikS75=JA3
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@g@r@e@y_@c@e@l@l
+!s85 0
 !s100 J0dQ?V_Vih2`DfQOY895Q1
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v|
-!s108 1322782191.174601
+!s108 1322796640.046886
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL.v|
+vGREY_CELL_n
+VZlSZNS?n0DZOi8VFC5]MU0
+r1
+31
+I_=E0M7<hd2:GJ0I9^9QRG2
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL_n.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL_n.v
+L0 6
+R4
+R5
+R6
+n@g@r@e@y_@c@e@l@l_n
 !s85 0
+!s100 `<:[MY>814<WI7C`@;gUW1
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL_n.v|
+!s108 1322796641.768749
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/GREY_CELL_n.v|
+vINV_2bit_540_270
+V:38X=e@Q4M<Of]f`Hb1mG2
+r1
+!s85 0
+31
+IGm^b>ABI^gmD0ZQakCA6G3
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_2bit.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_2bit.v
+L0 6
+R4
+R5
+R6
+n@i@n@v_2bit_540_270
+!s100 oIDF<ghZMWWeZA?Q7V@;o3
+!s108 1322796643.081140
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_2bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_2bit.v|
 vINV_540_270
 V>Aa?;F6UJKmCO>]:AgMjQ0
 r1
 31
 I;Xi7Y:M8QT70NYC=ElmEf1
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@i@n@v_540_270
-!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v|
-!s100 mljfhC=bMWL0SX>_NDW2U3
-!s108 1322782191.230560
-!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v|
 !s85 0
+!s100 mljfhC=bMWL0SX>_NDW2U3
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v|
+!s108 1322796640.315466
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/INV_540_270.v|
+vn_BLACK_CELL
+VmdLYZ0?IZ?31U1:O2_d2=2
+r1
+31
+Ii64L8LCC`PaDSaS4^UdC50
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_BLACK_CELL.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_BLACK_CELL.v
+L0 6
+R4
+R5
+R6
+nn_@b@l@a@c@k_@c@e@l@l
+!s85 0
+!s100 =zgc0IWK6N<@^8ZLDgEAk2
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_BLACK_CELL.v|
+!s108 1322796641.895772
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_BLACK_CELL.v|
+vn_GREY_CELL
+V`I>k?JXYiH03b=6J7;Yo[1
+r1
+31
+I8dT]ZK6]cV=3@zB8idDQW1
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_GREY_CELL.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_GREY_CELL.v
+L0 6
+R4
+R5
+R6
+nn_@g@r@e@y_@c@e@l@l
+!s85 0
+!s100 m71TLjzmRbHmN2gI^=^kO3
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_GREY_CELL.v|
+!s108 1322796641.998167
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/n_GREY_CELL.v|
 vNAND
 VP5?I>UF83`VeGg?5b2?nR3
 r1
 31
 IKnPf8^1BVSFbz3K0hjA>:0
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@n@a@n@d
-!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v|
-!s100 VM[5[_`E4>_UlBDTcLnOh2
-!s108 1322782191.290159
-!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v|
 !s85 0
+!s100 VM[5[_`E4>_UlBDTcLnOh2
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v|
+!s108 1322796640.576182
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NAND.v|
+vNOR
+V_^lmXzW9Ca>ZTj2Qe8T2A3
+r1
+31
+IZmK^bc42fK>Yagl^VQRin3
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NOR.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NOR.v
+L0 6
+R4
+R5
+R6
+n@n@o@r
+!s85 0
+!s100 4k3`A1_eozeah:H@bj^[G1
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NOR.v|
+!s108 1322796642.232065
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/NOR.v|
+vOR_AND_NOT
+VDZJI4JHk4BTD<6eNY`gCo3
+r1
+31
+I`3=:JUXCiR0llG=`X:gW`1
+R2
+R7
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/OR_AND_NOT.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/OR_AND_NOT.v
+L0 6
+R4
+R5
+R6
+n@o@r_@a@n@d_@n@o@t
+!s85 0
+!s100 8B]S01V7i;Hk8UoOPE`A02
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/OR_AND_NOT.v|
+!s108 1322796642.530732
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/OR_AND_NOT.v|
 vProp_Gen
 VijzngSU[^9R9DNXB4<3::0
 r1
 31
 IZ=R]8c__e4D[KD7kYTSAB2
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@prop_@gen
+!s85 0
 !s100 ]hM?XFKUAZO8G4cmDlb^I2
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v|
-!s108 1322782191.349971
+!s108 1322796640.974518
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Prop_Gen.v|
-!s85 0
 vSum
 VH@Q8[H1NQCUF`119:BX1G2
 r1
 31
 IQkUd4dD1LkB@L^V6R@BnJ3
-R5
-R1
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@sum
+!s85 0
 !s100 e:VhcdlT4:;fj0Z?2oXIZ3
 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v|
-!s108 1322782191.409886
+!s108 1322796641.108560
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/Sum.v|
-!s85 0
 vTB_Adder_16bit
+I3Unf<Cm4Gg9BCIVnJW5zY1
 VHZ^]:7Lhn?5AlX@<3LaPH3
-r1
-!s85 0
-31
-!s100 YU9Hm7Kbln8Xe5Z7m^>9o1
-IYJ;3:g`eVDL6JdmiCk9IW0
-R5
-w1322782410
+R2
+R7
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_16bit.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_16bit.v
 L0 2
-R2
-!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_16bit.v|
-R3
 R4
+r1
+31
+R5
+R6
 n@t@b_@adder_16bit
-!s108 1322782415.525764
+!s100 `6kAjoDQ9`F8eQ]D0D7IM2
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_16bit.v|
+!s108 1322796641.223977
 !s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_16bit.v|
+!s85 0
+vTB_Adder_32bit
+VZG1G8lEGU?8;`EQK[?Kj;1
+r1
+31
+InXLoNXfC`=7hgm?RiOk_V0
+R2
+Z8 w1322796617
+8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_32bit.v
+F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_32bit.v
+L0 1
+R4
+R5
+R6
+n@t@b_@adder_32bit
+!s85 0
+!s100 <Hkme?gi8Th[:K0^7:F`S3
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_32bit.v|
+!s108 1322796642.920437
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/TB_Adder_32bit.v|
 vXOR
 VARXS1k^HNSL_984?[o_TW0
 r1
 31
 Iz_Ce]Nz40><gh<2`dVO6F2
-R5
-R1
+R2
+R8
 8/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v
 F/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v
 L0 6
-R2
-R3
 R4
+R5
+R6
 n@x@o@r
-!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v|
-!s100 fZhI1iNedLz<dlmgYYMG>0
-!s108 1322782191.528804
-!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v|
 !s85 0
+!s100 fZhI1iNedLz<dlmgYYMG>0
+!s90 -reportprogress|300|-work|work|-vopt|-nocovercells|/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v|
+!s108 1322796641.329979
+!s107 /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Verilog/XOR.v|

@@ -8,7 +8,7 @@ reg Cin;
 
 // Max = 65535
 
-Adder_16bit DUT ( .Cout(Cout), 
+Adder_16bit_nlogic DUT ( .Cout(Cout), 
                   .S0(S[0]), .S1(S[1]), .S2(S[2]), .S3(S[3]), .S4(S[4]), .S5(S[5]), .S6(S[6]), .S7(S[7]),
                   .S8(S[8]), .S9(S[9]), .S10(S[10]), .S11(S[11]), .S12(S[12]), .S13(S[13]), .S14(S[14]), .S15(S[15]), 
                   .A0(A[0]), .A1(A[1]), .A2(A[2]), .A3(A[3]), .A4(A[4]), .A5(A[5]), .A6(A[6]), .A7(A[7]), 
@@ -21,8 +21,8 @@ wire ERROR = (A + B + Cin) != S;
 
 initial begin
   Cin = 1'b0;
-  for(A = 0; A < 100; A = A + 1) begin
-    for(B = 0; B < 100; B = B + 1) begin
+  for(A = 0; A < 1000; A = A + 1) begin
+    for(B = 0; B < 1000; B = B + 1) begin
       #100;
       if(ERROR)
         $display("Error: A(%d) + B(%d) + Cin(%d) != s(%d)", A, B, Cin, S);
@@ -31,8 +31,8 @@ initial begin
   
   #100;
   Cin = 1'b1;
-  for(A = 0; A < 65535; A = A + 1) begin
-    for(B = 0; B < 65535; B = B + 1) begin
+  for(A = 0; A < 1000; A = A + 1) begin
+    for(B = 0; B < 1000; B = B + 1) begin
       #100;
       if(ERROR)
         $display("Error: A(%d) + B(%d) + Cin(%d) != s(%d)", A, B, Cin, S);

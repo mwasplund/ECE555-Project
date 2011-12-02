@@ -15,7 +15,7 @@ specify
     specparam CDS_VIEWNAME = "schematic";
 endspecify
 
-pmos4 P0 ( 1, OUT, IN, 1);
-nmos4 N0 ( 0, OUT, IN, 0);
+pmos P0 ( OUT, 1, IN);
+nmos N0 ( OUT, 0, IN);
 
 endmodule

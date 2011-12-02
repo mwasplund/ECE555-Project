@@ -1,0 +1,3 @@
+AND_OR_NOT I0 ( cdsNet3, cdsNet1, cdsNet0, cdsNet2);
+
+endmodule

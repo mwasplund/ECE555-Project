@@ -1,0 +1,17 @@
+// Library - ECE555, Cell - AND_OR_NOT, View - schematic
+// LAST TIME SAVED: Nov 28 18:43:18 2011
+// NETLIST TIME: Dec  1 19:03:26 2011
+`timescale 1ns / 1ns 
+
+module AND_OR_NOT ( OUT, IN1, IN2, IN3 );
+output  OUT;
+
+input  IN1, IN2, IN3;
+
+
+specify 
+    specparam CDS_LIBNAME  = "ECE555";
+    specparam CDS_CELLNAME = "AND_OR_NOT";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+

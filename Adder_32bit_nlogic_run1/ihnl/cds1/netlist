@@ -1,0 +1,27 @@
+// Library - ECE555, Cell - XOR, View - schematic
+// LAST TIME SAVED: Oct 11 16:29:16 2011
+// NETLIST TIME: Dec  1 20:41:23 2011
+`timescale 1ns / 1ns 
+
+module XOR ( OUT, A, B );
+output  OUT;
+
+input  A, B;
+
+
+specify 
+    specparam CDS_LIBNAME  = "ECE555";
+    specparam CDS_CELLNAME = "XOR";
+    specparam CDS_VIEWNAME = "schematic";
+endspecify
+
+nmos4 N3 ( cds_globals.gnd_, net016, A, cds_globals.gnd_);
+nmos4 N2 ( cds_globals.gnd_, net9, B, cds_globals.gnd_);
+nmos4 N1 ( cds_globals.gnd_, OUT, A, net9);
+nmos4 N0 ( cds_globals.gnd_, OUT, net016, B);
+pmos4 P3 ( cds_globals.vdd_, net016, A, cds_globals.vdd_);
+pmos4 P2 ( cds_globals.vdd_, net9, B, cds_globals.vdd_);
+pmos4 P1 ( cds_globals.vdd_, OUT, net016, net9);
+pmos4 P0 ( cds_globals.vdd_, OUT, A, B);
+
+endmodule
