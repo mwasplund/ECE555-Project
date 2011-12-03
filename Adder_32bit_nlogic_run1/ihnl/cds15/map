@@ -15,6 +15,7 @@
 ( defbus
  )
 ( net
+( "G1:0" "cdsNet0" )
  )
 ( inst
  )
