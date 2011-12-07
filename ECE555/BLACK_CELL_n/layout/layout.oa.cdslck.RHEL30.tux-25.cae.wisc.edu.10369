@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Tue Dec  6 21:52:51 2011 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/ECE555/Prop_Gen/layout/layout.oa.cdslck
-TimeEditLocked                 Tue Dec  6 22:50:14 2011 CST
+FilePathUsedToEditLock         /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/ECE555/BLACK_CELL_n/layout/layout.oa.cdslck
+TimeEditLocked                 Tue Dec  6 23:39:26 2011 CST
