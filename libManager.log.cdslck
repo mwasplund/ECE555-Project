@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      asplund
+HostName                       tux-25.cae.wisc.edu
+ProcessIdentifier              10459
+ProcessCreationTime_UTC        1323229974
+ProcessCreationTime_Readable   Tue Dec  6 21:52:54 2011 CST
+AppIdentifier                  /cae/apps/data/cadence-2011/installs/IC615/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/libManager.log
+TimeEditLocked                 Tue Dec  6 21:52:54 2011 CST

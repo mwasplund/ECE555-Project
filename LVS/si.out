@@ -1,0 +1,93 @@
+@(#)$CDS: LVS version 6.1.5-64b 07/19/2011 09:29 (sjfdl079) $
+
+Command line: /cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS -l -s -t /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout/netlist
+       count
+	10		nets
+	6		terminals
+	7		pmos
+	7		nmos
+
+    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic/netlist
+       count
+	10		nets
+	6		terminals
+	7		pmos
+	7		nmos
+
+
+    Terminal correspondence points
+    N8        N4        A
+    N7        N5        B
+    N6        N3        G
+    N5        N6        P
+    N4        N0        gnd!
+    N9        N1        vdd!
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			14	14
+	total			14	14
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			10	10
+	total			10	10
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			6	6
+
+
+Probe files from /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

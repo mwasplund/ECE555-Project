@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 32.10 03/28/2011 11:22 (cat91amd) $
 \o Sub version:		sub-version  s002 
-\o Arguments:		-mpssession virtuoso2210 -mpshost tux-45 
-\o Working Directory:	tux-45:/filespace/people/a/asplund/ECE555/cadence/ECE555-Project
+\o Arguments:		-mpssession virtuoso10369 -mpshost tux-25 
+\o Working Directory:	tux-25:/filespace/people/a/asplund/ECE555/cadence/ECE555-Project
 \o 64-bit offsets
 \o Qt version: 		4.5.3
 \o Log file is "/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/libManager.log".
@@ -12,32 +12,36 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "ECE555"
 \a cdsLibManager->libLineEdit->value = "ECE555"
 \a cdsLibManager->cellListBox->value = "Adder_32bit_nlogic"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 3 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
 \a cdsLibManager->cellLineEdit->value = "Adder_32bit_nlogic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ECE555"
 \a cdsLibManager->libLineEdit->value = "ECE555"
 \a cdsLibManager->cellListBox->value = "Adder_32bit_nlogic"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "Adder_32bit_nlogic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "Adder_32bit_nlogic"
-\o MPS service: shutdown
-\o libManager is exiting.
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a exit(0)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
