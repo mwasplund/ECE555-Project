@@ -1,33 +1,127 @@
 @(#)$CDS: LVS version 6.1.5-64b 07/19/2011 09:29 (sjfdl079) $
 
-Command line: /cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS -l -s -t /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic
+Command line: /cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /filespace/people/a/asplund/ECE555/cadence/Project/LVS -l -s -t /filespace/people/a/asplund/ECE555/cadence/Project/LVS/layout /filespace/people/a/asplund/ECE555/cadence/Project/LVS/schematic
 Like matching is enabled.
 Net swapping is enabled.
 Using terminal names as correspondence points.
 Compiling Diva LVS rules...
 
-    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout/netlist
+    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/Project/LVS/layout/netlist
        count
-	10		nets
-	6		terminals
-	7		pmos
-	7		nmos
+	777		nets
+	100		terminals
+	774		pmos
+	774		nmos
 
-    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic/netlist
+    Net-list summary for /filespace/people/a/asplund/ECE555/cadence/Project/LVS/schematic/netlist
        count
-	10		nets
-	6		terminals
-	7		pmos
-	7		nmos
+	777		nets
+	100		terminals
+	774		pmos
+	774		nmos
 
 
     Terminal correspondence points
-    N8        N4        A
-    N7        N5        B
-    N6        N3        G
-    N5        N6        P
-    N4        N0        gnd!
-    N9        N1        vdd!
+    N696      N89       A0
+    N694      N216      A1
+    N745      N30       A10
+    N744      N125      A11
+    N743      N143      A12
+    N742      N283      A13
+    N740      N353      A14
+    N738      N13       A15
+    N736      N352      A16
+    N734      N6        A17
+    N732      N288      A18
+    N730      N44       A19
+    N692      N345      A2
+    N725      N99       A20
+    N724      N222      A21
+    N723      N348      A22
+    N722      N5        A23
+    N720      N262      A24
+    N718      N56       A25
+    N717      N223      A26
+    N716      N27       A27
+    N715      N68       A28
+    N714      N344      A29
+    N690      N12       A3
+    N713      N260      A30
+    N712      N174      A31
+    N688      N33       A4
+    N686      N191      A5
+    N684      N87       A6
+    N682      N83       A7
+    N680      N165      A8
+    N678      N176      A9
+    N771      N105      B0
+    N769      N355      B1
+    N710      N11       B10
+    N709      N287      B11
+    N708      N346      B12
+    N707      N266      B13
+    N706      N77       B14
+    N705      N54       B15
+    N704      N49       B16
+    N703      N171      B17
+    N702      N358      B18
+    N701      N285      B19
+    N767      N110      B2
+    N700      N193      B20
+    N698      N9        B21
+    N697      N213      B22
+    N695      N41       B23
+    N693      N269      B24
+    N691      N343      B25
+    N689      N92       B26
+    N687      N112      B27
+    N685      N289      B28
+    N683      N46       B29
+    N765      N90       B3
+    N775      N354      B30
+    N773      N221      B31
+    N763      N163      B4
+    N762      N333      B5
+    N761      N224      B6
+    N760      N26       B7
+    N759      N360      B8
+    N758      N134      B9
+    N748      N281      Cin
+    N757      N170      Cout
+    N681      N114      S0
+    N679      N172      S1
+    N756      N238      S10
+    N755      N166      S11
+    N754      N182      S12
+    N753      N173      S13
+    N752      N17       S14
+    N751      N347      S15
+    N750      N40       S16
+    N749      N308      S17
+    N747      N335      S18
+    N746      N47       S19
+    N677      N217      S2
+    N741      N359      S20
+    N739      N23       S21
+    N737      N357      S22
+    N735      N118      S23
+    N733      N324      S24
+    N731      N175      S25
+    N729      N104      S26
+    N728      N188      S27
+    N727      N20       S28
+    N726      N218      S29
+    N776      N356      S3
+    N721      N239      S30
+    N719      N305      S31
+    N774      N220      S4
+    N772      N70       S5
+    N770      N52       S6
+    N768      N192      S7
+    N766      N36       S8
+    N764      N42       S9
+    N699      N0        gnd!
+    N711      N1        vdd!
 
 Devices in the netlist but not in the rules:
         pcapacitor
@@ -42,24 +136,24 @@ The net-lists match.
 	rewired			0	0
 	size errors		0	0
 	pruned			0	0
-	active			14	14
-	total			14	14
+	active			1548	1548
+	total			1548	1548
 
 				  nets
 	un-matched		0	0
 	merged			0	0
 	pruned			0	0
-	active			10	10
-	total			10	10
+	active			777	777
+	total			777	777
 
 				terminals
 	un-matched		0	0
 	matched but
 	different type		0	0
-	total			6	6
+	total			100	100
 
 
-Probe files from /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/schematic
+Probe files from /filespace/people/a/asplund/ECE555/cadence/Project/LVS/schematic
 
 devbad.out:
 
@@ -76,7 +170,7 @@ prunedev.out:
 audit.out:
 
 
-Probe files from /filespace/people/a/asplund/ECE555/cadence/ECE555-Project/LVS/layout
+Probe files from /filespace/people/a/asplund/ECE555/cadence/Project/LVS/layout
 
 devbad.out:
 

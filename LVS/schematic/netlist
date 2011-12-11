@@ -1,46 +1,3975 @@
-t 3 G output
-t 6 P output
-t 4 A input
-t 5 B input
+t 89 A0 input
+t 105 B0 input
+t 216 A1 input
+t 355 B1 input
+t 110 B2 input
+t 345 A2 input
+t 90 B3 input
+t 12 A3 input
+t 33 A4 input
+t 163 B4 input
+t 191 A5 input
+t 333 B5 input
+t 224 B6 input
+t 87 A6 input
+t 26 B7 input
+t 83 A7 input
+t 165 A8 input
+t 176 A9 input
+t 360 B8 input
+t 134 B9 input
+t 11 B10 input
+t 30 A10 input
+t 125 A11 input
+t 287 B11 input
+t 143 A12 input
+t 346 B12 input
+t 283 A13 input
+t 266 B13 input
+t 353 A14 input
+t 77 B14 input
+t 13 A15 input
+t 54 B15 input
+t 281 Cin input
+t 114 S0 output
+t 172 S1 output
+t 217 S2 output
+t 356 S3 output
+t 220 S4 output
+t 70 S5 output
+t 52 S6 output
+t 192 S7 output
+t 36 S8 output
+t 42 S9 output
+t 238 S10 output
+t 166 S11 output
+t 182 S12 output
+t 173 S13 output
+t 17 S14 output
+t 347 S15 output
+t 170 Cout output
+t 49 B16 input
+t 352 A16 input
+t 171 B17 input
+t 6 A17 input
+t 288 A18 input
+t 285 B19 input
+t 358 B18 input
+t 44 A19 input
+t 99 A20 input
+t 193 B20 input
+t 222 A21 input
+t 9 B21 input
+t 348 A22 input
+t 213 B22 input
+t 5 A23 input
+t 41 B23 input
+t 262 A24 input
+t 269 B24 input
+t 56 A25 input
+t 343 B25 input
+t 223 A26 input
+t 92 B26 input
+t 27 A27 input
+t 112 B27 input
+t 68 A28 input
+t 289 B28 input
+t 46 B29 input
+t 344 A29 input
+t 260 A30 input
+t 354 B30 input
+t 174 A31 input
+t 221 B31 input
+t 40 S16 output
+t 308 S17 output
+t 335 S18 output
+t 47 S19 output
+t 359 S20 output
+t 23 S21 output
+t 357 S22 output
+t 118 S23 output
+t 324 S24 output
+t 175 S25 output
+t 104 S26 output
+t 188 S27 output
+t 20 S28 output
+t 218 S29 output
+t 239 S30 output
+t 305 S31 output
 n 1 vdd!
 n 0 gnd!
-n 2 /net06
-n 3 /G
-n 4 /A
-n 5 /B
-n 6 /P
-n 11 /I0/net12
-; nmos4 Instance /I0/N1 = auLvs device Q0
+n 2 /net0421
+n 3 /net113
+n 4 /net136
+n 5 /A23
+n 6 /A17
+n 7 /net156
+n 8 /net0114
+n 9 /B21
+n 10 /net0255
+n 11 /B10
+n 12 /A3
+n 13 /A15
+n 14 /net0254
+n 15 /net251
+n 16 /net250
+n 17 /S14
+n 18 /net0251
+n 19 /net152
+n 20 /S28
+n 21 /net0249
+n 22 /net0248
+n 23 /S21
+n 24 /net0247
+n 25 /net0246
+n 26 /B7
+n 27 /A27
+n 28 /net0245
+n 29 /net0244
+n 30 /A10
+n 31 /net0262
+n 32 /net104
+n 33 /A4
+n 34 /net142
+n 35 /net0240
+n 36 /S8
+n 37 /net0239
+n 38 /net110
+n 39 /net0431
+n 40 /S16
+n 41 /B23
+n 42 /S9
+n 43 /net236
+n 44 /A19
+n 45 /net114
+n 46 /B29
+n 47 /S19
+n 48 /net0234
+n 49 /B16
+n 50 /net134
+n 51 /net0447
+n 52 /S6
+n 53 /net0286
+n 54 /B15
+n 55 /net146
+n 56 /A25
+n 57 /net255
+n 58 /net0410
+n 59 /net151
+n 60 /net252
+n 61 /net112
+n 62 /net0418
+n 63 /net0223
+n 64 /net0222
+n 65 /net0221
+n 66 /net0161
+n 67 /net0219
+n 68 /A28
+n 69 /net0259
+n 70 /S5
+n 71 /net0176
+n 72 /net132
+n 73 /net0215
+n 74 /net0260
+n 75 /net0213
+n 76 /net0465
+n 77 /B14
+n 78 /net244
+n 79 /net0189
+n 80 /net0277
+n 81 /net0554
+n 82 /net185
+n 83 /A7
+n 84 /net0422
+n 85 /net0459
+n 86 /net0288
+n 87 /A6
+n 88 /net0204
+n 89 /A0
+n 90 /B3
+n 91 /net120
+n 92 /B26
+n 93 /net117
+n 94 /net0201
+n 95 /net239
+n 96 /net137
+n 97 /net0191
+n 98 /net124
+n 99 /A20
+n 100 /net0196
+n 101 /net234
+n 102 /net0273
+n 103 /net0149
+n 104 /S26
+n 105 /B0
+n 106 /net160
+n 107 /net128
+n 108 /net0190
+n 109 /net264
+n 110 /B2
+n 111 /net0548
+n 112 /B27
+n 113 /net232
+n 114 /S0
+n 115 /net129
+n 116 /net0151
+n 117 /net108
+n 118 /S23
+n 119 /net0183
+n 120 /net0472
+n 121 /net0180
+n 122 /net139
+n 123 /net0420
+n 124 /net246
+n 125 /A11
+n 126 /net130
+n 127 /net0423
+n 128 /net0175
+n 129 /net0558
+n 130 /net0274
+n 131 /net256
+n 132 /net0282
+n 133 /net0460
+n 134 /B9
+n 135 /net247
+n 136 /net0264
+n 137 /net0167
+n 138 /net0289
+n 139 /net0165
+n 140 /net0164
+n 141 /net0163
+n 142 /net0162
+n 143 /A12
+n 144 /net0278
+n 145 /net0257
+n 146 /net249
+n 147 /net127
+n 148 /net0445
+n 149 /net140
+n 150 /net119
+n 151 /net257
+n 152 /net105
+n 153 /net261
+n 154 /net0152
+n 155 /net0464
+n 156 /net0150
+n 157 /net254
+n 158 /net0261
+n 159 /net144
+n 160 /net0146
+n 161 /net263
+n 162 /net266
+n 163 /B4
+n 164 /net248
+n 165 /A8
+n 166 /S11
+n 167 /net0553
+n 168 /net109
+n 169 /net153
+n 170 /Cout
+n 171 /B17
+n 172 /S1
+n 173 /S13
+n 174 /A31
+n 175 /S25
+n 176 /A9
+n 177 /net227
+n 178 /net0411
+n 179 /net0397
+n 180 /net0270
+n 181 /net0184
+n 182 /S12
+n 183 /net262
+n 184 /net159
+n 185 /net267
+n 186 /net0408
+n 187 /net131
+n 188 /S27
+n 189 /net0449
+n 190 /net258
+n 191 /A5
+n 192 /S7
+n 193 /B20
+n 194 /net145
+n 195 /net0182
+n 196 /net150
+n 197 /net0271
+n 198 /net0429
+n 199 /net0507
+n 200 /net118
+n 201 /net238
+n 202 /net0441
+n 203 /net0207
+n 204 /net0272
+n 205 /net101
+n 206 /net265
+n 207 /net0440
+n 208 /net0113
+n 209 /net158
+n 210 /net161
+n 211 /net0417
+n 212 /net0466
+n 213 /B22
+n 214 /net0275
+n 215 /net0455
+n 216 /A1
+n 217 /S2
+n 218 /S29
+n 219 /net253
+n 220 /S4
+n 221 /B31
+n 222 /A21
+n 223 /A26
+n 224 /B6
+n 225 /net233
+n 226 /net0439
+n 227 /net154
+n 228 /net229
+n 229 /net0458
+n 230 /net259
+n 231 /net0444
+n 232 /net0148
+n 233 /net0285
+n 234 /net0446
+n 235 /net0210
+n 236 /net0166
+n 237 /net260
+n 238 /S10
+n 239 /S30
+n 240 /net126
+n 241 /net0496
+n 242 /net147
+n 243 /net162
+n 244 /net0450
+n 245 /net0283
+n 246 /net230
+n 247 /net231
+n 248 /net0225
+n 249 /net0267
+n 250 /net220
+n 251 /net133
+n 252 /net0426
+n 253 /net0147
+n 254 /net245
+n 255 /net0195
+n 256 /net0511
+n 257 /net0428
+n 258 /net111
+n 259 /net0443
+n 260 /A30
+n 261 /net0493
+n 262 /A24
+n 263 /net243
+n 264 /net0453
+n 265 /net0468
+n 266 /B13
+n 267 /net0197
+n 268 /net102
+n 269 /B24
+n 270 /net125
+n 271 /net116
+n 272 /net115
+n 273 /net0177
+n 274 /net138
+n 275 /net0404
+n 276 /net122
+n 277 /net0266
+n 278 /net240
+n 279 /net0435
+n 280 /net0438
+n 281 /Cin
+n 282 /net0500
+n 283 /A13
+n 284 /net155
+n 285 /B19
+n 286 /net0452
+n 287 /B11
+n 288 /A18
+n 289 /B28
+n 290 /net0467
+n 291 /net106
+n 292 /net0521
+n 293 /net148
+n 294 /net0442
+n 295 /net135
+n 296 /net107
+n 297 /net228
+n 298 /net0497
+n 299 /net143
+n 300 /net0494
+n 301 /net0462
+n 302 /net0456
+n 303 /net0457
+n 304 /net0436
+n 305 /S31
+n 306 /net0217
+n 307 /net0556
+n 308 /S17
+n 309 /net0276
+n 310 /G1:0
+n 311 /net0280
+n 312 /net149
+n 313 /net103
+n 314 /net0471
+n 315 /net0505
+n 316 /net0284
+n 317 /net237
+n 318 /net0263
+n 319 /net0461
+n 320 /net0514
+n 321 /net0258
+n 322 /net0448
+n 323 /net121
+n 324 /S24
+n 325 /net0268
+n 326 /net0463
+n 327 /net157
+n 328 /net0427
+n 329 /net0403
+n 330 /net0409
+n 331 /net0451
+n 332 /net0510
+n 333 /B5
+n 334 /net0236
+n 335 /S18
+n 336 /net0433
+n 337 /net0281
+n 338 /net0454
+n 339 /net0437
+n 340 /net242
+n 341 /net0432
+n 342 /net141
+n 343 /B25
+n 344 /A29
+n 345 /A2
+n 346 /B12
+n 347 /S15
+n 348 /A22
+n 349 /net0238
+n 350 /net0430
+n 351 /net241
+n 352 /A16
+n 353 /A14
+n 354 /B30
+n 355 /B1
+n 356 /S3
+n 357 /S22
+n 358 /B18
+n 359 /S20
+n 360 /B8
+n 361 /I157/net06
+n 370 /I157/I0/net12
+; nmos4 Instance /I157/I0/N1 = auLvs device Q0
 d nmos D G S B (p D S)
-i 0 nmos 11 5 0 0 " m 1 l 180e-9 w 720e-9 "
-; nmos4 Instance /I0/N0 = auLvs device Q1
-i 1 nmos 2 4 11 0 " m 1 l 180e-9 w 720e-9 "
-; pmos4 Instance /I0/P1 = auLvs device Q2
+i 0 nmos 370 221 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I157/I0/N0 = auLvs device Q1
+i 1 nmos 361 174 370 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I157/I0/P1 = auLvs device Q2
 d pmos D G S B (p D S)
-i 2 pmos 2 5 1 1 " m 1 l 180e-9 w 720e-9 "
-; pmos4 Instance /I0/P0 = auLvs device Q3
-i 3 pmos 2 4 1 1 " m 1 l 180e-9 w 720e-9 "
-n 14 /I1/net016
-n 17 /I1/net9
-; nmos4 Instance /I1/N3 = auLvs device Q4
-i 4 nmos 14 4 0 0 " m 1 l 180e-9 w 270e-9 "
-; nmos4 Instance /I1/N2 = auLvs device Q5
-i 5 nmos 17 5 0 0 " m 1 l 180e-9 w 270e-9 "
-; nmos4 Instance /I1/N1 = auLvs device Q6
-i 6 nmos 6 4 17 0 " m 1 l 180e-9 w 270e-9 "
-; nmos4 Instance /I1/N0 = auLvs device Q7
-i 7 nmos 6 14 5 0 " m 1 l 180e-9 w 270e-9 "
-; pmos4 Instance /I1/P3 = auLvs device Q8
-i 8 pmos 14 4 1 1 " m 1 l 180e-9 w 540e-9 "
-; pmos4 Instance /I1/P2 = auLvs device Q9
-i 9 pmos 17 5 1 1 " m 1 l 180e-9 w 540e-9 "
-; pmos4 Instance /I1/P1 = auLvs device Q10
-i 10 pmos 6 14 17 1 " m 1 l 180e-9 w 540e-9 "
-; pmos4 Instance /I1/P0 = auLvs device Q11
-i 11 pmos 6 4 5 1 " m 1 l 180e-9 w 540e-9 "
-; pmos4 Instance /I2/P0 = auLvs device Q12
-i 12 pmos 3 2 1 1 " m 1 l 180e-9 w 720e-9 "
-; nmos4 Instance /I2/N0 = auLvs device Q13
-i 13 nmos 3 2 0 0 " m 1 l 180e-9 w 540e-9 "
+i 2 pmos 361 221 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I157/I0/P0 = auLvs device Q3
+i 3 pmos 361 174 1 1 " m 1 l 180e-9 w 720e-9 "
+n 373 /I157/I1/net016
+n 376 /I157/I1/net9
+; nmos4 Instance /I157/I1/N3 = auLvs device Q4
+i 4 nmos 373 174 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I157/I1/N2 = auLvs device Q5
+i 5 nmos 376 221 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I157/I1/N1 = auLvs device Q6
+i 6 nmos 69 174 376 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I157/I1/N0 = auLvs device Q7
+i 7 nmos 69 373 221 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I157/I1/P3 = auLvs device Q8
+i 8 pmos 373 174 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I157/I1/P2 = auLvs device Q9
+i 9 pmos 376 221 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I157/I1/P1 = auLvs device Q10
+i 10 pmos 69 373 376 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I157/I1/P0 = auLvs device Q11
+i 11 pmos 69 174 221 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I157/I2/P0 = auLvs device Q12
+i 12 pmos 321 361 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I157/I2/N0 = auLvs device Q13
+i 13 nmos 321 361 0 0 " m 1 l 180e-9 w 540e-9 "
+n 379 /I156/net06
+n 388 /I156/I0/net12
+; nmos4 Instance /I156/I0/N1 = auLvs device Q14
+i 14 nmos 388 354 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I156/I0/N0 = auLvs device Q15
+i 15 nmos 379 260 388 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I156/I0/P1 = auLvs device Q16
+i 16 pmos 379 354 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I156/I0/P0 = auLvs device Q17
+i 17 pmos 379 260 1 1 " m 1 l 180e-9 w 720e-9 "
+n 391 /I156/I1/net016
+n 394 /I156/I1/net9
+; nmos4 Instance /I156/I1/N3 = auLvs device Q18
+i 18 nmos 391 260 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I156/I1/N2 = auLvs device Q19
+i 19 nmos 394 354 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I156/I1/N1 = auLvs device Q20
+i 20 nmos 158 260 394 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I156/I1/N0 = auLvs device Q21
+i 21 nmos 158 391 354 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I156/I1/P3 = auLvs device Q22
+i 22 pmos 391 260 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I156/I1/P2 = auLvs device Q23
+i 23 pmos 394 354 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I156/I1/P1 = auLvs device Q24
+i 24 pmos 158 391 394 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I156/I1/P0 = auLvs device Q25
+i 25 pmos 158 260 354 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I156/I2/P0 = auLvs device Q26
+i 26 pmos 74 379 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I156/I2/N0 = auLvs device Q27
+i 27 nmos 74 379 0 0 " m 1 l 180e-9 w 540e-9 "
+n 397 /I155/net06
+n 406 /I155/I0/net12
+; nmos4 Instance /I155/I0/N1 = auLvs device Q28
+i 28 nmos 406 46 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I155/I0/N0 = auLvs device Q29
+i 29 nmos 397 344 406 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I155/I0/P1 = auLvs device Q30
+i 30 pmos 397 46 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I155/I0/P0 = auLvs device Q31
+i 31 pmos 397 344 1 1 " m 1 l 180e-9 w 720e-9 "
+n 409 /I155/I1/net016
+n 412 /I155/I1/net9
+; nmos4 Instance /I155/I1/N3 = auLvs device Q32
+i 32 nmos 409 344 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I155/I1/N2 = auLvs device Q33
+i 33 nmos 412 46 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I155/I1/N1 = auLvs device Q34
+i 34 nmos 318 344 412 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I155/I1/N0 = auLvs device Q35
+i 35 nmos 318 409 46 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I155/I1/P3 = auLvs device Q36
+i 36 pmos 409 344 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I155/I1/P2 = auLvs device Q37
+i 37 pmos 412 46 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I155/I1/P1 = auLvs device Q38
+i 38 pmos 318 409 412 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I155/I1/P0 = auLvs device Q39
+i 39 pmos 318 344 46 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I155/I2/P0 = auLvs device Q40
+i 40 pmos 31 397 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I155/I2/N0 = auLvs device Q41
+i 41 nmos 31 397 0 0 " m 1 l 180e-9 w 540e-9 "
+n 415 /I154/net06
+n 424 /I154/I0/net12
+; nmos4 Instance /I154/I0/N1 = auLvs device Q42
+i 42 nmos 424 289 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I154/I0/N0 = auLvs device Q43
+i 43 nmos 415 68 424 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I154/I0/P1 = auLvs device Q44
+i 44 pmos 415 289 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I154/I0/P0 = auLvs device Q45
+i 45 pmos 415 68 1 1 " m 1 l 180e-9 w 720e-9 "
+n 427 /I154/I1/net016
+n 430 /I154/I1/net9
+; nmos4 Instance /I154/I1/N3 = auLvs device Q46
+i 46 nmos 427 68 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I154/I1/N2 = auLvs device Q47
+i 47 nmos 430 289 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I154/I1/N1 = auLvs device Q48
+i 48 nmos 300 68 430 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I154/I1/N0 = auLvs device Q49
+i 49 nmos 300 427 289 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I154/I1/P3 = auLvs device Q50
+i 50 pmos 427 68 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I154/I1/P2 = auLvs device Q51
+i 51 pmos 430 289 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I154/I1/P1 = auLvs device Q52
+i 52 pmos 300 427 430 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I154/I1/P0 = auLvs device Q53
+i 53 pmos 300 68 289 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I154/I2/P0 = auLvs device Q54
+i 54 pmos 136 415 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I154/I2/N0 = auLvs device Q55
+i 55 nmos 136 415 0 0 " m 1 l 180e-9 w 540e-9 "
+n 433 /I153/net06
+n 442 /I153/I0/net12
+; nmos4 Instance /I153/I0/N1 = auLvs device Q56
+i 56 nmos 442 112 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I153/I0/N0 = auLvs device Q57
+i 57 nmos 433 27 442 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I153/I0/P1 = auLvs device Q58
+i 58 pmos 433 112 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I153/I0/P0 = auLvs device Q59
+i 59 pmos 433 27 1 1 " m 1 l 180e-9 w 720e-9 "
+n 445 /I153/I1/net016
+n 448 /I153/I1/net9
+; nmos4 Instance /I153/I1/N3 = auLvs device Q60
+i 60 nmos 445 27 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I153/I1/N2 = auLvs device Q61
+i 61 nmos 448 112 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I153/I1/N1 = auLvs device Q62
+i 62 nmos 249 27 448 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I153/I1/N0 = auLvs device Q63
+i 63 nmos 249 445 112 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I153/I1/P3 = auLvs device Q64
+i 64 pmos 445 27 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I153/I1/P2 = auLvs device Q65
+i 65 pmos 448 112 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I153/I1/P1 = auLvs device Q66
+i 66 pmos 249 445 448 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I153/I1/P0 = auLvs device Q67
+i 67 pmos 249 27 112 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I153/I2/P0 = auLvs device Q68
+i 68 pmos 277 433 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I153/I2/N0 = auLvs device Q69
+i 69 nmos 277 433 0 0 " m 1 l 180e-9 w 540e-9 "
+n 451 /I152/net06
+n 460 /I152/I0/net12
+; nmos4 Instance /I152/I0/N1 = auLvs device Q70
+i 70 nmos 460 92 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I152/I0/N0 = auLvs device Q71
+i 71 nmos 451 223 460 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I152/I0/P1 = auLvs device Q72
+i 72 pmos 451 92 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I152/I0/P0 = auLvs device Q73
+i 73 pmos 451 223 1 1 " m 1 l 180e-9 w 720e-9 "
+n 463 /I152/I1/net016
+n 466 /I152/I1/net9
+; nmos4 Instance /I152/I1/N3 = auLvs device Q74
+i 74 nmos 463 223 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I152/I1/N2 = auLvs device Q75
+i 75 nmos 466 92 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I152/I1/N1 = auLvs device Q76
+i 76 nmos 261 223 466 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I152/I1/N0 = auLvs device Q77
+i 77 nmos 261 463 92 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I152/I1/P3 = auLvs device Q78
+i 78 pmos 463 223 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I152/I1/P2 = auLvs device Q79
+i 79 pmos 466 92 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I152/I1/P1 = auLvs device Q80
+i 80 pmos 261 463 466 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I152/I1/P0 = auLvs device Q81
+i 81 pmos 261 223 92 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I152/I2/P0 = auLvs device Q82
+i 82 pmos 325 451 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I152/I2/N0 = auLvs device Q83
+i 83 nmos 325 451 0 0 " m 1 l 180e-9 w 540e-9 "
+n 469 /I151/net06
+n 478 /I151/I0/net12
+; nmos4 Instance /I151/I0/N1 = auLvs device Q84
+i 84 nmos 478 343 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I151/I0/N0 = auLvs device Q85
+i 85 nmos 469 56 478 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I151/I0/P1 = auLvs device Q86
+i 86 pmos 469 343 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I151/I0/P0 = auLvs device Q87
+i 87 pmos 469 56 1 1 " m 1 l 180e-9 w 720e-9 "
+n 481 /I151/I1/net016
+n 484 /I151/I1/net9
+; nmos4 Instance /I151/I1/N3 = auLvs device Q88
+i 88 nmos 481 56 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I151/I1/N2 = auLvs device Q89
+i 89 nmos 484 343 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I151/I1/N1 = auLvs device Q90
+i 90 nmos 197 56 484 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I151/I1/N0 = auLvs device Q91
+i 91 nmos 197 481 343 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I151/I1/P3 = auLvs device Q92
+i 92 pmos 481 56 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I151/I1/P2 = auLvs device Q93
+i 93 pmos 484 343 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I151/I1/P1 = auLvs device Q94
+i 94 pmos 197 481 484 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I151/I1/P0 = auLvs device Q95
+i 95 pmos 197 56 343 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I151/I2/P0 = auLvs device Q96
+i 96 pmos 180 469 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I151/I2/N0 = auLvs device Q97
+i 97 nmos 180 469 0 0 " m 1 l 180e-9 w 540e-9 "
+n 487 /I150/net06
+n 496 /I150/I0/net12
+; nmos4 Instance /I150/I0/N1 = auLvs device Q98
+i 98 nmos 496 269 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I150/I0/N0 = auLvs device Q99
+i 99 nmos 487 262 496 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I150/I0/P1 = auLvs device Q100
+i 100 pmos 487 269 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I150/I0/P0 = auLvs device Q101
+i 101 pmos 487 262 1 1 " m 1 l 180e-9 w 720e-9 "
+n 499 /I150/I1/net016
+n 502 /I150/I1/net9
+; nmos4 Instance /I150/I1/N3 = auLvs device Q102
+i 102 nmos 499 262 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I150/I1/N2 = auLvs device Q103
+i 103 nmos 502 269 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I150/I1/N1 = auLvs device Q104
+i 104 nmos 102 262 502 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I150/I1/N0 = auLvs device Q105
+i 105 nmos 102 499 269 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I150/I1/P3 = auLvs device Q106
+i 106 pmos 499 262 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I150/I1/P2 = auLvs device Q107
+i 107 pmos 502 269 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I150/I1/P1 = auLvs device Q108
+i 108 pmos 102 499 502 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I150/I1/P0 = auLvs device Q109
+i 109 pmos 102 262 269 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I150/I2/P0 = auLvs device Q110
+i 110 pmos 204 487 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I150/I2/N0 = auLvs device Q111
+i 111 nmos 204 487 0 0 " m 1 l 180e-9 w 540e-9 "
+n 505 /I149/net06
+n 514 /I149/I0/net12
+; nmos4 Instance /I149/I0/N1 = auLvs device Q112
+i 112 nmos 514 41 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I149/I0/N0 = auLvs device Q113
+i 113 nmos 505 5 514 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I149/I0/P1 = auLvs device Q114
+i 114 pmos 505 41 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I149/I0/P0 = auLvs device Q115
+i 115 pmos 505 5 1 1 " m 1 l 180e-9 w 720e-9 "
+n 517 /I149/I1/net016
+n 520 /I149/I1/net9
+; nmos4 Instance /I149/I1/N3 = auLvs device Q116
+i 116 nmos 517 5 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I149/I1/N2 = auLvs device Q117
+i 117 nmos 520 41 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I149/I1/N1 = auLvs device Q118
+i 118 nmos 214 5 520 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I149/I1/N0 = auLvs device Q119
+i 119 nmos 214 517 41 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I149/I1/P3 = auLvs device Q120
+i 120 pmos 517 5 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I149/I1/P2 = auLvs device Q121
+i 121 pmos 520 41 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I149/I1/P1 = auLvs device Q122
+i 122 pmos 214 517 520 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I149/I1/P0 = auLvs device Q123
+i 123 pmos 214 5 41 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I149/I2/P0 = auLvs device Q124
+i 124 pmos 130 505 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I149/I2/N0 = auLvs device Q125
+i 125 nmos 130 505 0 0 " m 1 l 180e-9 w 540e-9 "
+n 523 /I148/net06
+n 532 /I148/I0/net12
+; nmos4 Instance /I148/I0/N1 = auLvs device Q126
+i 126 nmos 532 213 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I148/I0/N0 = auLvs device Q127
+i 127 nmos 523 348 532 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I148/I0/P1 = auLvs device Q128
+i 128 pmos 523 213 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I148/I0/P0 = auLvs device Q129
+i 129 pmos 523 348 1 1 " m 1 l 180e-9 w 720e-9 "
+n 535 /I148/I1/net016
+n 538 /I148/I1/net9
+; nmos4 Instance /I148/I1/N3 = auLvs device Q130
+i 130 nmos 535 348 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I148/I1/N2 = auLvs device Q131
+i 131 nmos 538 213 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I148/I1/N1 = auLvs device Q132
+i 132 nmos 80 348 538 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I148/I1/N0 = auLvs device Q133
+i 133 nmos 80 535 213 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I148/I1/P3 = auLvs device Q134
+i 134 pmos 535 348 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I148/I1/P2 = auLvs device Q135
+i 135 pmos 538 213 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I148/I1/P1 = auLvs device Q136
+i 136 pmos 80 535 538 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I148/I1/P0 = auLvs device Q137
+i 137 pmos 80 348 213 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I148/I2/P0 = auLvs device Q138
+i 138 pmos 309 523 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I148/I2/N0 = auLvs device Q139
+i 139 nmos 309 523 0 0 " m 1 l 180e-9 w 540e-9 "
+n 541 /I147/net06
+n 550 /I147/I0/net12
+; nmos4 Instance /I147/I0/N1 = auLvs device Q140
+i 140 nmos 550 358 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I147/I0/N0 = auLvs device Q141
+i 141 nmos 541 288 550 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I147/I0/P1 = auLvs device Q142
+i 142 pmos 541 358 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I147/I0/P0 = auLvs device Q143
+i 143 pmos 541 288 1 1 " m 1 l 180e-9 w 720e-9 "
+n 553 /I147/I1/net016
+n 556 /I147/I1/net9
+; nmos4 Instance /I147/I1/N3 = auLvs device Q144
+i 144 nmos 553 288 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I147/I1/N2 = auLvs device Q145
+i 145 nmos 556 358 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I147/I1/N1 = auLvs device Q146
+i 146 nmos 241 288 556 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I147/I1/N0 = auLvs device Q147
+i 147 nmos 241 553 358 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I147/I1/P3 = auLvs device Q148
+i 148 pmos 553 288 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I147/I1/P2 = auLvs device Q149
+i 149 pmos 556 358 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I147/I1/P1 = auLvs device Q150
+i 150 pmos 241 553 556 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I147/I1/P0 = auLvs device Q151
+i 151 pmos 241 288 358 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I147/I2/P0 = auLvs device Q152
+i 152 pmos 144 541 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I147/I2/N0 = auLvs device Q153
+i 153 nmos 144 541 0 0 " m 1 l 180e-9 w 540e-9 "
+n 559 /I146/net06
+n 568 /I146/I0/net12
+; nmos4 Instance /I146/I0/N1 = auLvs device Q154
+i 154 nmos 568 171 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I146/I0/N0 = auLvs device Q155
+i 155 nmos 559 6 568 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I146/I0/P1 = auLvs device Q156
+i 156 pmos 559 171 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I146/I0/P0 = auLvs device Q157
+i 157 pmos 559 6 1 1 " m 1 l 180e-9 w 720e-9 "
+n 571 /I146/I1/net016
+n 574 /I146/I1/net9
+; nmos4 Instance /I146/I1/N3 = auLvs device Q158
+i 158 nmos 571 6 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I146/I1/N2 = auLvs device Q159
+i 159 nmos 574 171 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I146/I1/N1 = auLvs device Q160
+i 160 nmos 337 6 574 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I146/I1/N0 = auLvs device Q161
+i 161 nmos 337 571 171 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I146/I1/P3 = auLvs device Q162
+i 162 pmos 571 6 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I146/I1/P2 = auLvs device Q163
+i 163 pmos 574 171 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I146/I1/P1 = auLvs device Q164
+i 164 pmos 337 571 574 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I146/I1/P0 = auLvs device Q165
+i 165 pmos 337 6 171 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I146/I2/P0 = auLvs device Q166
+i 166 pmos 311 559 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I146/I2/N0 = auLvs device Q167
+i 167 nmos 311 559 0 0 " m 1 l 180e-9 w 540e-9 "
+n 577 /I145/net06
+n 586 /I145/I0/net12
+; nmos4 Instance /I145/I0/N1 = auLvs device Q168
+i 168 nmos 586 49 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I145/I0/N0 = auLvs device Q169
+i 169 nmos 577 352 586 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I145/I0/P1 = auLvs device Q170
+i 170 pmos 577 49 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I145/I0/P0 = auLvs device Q171
+i 171 pmos 577 352 1 1 " m 1 l 180e-9 w 720e-9 "
+n 589 /I145/I1/net016
+n 592 /I145/I1/net9
+; nmos4 Instance /I145/I1/N3 = auLvs device Q172
+i 172 nmos 589 352 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I145/I1/N2 = auLvs device Q173
+i 173 nmos 592 49 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I145/I1/N1 = auLvs device Q174
+i 174 nmos 245 352 592 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I145/I1/N0 = auLvs device Q175
+i 175 nmos 245 589 49 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I145/I1/P3 = auLvs device Q176
+i 176 pmos 589 352 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I145/I1/P2 = auLvs device Q177
+i 177 pmos 592 49 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I145/I1/P1 = auLvs device Q178
+i 178 pmos 245 589 592 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I145/I1/P0 = auLvs device Q179
+i 179 pmos 245 352 49 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I145/I2/P0 = auLvs device Q180
+i 180 pmos 132 577 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I145/I2/N0 = auLvs device Q181
+i 181 nmos 132 577 0 0 " m 1 l 180e-9 w 540e-9 "
+n 595 /I144/net06
+n 604 /I144/I0/net12
+; nmos4 Instance /I144/I0/N1 = auLvs device Q182
+i 182 nmos 604 9 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I144/I0/N0 = auLvs device Q183
+i 183 nmos 595 222 604 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I144/I0/P1 = auLvs device Q184
+i 184 pmos 595 9 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I144/I0/P0 = auLvs device Q185
+i 185 pmos 595 222 1 1 " m 1 l 180e-9 w 720e-9 "
+n 607 /I144/I1/net016
+n 610 /I144/I1/net9
+; nmos4 Instance /I144/I1/N3 = auLvs device Q186
+i 186 nmos 607 222 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I144/I1/N2 = auLvs device Q187
+i 187 nmos 610 9 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I144/I1/N1 = auLvs device Q188
+i 188 nmos 233 222 610 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I144/I1/N0 = auLvs device Q189
+i 189 nmos 233 607 9 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I144/I1/P3 = auLvs device Q190
+i 190 pmos 607 222 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I144/I1/P2 = auLvs device Q191
+i 191 pmos 610 9 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I144/I1/P1 = auLvs device Q192
+i 192 pmos 233 607 610 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I144/I1/P0 = auLvs device Q193
+i 193 pmos 233 222 9 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I144/I2/P0 = auLvs device Q194
+i 194 pmos 316 595 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I144/I2/N0 = auLvs device Q195
+i 195 nmos 316 595 0 0 " m 1 l 180e-9 w 540e-9 "
+n 613 /I143/net06
+n 622 /I143/I0/net12
+; nmos4 Instance /I143/I0/N1 = auLvs device Q196
+i 196 nmos 622 193 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I143/I0/N0 = auLvs device Q197
+i 197 nmos 613 99 622 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I143/I0/P1 = auLvs device Q198
+i 198 pmos 613 193 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I143/I0/P0 = auLvs device Q199
+i 199 pmos 613 99 1 1 " m 1 l 180e-9 w 720e-9 "
+n 625 /I143/I1/net016
+n 628 /I143/I1/net9
+; nmos4 Instance /I143/I1/N3 = auLvs device Q200
+i 200 nmos 625 99 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I143/I1/N2 = auLvs device Q201
+i 201 nmos 628 193 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I143/I1/N1 = auLvs device Q202
+i 202 nmos 298 99 628 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I143/I1/N0 = auLvs device Q203
+i 203 nmos 298 625 193 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I143/I1/P3 = auLvs device Q204
+i 204 pmos 625 99 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I143/I1/P2 = auLvs device Q205
+i 205 pmos 628 193 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I143/I1/P1 = auLvs device Q206
+i 206 pmos 298 625 628 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I143/I1/P0 = auLvs device Q207
+i 207 pmos 298 99 193 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I143/I2/P0 = auLvs device Q208
+i 208 pmos 53 613 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I143/I2/N0 = auLvs device Q209
+i 209 nmos 53 613 0 0 " m 1 l 180e-9 w 540e-9 "
+n 631 /I142/net06
+n 640 /I142/I0/net12
+; nmos4 Instance /I142/I0/N1 = auLvs device Q210
+i 210 nmos 640 285 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I142/I0/N0 = auLvs device Q211
+i 211 nmos 631 44 640 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I142/I0/P1 = auLvs device Q212
+i 212 pmos 631 285 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I142/I0/P0 = auLvs device Q213
+i 213 pmos 631 44 1 1 " m 1 l 180e-9 w 720e-9 "
+n 643 /I142/I1/net016
+n 646 /I142/I1/net9
+; nmos4 Instance /I142/I1/N3 = auLvs device Q214
+i 214 nmos 643 44 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I142/I1/N2 = auLvs device Q215
+i 215 nmos 646 285 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I142/I1/N1 = auLvs device Q216
+i 216 nmos 138 44 646 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I142/I1/N0 = auLvs device Q217
+i 217 nmos 138 643 285 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I142/I1/P3 = auLvs device Q218
+i 218 pmos 643 44 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I142/I1/P2 = auLvs device Q219
+i 219 pmos 646 285 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I142/I1/P1 = auLvs device Q220
+i 220 pmos 138 643 646 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I142/I1/P0 = auLvs device Q221
+i 221 pmos 138 44 285 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I142/I2/P0 = auLvs device Q222
+i 222 pmos 86 631 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I142/I2/N0 = auLvs device Q223
+i 223 nmos 86 631 0 0 " m 1 l 180e-9 w 540e-9 "
+n 649 /I21/net06
+n 658 /I21/I0/net12
+; nmos4 Instance /I21/I0/N1 = auLvs device Q224
+i 224 nmos 658 54 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I21/I0/N0 = auLvs device Q225
+i 225 nmos 649 13 658 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I21/I0/P1 = auLvs device Q226
+i 226 pmos 649 54 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I21/I0/P0 = auLvs device Q227
+i 227 pmos 649 13 1 1 " m 1 l 180e-9 w 720e-9 "
+n 661 /I21/I1/net016
+n 664 /I21/I1/net9
+; nmos4 Instance /I21/I1/N3 = auLvs device Q228
+i 228 nmos 661 13 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I21/I1/N2 = auLvs device Q229
+i 229 nmos 664 54 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I21/I1/N1 = auLvs device Q230
+i 230 nmos 150 13 664 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I21/I1/N0 = auLvs device Q231
+i 231 nmos 150 661 54 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I21/I1/P3 = auLvs device Q232
+i 232 pmos 661 13 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I21/I1/P2 = auLvs device Q233
+i 233 pmos 664 54 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I21/I1/P1 = auLvs device Q234
+i 234 pmos 150 661 664 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I21/I1/P0 = auLvs device Q235
+i 235 pmos 150 13 54 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I21/I2/P0 = auLvs device Q236
+i 236 pmos 230 649 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I21/I2/N0 = auLvs device Q237
+i 237 nmos 230 649 0 0 " m 1 l 180e-9 w 540e-9 "
+n 667 /I20/net06
+n 676 /I20/I0/net12
+; nmos4 Instance /I20/I0/N1 = auLvs device Q238
+i 238 nmos 676 77 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I20/I0/N0 = auLvs device Q239
+i 239 nmos 667 353 676 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I20/I0/P1 = auLvs device Q240
+i 240 pmos 667 77 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I20/I0/P0 = auLvs device Q241
+i 241 pmos 667 353 1 1 " m 1 l 180e-9 w 720e-9 "
+n 679 /I20/I1/net016
+n 682 /I20/I1/net9
+; nmos4 Instance /I20/I1/N3 = auLvs device Q242
+i 242 nmos 679 353 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I20/I1/N2 = auLvs device Q243
+i 243 nmos 682 77 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I20/I1/N1 = auLvs device Q244
+i 244 nmos 205 353 682 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I20/I1/N0 = auLvs device Q245
+i 245 nmos 205 679 77 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I20/I1/P3 = auLvs device Q246
+i 246 pmos 679 353 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I20/I1/P2 = auLvs device Q247
+i 247 pmos 682 77 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I20/I1/P1 = auLvs device Q248
+i 248 pmos 205 679 682 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I20/I1/P0 = auLvs device Q249
+i 249 pmos 205 353 77 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I20/I2/P0 = auLvs device Q250
+i 250 pmos 168 667 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I20/I2/N0 = auLvs device Q251
+i 251 nmos 168 667 0 0 " m 1 l 180e-9 w 540e-9 "
+n 685 /I19/net06
+n 694 /I19/I0/net12
+; nmos4 Instance /I19/I0/N1 = auLvs device Q252
+i 252 nmos 694 266 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I19/I0/N0 = auLvs device Q253
+i 253 nmos 685 283 694 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I19/I0/P1 = auLvs device Q254
+i 254 pmos 685 266 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I19/I0/P0 = auLvs device Q255
+i 255 pmos 685 283 1 1 " m 1 l 180e-9 w 720e-9 "
+n 697 /I19/I1/net016
+n 700 /I19/I1/net9
+; nmos4 Instance /I19/I1/N3 = auLvs device Q256
+i 256 nmos 697 283 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I19/I1/N2 = auLvs device Q257
+i 257 nmos 700 266 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I19/I1/N1 = auLvs device Q258
+i 258 nmos 271 283 700 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I19/I1/N0 = auLvs device Q259
+i 259 nmos 271 697 266 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I19/I1/P3 = auLvs device Q260
+i 260 pmos 697 283 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I19/I1/P2 = auLvs device Q261
+i 261 pmos 700 266 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I19/I1/P1 = auLvs device Q262
+i 262 pmos 271 697 700 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I19/I1/P0 = auLvs device Q263
+i 263 pmos 271 283 266 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I19/I2/P0 = auLvs device Q264
+i 264 pmos 237 685 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I19/I2/N0 = auLvs device Q265
+i 265 nmos 237 685 0 0 " m 1 l 180e-9 w 540e-9 "
+n 703 /I18/net06
+n 712 /I18/I0/net12
+; nmos4 Instance /I18/I0/N1 = auLvs device Q266
+i 266 nmos 712 346 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I18/I0/N0 = auLvs device Q267
+i 267 nmos 703 143 712 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I18/I0/P1 = auLvs device Q268
+i 268 pmos 703 346 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I18/I0/P0 = auLvs device Q269
+i 269 pmos 703 143 1 1 " m 1 l 180e-9 w 720e-9 "
+n 715 /I18/I1/net016
+n 718 /I18/I1/net9
+; nmos4 Instance /I18/I1/N3 = auLvs device Q270
+i 270 nmos 715 143 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I18/I1/N2 = auLvs device Q271
+i 271 nmos 718 346 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I18/I1/N1 = auLvs device Q272
+i 272 nmos 268 143 718 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I18/I1/N0 = auLvs device Q273
+i 273 nmos 268 715 346 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I18/I1/P3 = auLvs device Q274
+i 274 pmos 715 143 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I18/I1/P2 = auLvs device Q275
+i 275 pmos 718 346 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I18/I1/P1 = auLvs device Q276
+i 276 pmos 268 715 718 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I18/I1/P0 = auLvs device Q277
+i 277 pmos 268 143 346 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I18/I2/P0 = auLvs device Q278
+i 278 pmos 38 703 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I18/I2/N0 = auLvs device Q279
+i 279 nmos 38 703 0 0 " m 1 l 180e-9 w 540e-9 "
+n 721 /I17/net06
+n 730 /I17/I0/net12
+; nmos4 Instance /I17/I0/N1 = auLvs device Q280
+i 280 nmos 730 287 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I17/I0/N0 = auLvs device Q281
+i 281 nmos 721 125 730 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I17/I0/P1 = auLvs device Q282
+i 282 pmos 721 287 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I17/I0/P0 = auLvs device Q283
+i 283 pmos 721 125 1 1 " m 1 l 180e-9 w 720e-9 "
+n 733 /I17/I1/net016
+n 736 /I17/I1/net9
+; nmos4 Instance /I17/I1/N3 = auLvs device Q284
+i 284 nmos 733 125 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I17/I1/N2 = auLvs device Q285
+i 285 nmos 736 287 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I17/I1/N1 = auLvs device Q286
+i 286 nmos 93 125 736 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I17/I1/N0 = auLvs device Q287
+i 287 nmos 93 733 287 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I17/I1/P3 = auLvs device Q288
+i 288 pmos 733 125 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I17/I1/P2 = auLvs device Q289
+i 289 pmos 736 287 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I17/I1/P1 = auLvs device Q290
+i 290 pmos 93 733 736 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I17/I1/P0 = auLvs device Q291
+i 291 pmos 93 125 287 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I17/I2/P0 = auLvs device Q292
+i 292 pmos 153 721 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I17/I2/N0 = auLvs device Q293
+i 293 nmos 153 721 0 0 " m 1 l 180e-9 w 540e-9 "
+n 739 /I16/net06
+n 748 /I16/I0/net12
+; nmos4 Instance /I16/I0/N1 = auLvs device Q294
+i 294 nmos 748 11 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I16/I0/N0 = auLvs device Q295
+i 295 nmos 739 30 748 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I16/I0/P1 = auLvs device Q296
+i 296 pmos 739 11 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I16/I0/P0 = auLvs device Q297
+i 297 pmos 739 30 1 1 " m 1 l 180e-9 w 720e-9 "
+n 751 /I16/I1/net016
+n 754 /I16/I1/net9
+; nmos4 Instance /I16/I1/N3 = auLvs device Q298
+i 298 nmos 751 30 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I16/I1/N2 = auLvs device Q299
+i 299 nmos 754 11 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I16/I1/N1 = auLvs device Q300
+i 300 nmos 313 30 754 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I16/I1/N0 = auLvs device Q301
+i 301 nmos 313 751 11 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I16/I1/P3 = auLvs device Q302
+i 302 pmos 751 30 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I16/I1/P2 = auLvs device Q303
+i 303 pmos 754 11 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I16/I1/P1 = auLvs device Q304
+i 304 pmos 313 751 754 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I16/I1/P0 = auLvs device Q305
+i 305 pmos 313 30 11 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I16/I2/P0 = auLvs device Q306
+i 306 pmos 258 739 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I16/I2/N0 = auLvs device Q307
+i 307 nmos 258 739 0 0 " m 1 l 180e-9 w 540e-9 "
+n 757 /I15/net06
+n 766 /I15/I0/net12
+; nmos4 Instance /I15/I0/N1 = auLvs device Q308
+i 308 nmos 766 134 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I15/I0/N0 = auLvs device Q309
+i 309 nmos 757 176 766 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I15/I0/P1 = auLvs device Q310
+i 310 pmos 757 134 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I15/I0/P0 = auLvs device Q311
+i 311 pmos 757 176 1 1 " m 1 l 180e-9 w 720e-9 "
+n 769 /I15/I1/net016
+n 772 /I15/I1/net9
+; nmos4 Instance /I15/I1/N3 = auLvs device Q312
+i 312 nmos 769 176 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I15/I1/N2 = auLvs device Q313
+i 313 nmos 772 134 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I15/I1/N1 = auLvs device Q314
+i 314 nmos 200 176 772 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I15/I1/N0 = auLvs device Q315
+i 315 nmos 200 769 134 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I15/I1/P3 = auLvs device Q316
+i 316 pmos 769 176 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I15/I1/P2 = auLvs device Q317
+i 317 pmos 772 134 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I15/I1/P1 = auLvs device Q318
+i 318 pmos 200 769 772 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I15/I1/P0 = auLvs device Q319
+i 319 pmos 200 176 134 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I15/I2/P0 = auLvs device Q320
+i 320 pmos 183 757 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I15/I2/N0 = auLvs device Q321
+i 321 nmos 183 757 0 0 " m 1 l 180e-9 w 540e-9 "
+n 775 /I14/net06
+n 784 /I14/I0/net12
+; nmos4 Instance /I14/I0/N1 = auLvs device Q322
+i 322 nmos 784 360 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I14/I0/N0 = auLvs device Q323
+i 323 nmos 775 165 784 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I14/I0/P1 = auLvs device Q324
+i 324 pmos 775 360 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I14/I0/P0 = auLvs device Q325
+i 325 pmos 775 165 1 1 " m 1 l 180e-9 w 720e-9 "
+n 787 /I14/I1/net016
+n 790 /I14/I1/net9
+; nmos4 Instance /I14/I1/N3 = auLvs device Q326
+i 326 nmos 787 165 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I14/I1/N2 = auLvs device Q327
+i 327 nmos 790 360 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I14/I1/N1 = auLvs device Q328
+i 328 nmos 32 165 790 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I14/I1/N0 = auLvs device Q329
+i 329 nmos 32 787 360 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I14/I1/P3 = auLvs device Q330
+i 330 pmos 787 165 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I14/I1/P2 = auLvs device Q331
+i 331 pmos 790 360 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I14/I1/P1 = auLvs device Q332
+i 332 pmos 32 787 790 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I14/I1/P0 = auLvs device Q333
+i 333 pmos 32 165 360 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I14/I2/P0 = auLvs device Q334
+i 334 pmos 61 775 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I14/I2/N0 = auLvs device Q335
+i 335 nmos 61 775 0 0 " m 1 l 180e-9 w 540e-9 "
+n 793 /I13/net06
+n 802 /I13/I0/net12
+; nmos4 Instance /I13/I0/N1 = auLvs device Q336
+i 336 nmos 802 26 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I13/I0/N0 = auLvs device Q337
+i 337 nmos 793 83 802 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I13/I0/P1 = auLvs device Q338
+i 338 pmos 793 26 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I13/I0/P0 = auLvs device Q339
+i 339 pmos 793 83 1 1 " m 1 l 180e-9 w 720e-9 "
+n 805 /I13/I1/net016
+n 808 /I13/I1/net9
+; nmos4 Instance /I13/I1/N3 = auLvs device Q340
+i 340 nmos 805 83 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I13/I1/N2 = auLvs device Q341
+i 341 nmos 808 26 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I13/I1/N1 = auLvs device Q342
+i 342 nmos 91 83 808 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I13/I1/N0 = auLvs device Q343
+i 343 nmos 91 805 26 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I13/I1/P3 = auLvs device Q344
+i 344 pmos 805 83 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I13/I1/P2 = auLvs device Q345
+i 345 pmos 808 26 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I13/I1/P1 = auLvs device Q346
+i 346 pmos 91 805 808 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I13/I1/P0 = auLvs device Q347
+i 347 pmos 91 83 26 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I13/I2/P0 = auLvs device Q348
+i 348 pmos 161 793 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I13/I2/N0 = auLvs device Q349
+i 349 nmos 161 793 0 0 " m 1 l 180e-9 w 540e-9 "
+n 811 /I12/net06
+n 820 /I12/I0/net12
+; nmos4 Instance /I12/I0/N1 = auLvs device Q350
+i 350 nmos 820 224 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I12/I0/N0 = auLvs device Q351
+i 351 nmos 811 87 820 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I12/I0/P1 = auLvs device Q352
+i 352 pmos 811 224 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I12/I0/P0 = auLvs device Q353
+i 353 pmos 811 87 1 1 " m 1 l 180e-9 w 720e-9 "
+n 823 /I12/I1/net016
+n 826 /I12/I1/net9
+; nmos4 Instance /I12/I1/N3 = auLvs device Q354
+i 354 nmos 823 87 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I12/I1/N2 = auLvs device Q355
+i 355 nmos 826 224 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I12/I1/N1 = auLvs device Q356
+i 356 nmos 152 87 826 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I12/I1/N0 = auLvs device Q357
+i 357 nmos 152 823 224 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I12/I1/P3 = auLvs device Q358
+i 358 pmos 823 87 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I12/I1/P2 = auLvs device Q359
+i 359 pmos 826 224 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I12/I1/P1 = auLvs device Q360
+i 360 pmos 152 823 826 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I12/I1/P0 = auLvs device Q361
+i 361 pmos 152 87 224 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I12/I2/P0 = auLvs device Q362
+i 362 pmos 3 811 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I12/I2/N0 = auLvs device Q363
+i 363 nmos 3 811 0 0 " m 1 l 180e-9 w 540e-9 "
+n 829 /I8/net06
+n 838 /I8/I0/net12
+; nmos4 Instance /I8/I0/N1 = auLvs device Q364
+i 364 nmos 838 110 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I8/I0/N0 = auLvs device Q365
+i 365 nmos 829 345 838 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I8/I0/P1 = auLvs device Q366
+i 366 pmos 829 110 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I8/I0/P0 = auLvs device Q367
+i 367 pmos 829 345 1 1 " m 1 l 180e-9 w 720e-9 "
+n 841 /I8/I1/net016
+n 844 /I8/I1/net9
+; nmos4 Instance /I8/I1/N3 = auLvs device Q368
+i 368 nmos 841 345 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I8/I1/N2 = auLvs device Q369
+i 369 nmos 844 110 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I8/I1/N1 = auLvs device Q370
+i 370 nmos 296 345 844 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I8/I1/N0 = auLvs device Q371
+i 371 nmos 296 841 110 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I8/I1/P3 = auLvs device Q372
+i 372 pmos 841 345 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I8/I1/P2 = auLvs device Q373
+i 373 pmos 844 110 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I8/I1/P1 = auLvs device Q374
+i 374 pmos 296 841 844 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I8/I1/P0 = auLvs device Q375
+i 375 pmos 296 345 110 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I8/I2/P0 = auLvs device Q376
+i 376 pmos 272 829 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I8/I2/N0 = auLvs device Q377
+i 377 nmos 272 829 0 0 " m 1 l 180e-9 w 540e-9 "
+n 847 /I7/net06
+n 856 /I7/I0/net12
+; nmos4 Instance /I7/I0/N1 = auLvs device Q378
+i 378 nmos 856 355 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I7/I0/N0 = auLvs device Q379
+i 379 nmos 847 216 856 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I7/I0/P1 = auLvs device Q380
+i 380 pmos 847 355 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I7/I0/P0 = auLvs device Q381
+i 381 pmos 847 216 1 1 " m 1 l 180e-9 w 720e-9 "
+n 859 /I7/I1/net016
+n 862 /I7/I1/net9
+; nmos4 Instance /I7/I1/N3 = auLvs device Q382
+i 382 nmos 859 216 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I7/I1/N2 = auLvs device Q383
+i 383 nmos 862 355 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I7/I1/N1 = auLvs device Q384
+i 384 nmos 82 216 862 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I7/I1/N0 = auLvs device Q385
+i 385 nmos 82 859 355 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I7/I1/P3 = auLvs device Q386
+i 386 pmos 859 216 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I7/I1/P2 = auLvs device Q387
+i 387 pmos 862 355 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I7/I1/P1 = auLvs device Q388
+i 388 pmos 82 859 862 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I7/I1/P0 = auLvs device Q389
+i 389 pmos 82 216 355 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I7/I2/P0 = auLvs device Q390
+i 390 pmos 185 847 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I7/I2/N0 = auLvs device Q391
+i 391 nmos 185 847 0 0 " m 1 l 180e-9 w 540e-9 "
+n 865 /I6/net06
+n 874 /I6/I0/net12
+; nmos4 Instance /I6/I0/N1 = auLvs device Q392
+i 392 nmos 874 105 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I6/I0/N0 = auLvs device Q393
+i 393 nmos 865 89 874 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I6/I0/P1 = auLvs device Q394
+i 394 pmos 865 105 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I6/I0/P0 = auLvs device Q395
+i 395 pmos 865 89 1 1 " m 1 l 180e-9 w 720e-9 "
+n 877 /I6/I1/net016
+n 880 /I6/I1/net9
+; nmos4 Instance /I6/I1/N3 = auLvs device Q396
+i 396 nmos 877 89 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I6/I1/N2 = auLvs device Q397
+i 397 nmos 880 105 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I6/I1/N1 = auLvs device Q398
+i 398 nmos 162 89 880 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I6/I1/N0 = auLvs device Q399
+i 399 nmos 162 877 105 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I6/I1/P3 = auLvs device Q400
+i 400 pmos 877 89 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I6/I1/P2 = auLvs device Q401
+i 401 pmos 880 105 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I6/I1/P1 = auLvs device Q402
+i 402 pmos 162 877 880 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I6/I1/P0 = auLvs device Q403
+i 403 pmos 162 89 105 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I6/I2/P0 = auLvs device Q404
+i 404 pmos 117 865 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I6/I2/N0 = auLvs device Q405
+i 405 nmos 117 865 0 0 " m 1 l 180e-9 w 540e-9 "
+n 883 /I11/net06
+n 892 /I11/I0/net12
+; nmos4 Instance /I11/I0/N1 = auLvs device Q406
+i 406 nmos 892 333 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I11/I0/N0 = auLvs device Q407
+i 407 nmos 883 191 892 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I11/I0/P1 = auLvs device Q408
+i 408 pmos 883 333 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I11/I0/P0 = auLvs device Q409
+i 409 pmos 883 191 1 1 " m 1 l 180e-9 w 720e-9 "
+n 895 /I11/I1/net016
+n 898 /I11/I1/net9
+; nmos4 Instance /I11/I1/N3 = auLvs device Q410
+i 410 nmos 895 191 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I11/I1/N2 = auLvs device Q411
+i 411 nmos 898 333 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I11/I1/N1 = auLvs device Q412
+i 412 nmos 323 191 898 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I11/I1/N0 = auLvs device Q413
+i 413 nmos 323 895 333 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I11/I1/P3 = auLvs device Q414
+i 414 pmos 895 191 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I11/I1/P2 = auLvs device Q415
+i 415 pmos 898 333 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I11/I1/P1 = auLvs device Q416
+i 416 pmos 323 895 898 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I11/I1/P0 = auLvs device Q417
+i 417 pmos 323 191 333 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I11/I2/P0 = auLvs device Q418
+i 418 pmos 109 883 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I11/I2/N0 = auLvs device Q419
+i 419 nmos 109 883 0 0 " m 1 l 180e-9 w 540e-9 "
+n 901 /I10/net06
+n 910 /I10/I0/net12
+; nmos4 Instance /I10/I0/N1 = auLvs device Q420
+i 420 nmos 910 163 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I10/I0/N0 = auLvs device Q421
+i 421 nmos 901 33 910 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I10/I0/P1 = auLvs device Q422
+i 422 pmos 901 163 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I10/I0/P0 = auLvs device Q423
+i 423 pmos 901 33 1 1 " m 1 l 180e-9 w 720e-9 "
+n 913 /I10/I1/net016
+n 916 /I10/I1/net9
+; nmos4 Instance /I10/I1/N3 = auLvs device Q424
+i 424 nmos 913 33 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I10/I1/N2 = auLvs device Q425
+i 425 nmos 916 163 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I10/I1/N1 = auLvs device Q426
+i 426 nmos 291 33 916 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I10/I1/N0 = auLvs device Q427
+i 427 nmos 291 913 163 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I10/I1/P3 = auLvs device Q428
+i 428 pmos 913 33 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I10/I1/P2 = auLvs device Q429
+i 429 pmos 916 163 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I10/I1/P1 = auLvs device Q430
+i 430 pmos 291 913 916 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I10/I1/P0 = auLvs device Q431
+i 431 pmos 291 33 163 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I10/I2/P0 = auLvs device Q432
+i 432 pmos 45 901 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I10/I2/N0 = auLvs device Q433
+i 433 nmos 45 901 0 0 " m 1 l 180e-9 w 540e-9 "
+n 919 /I9/net06
+n 928 /I9/I0/net12
+; nmos4 Instance /I9/I0/N1 = auLvs device Q434
+i 434 nmos 928 90 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I9/I0/N0 = auLvs device Q435
+i 435 nmos 919 12 928 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I9/I0/P1 = auLvs device Q436
+i 436 pmos 919 90 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I9/I0/P0 = auLvs device Q437
+i 437 pmos 919 12 1 1 " m 1 l 180e-9 w 720e-9 "
+n 931 /I9/I1/net016
+n 934 /I9/I1/net9
+; nmos4 Instance /I9/I1/N3 = auLvs device Q438
+i 438 nmos 931 12 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I9/I1/N2 = auLvs device Q439
+i 439 nmos 934 90 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I9/I1/N1 = auLvs device Q440
+i 440 nmos 276 12 934 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I9/I1/N0 = auLvs device Q441
+i 441 nmos 276 931 90 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I9/I1/P3 = auLvs device Q442
+i 442 pmos 931 12 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I9/I1/P2 = auLvs device Q443
+i 443 pmos 934 90 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I9/I1/P1 = auLvs device Q444
+i 444 pmos 276 931 934 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I9/I1/P0 = auLvs device Q445
+i 445 pmos 276 12 90 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I9/I2/P0 = auLvs device Q446
+i 446 pmos 206 919 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I9/I2/N0 = auLvs device Q447
+i 447 nmos 206 919 0 0 " m 1 l 180e-9 w 540e-9 "
+n 942 /I249/I0/net13
+n 945 /I249/I0/net19
+; nmos4 Instance /I249/I0/N2 = auLvs device Q448
+i 448 nmos 315 304 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I249/I0/N0 = auLvs device Q449
+i 449 nmos 315 248 942 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I249/I0/N1 = auLvs device Q450
+i 450 nmos 942 339 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I249/I0/P2 = auLvs device Q451
+i 451 pmos 315 304 945 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I249/I0/P1 = auLvs device Q452
+i 452 pmos 945 339 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I249/I0/P0 = auLvs device Q453
+i 453 pmos 945 248 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 952 /I248/I0/net13
+n 955 /I248/I0/net19
+; nmos4 Instance /I248/I0/N2 = auLvs device Q454
+i 454 nmos 199 148 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I248/I0/N0 = auLvs device Q455
+i 455 nmos 199 63 952 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I248/I0/N1 = auLvs device Q456
+i 456 nmos 952 231 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I248/I0/P2 = auLvs device Q457
+i 457 pmos 199 148 955 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I248/I0/P1 = auLvs device Q458
+i 458 pmos 955 231 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I248/I0/P0 = auLvs device Q459
+i 459 pmos 955 63 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 962 /I247/I0/net13
+n 965 /I247/I0/net19
+; nmos4 Instance /I247/I0/N2 = auLvs device Q460
+i 460 nmos 14 294 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I247/I0/N0 = auLvs device Q461
+i 461 nmos 14 65 962 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I247/I0/N1 = auLvs device Q462
+i 462 nmos 962 259 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I247/I0/P2 = auLvs device Q463
+i 463 pmos 14 294 965 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I247/I0/P1 = auLvs device Q464
+i 464 pmos 965 259 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I247/I0/P0 = auLvs device Q465
+i 465 pmos 965 65 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 972 /I246/I0/net13
+n 975 /I246/I0/net19
+; nmos4 Instance /I246/I0/N2 = auLvs device Q466
+i 466 nmos 18 207 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I246/I0/N0 = auLvs device Q467
+i 467 nmos 18 263 972 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I246/I0/N1 = auLvs device Q468
+i 468 nmos 972 202 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I246/I0/P2 = auLvs device Q469
+i 469 pmos 18 207 975 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I246/I0/P1 = auLvs device Q470
+i 470 pmos 975 202 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I246/I0/P0 = auLvs device Q471
+i 471 pmos 975 263 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 982 /I245/I0/net13
+n 985 /I245/I0/net19
+; nmos4 Instance /I245/I0/N2 = auLvs device Q472
+i 472 nmos 332 226 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I245/I0/N0 = auLvs device Q473
+i 473 nmos 332 106 982 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I245/I0/N1 = auLvs device Q474
+i 474 nmos 982 280 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I245/I0/P2 = auLvs device Q475
+i 475 pmos 332 226 985 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I245/I0/P1 = auLvs device Q476
+i 476 pmos 985 280 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I245/I0/P0 = auLvs device Q477
+i 477 pmos 985 106 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 992 /I244/I0/net13
+n 995 /I244/I0/net19
+; nmos4 Instance /I244/I0/N2 = auLvs device Q478
+i 478 nmos 256 248 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I244/I0/N0 = auLvs device Q479
+i 479 nmos 256 209 992 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I244/I0/N1 = auLvs device Q480
+i 480 nmos 992 51 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I244/I0/P2 = auLvs device Q481
+i 481 pmos 256 248 995 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I244/I0/P1 = auLvs device Q482
+i 482 pmos 995 51 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I244/I0/P0 = auLvs device Q483
+i 483 pmos 995 209 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1002 /I243/I0/net13
+n 1005 /I243/I0/net19
+; nmos4 Instance /I243/I0/N2 = auLvs device Q484
+i 484 nmos 21 63 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I243/I0/N0 = auLvs device Q485
+i 485 nmos 21 312 1002 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I243/I0/N1 = auLvs device Q486
+i 486 nmos 1002 322 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I243/I0/P2 = auLvs device Q487
+i 487 pmos 21 63 1005 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I243/I0/P1 = auLvs device Q488
+i 488 pmos 1005 322 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I243/I0/P0 = auLvs device Q489
+i 489 pmos 1005 312 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1012 /I242/I0/net13
+n 1015 /I242/I0/net19
+; nmos4 Instance /I242/I0/N2 = auLvs device Q490
+i 490 nmos 22 65 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I242/I0/N0 = auLvs device Q491
+i 491 nmos 22 4 1012 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I242/I0/N1 = auLvs device Q492
+i 492 nmos 1012 234 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I242/I0/P2 = auLvs device Q493
+i 493 pmos 22 65 1015 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I242/I0/P1 = auLvs device Q494
+i 494 pmos 1015 234 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I242/I0/P0 = auLvs device Q495
+i 495 pmos 1015 4 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1022 /I103/I0/net13
+n 1025 /I103/I0/net19
+; nmos4 Instance /I103/I0/N2 = auLvs device Q496
+i 496 nmos 293 149 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I103/I0/N0 = auLvs device Q497
+i 497 nmos 293 310 1022 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I103/I0/N1 = auLvs device Q498
+i 498 nmos 1022 274 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I103/I0/P2 = auLvs device Q499
+i 499 pmos 293 149 1025 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I103/I0/P1 = auLvs device Q500
+i 500 pmos 1025 274 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I103/I0/P0 = auLvs device Q501
+i 501 pmos 1025 310 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1032 /I104/I0/net13
+n 1035 /I104/I0/net19
+; nmos4 Instance /I104/I0/N2 = auLvs device Q502
+i 502 nmos 242 194 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I104/I0/N0 = auLvs device Q503
+i 503 nmos 242 299 1032 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I104/I0/N1 = auLvs device Q504
+i 504 nmos 1032 34 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I104/I0/P2 = auLvs device Q505
+i 505 pmos 242 194 1035 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I104/I0/P1 = auLvs device Q506
+i 506 pmos 1035 34 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I104/I0/P0 = auLvs device Q507
+i 507 pmos 1035 299 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1042 /I102/I0/net13
+n 1045 /I102/I0/net19
+; nmos4 Instance /I102/I0/N2 = auLvs device Q508
+i 508 nmos 295 117 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I102/I0/N0 = auLvs device Q509
+i 509 nmos 295 281 1042 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I102/I0/N1 = auLvs device Q510
+i 510 nmos 1042 162 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I102/I0/P2 = auLvs device Q511
+i 511 pmos 295 117 1045 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I102/I0/P1 = auLvs device Q512
+i 512 pmos 1045 162 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I102/I0/P0 = auLvs device Q513
+i 513 pmos 1045 281 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1051 /I264/I0/net016
+n 1054 /I264/I0/net9
+; nmos4 Instance /I264/I0/N3 = auLvs device Q514
+i 514 nmos 1051 279 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I264/I0/N2 = auLvs device Q515
+i 515 nmos 1054 102 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I264/I0/N1 = auLvs device Q516
+i 516 nmos 324 279 1054 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I264/I0/N0 = auLvs device Q517
+i 517 nmos 324 1051 102 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I264/I0/P3 = auLvs device Q518
+i 518 pmos 1051 279 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I264/I0/P2 = auLvs device Q519
+i 519 pmos 1054 102 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I264/I0/P1 = auLvs device Q520
+i 520 pmos 324 1051 1054 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I264/I0/P0 = auLvs device Q521
+i 521 pmos 324 279 102 1 " m 1 l 180e-9 w 540e-9 "
+n 1059 /I262/I0/net016
+n 1062 /I262/I0/net9
+; nmos4 Instance /I262/I0/N3 = auLvs device Q522
+i 522 nmos 1059 252 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I262/I0/N2 = auLvs device Q523
+i 523 nmos 1062 331 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I262/I0/N1 = auLvs device Q524
+i 524 nmos 175 252 1062 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I262/I0/N0 = auLvs device Q525
+i 525 nmos 175 1059 331 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I262/I0/P3 = auLvs device Q526
+i 526 pmos 1059 252 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I262/I0/P2 = auLvs device Q527
+i 527 pmos 1062 331 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I262/I0/P1 = auLvs device Q528
+i 528 pmos 175 1059 1062 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I262/I0/P0 = auLvs device Q529
+i 529 pmos 175 252 331 1 " m 1 l 180e-9 w 540e-9 "
+n 1067 /I260/I0/net016
+n 1070 /I260/I0/net9
+; nmos4 Instance /I260/I0/N3 = auLvs device Q530
+i 530 nmos 1067 84 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I260/I0/N2 = auLvs device Q531
+i 531 nmos 1070 261 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I260/I0/N1 = auLvs device Q532
+i 532 nmos 104 84 1070 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I260/I0/N0 = auLvs device Q533
+i 533 nmos 104 1067 261 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I260/I0/P3 = auLvs device Q534
+i 534 pmos 1067 84 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I260/I0/P2 = auLvs device Q535
+i 535 pmos 1070 261 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I260/I0/P1 = auLvs device Q536
+i 536 pmos 104 1067 1070 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I260/I0/P0 = auLvs device Q537
+i 537 pmos 104 84 261 1 " m 1 l 180e-9 w 540e-9 "
+n 1075 /I258/I0/net016
+n 1078 /I258/I0/net9
+; nmos4 Instance /I258/I0/N3 = auLvs device Q538
+i 538 nmos 1075 62 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I258/I0/N2 = auLvs device Q539
+i 539 nmos 1078 244 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I258/I0/N1 = auLvs device Q540
+i 540 nmos 188 62 1078 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I258/I0/N0 = auLvs device Q541
+i 541 nmos 188 1075 244 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I258/I0/P3 = auLvs device Q542
+i 542 pmos 1075 62 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I258/I0/P2 = auLvs device Q543
+i 543 pmos 1078 244 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I258/I0/P1 = auLvs device Q544
+i 544 pmos 188 1075 1078 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I258/I0/P0 = auLvs device Q545
+i 545 pmos 188 62 244 1 " m 1 l 180e-9 w 540e-9 "
+n 1083 /I256/I0/net016
+n 1086 /I256/I0/net9
+; nmos4 Instance /I256/I0/N3 = auLvs device Q546
+i 546 nmos 1083 2 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I256/I0/N2 = auLvs device Q547
+i 547 nmos 1086 300 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I256/I0/N1 = auLvs device Q548
+i 548 nmos 20 2 1086 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I256/I0/N0 = auLvs device Q549
+i 549 nmos 20 1083 300 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I256/I0/P3 = auLvs device Q550
+i 550 pmos 1083 2 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I256/I0/P2 = auLvs device Q551
+i 551 pmos 1086 300 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I256/I0/P1 = auLvs device Q552
+i 552 pmos 20 1083 1086 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I256/I0/P0 = auLvs device Q553
+i 553 pmos 20 2 300 1 " m 1 l 180e-9 w 540e-9 "
+n 1091 /I254/I0/net016
+n 1094 /I254/I0/net9
+; nmos4 Instance /I254/I0/N3 = auLvs device Q554
+i 554 nmos 1091 211 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I254/I0/N2 = auLvs device Q555
+i 555 nmos 1094 189 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I254/I0/N1 = auLvs device Q556
+i 556 nmos 218 211 1094 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I254/I0/N0 = auLvs device Q557
+i 557 nmos 218 1091 189 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I254/I0/P3 = auLvs device Q558
+i 558 pmos 1091 211 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I254/I0/P2 = auLvs device Q559
+i 559 pmos 1094 189 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I254/I0/P1 = auLvs device Q560
+i 560 pmos 218 1091 1094 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I254/I0/P0 = auLvs device Q561
+i 561 pmos 218 211 189 1 " m 1 l 180e-9 w 540e-9 "
+n 1099 /I252/I0/net016
+n 1102 /I252/I0/net9
+; nmos4 Instance /I252/I0/N3 = auLvs device Q562
+i 562 nmos 1099 186 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I252/I0/N2 = auLvs device Q563
+i 563 nmos 1102 158 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I252/I0/N1 = auLvs device Q564
+i 564 nmos 239 186 1102 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I252/I0/N0 = auLvs device Q565
+i 565 nmos 239 1099 158 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I252/I0/P3 = auLvs device Q566
+i 566 pmos 1099 186 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I252/I0/P2 = auLvs device Q567
+i 567 pmos 1102 158 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I252/I0/P1 = auLvs device Q568
+i 568 pmos 239 1099 1102 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I252/I0/P0 = auLvs device Q569
+i 569 pmos 239 186 158 1 " m 1 l 180e-9 w 540e-9 "
+n 1107 /I250/I0/net016
+n 1110 /I250/I0/net9
+; nmos4 Instance /I250/I0/N3 = auLvs device Q570
+i 570 nmos 1107 123 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I250/I0/N2 = auLvs device Q571
+i 571 nmos 1110 307 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I250/I0/N1 = auLvs device Q572
+i 572 nmos 305 123 1110 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I250/I0/N0 = auLvs device Q573
+i 573 nmos 305 1107 307 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I250/I0/P3 = auLvs device Q574
+i 574 pmos 1107 123 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I250/I0/P2 = auLvs device Q575
+i 575 pmos 1110 307 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I250/I0/P1 = auLvs device Q576
+i 576 pmos 305 1107 1110 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I250/I0/P0 = auLvs device Q577
+i 577 pmos 305 123 307 1 " m 1 l 180e-9 w 540e-9 "
+n 1115 /I175/I0/net016
+n 1118 /I175/I0/net9
+; nmos4 Instance /I175/I0/N3 = auLvs device Q578
+i 578 nmos 1115 10 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I175/I0/N2 = auLvs device Q579
+i 579 nmos 1118 245 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I175/I0/N1 = auLvs device Q580
+i 580 nmos 40 10 1118 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I175/I0/N0 = auLvs device Q581
+i 581 nmos 40 1115 245 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I175/I0/P3 = auLvs device Q582
+i 582 pmos 1115 10 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I175/I0/P2 = auLvs device Q583
+i 583 pmos 1118 245 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I175/I0/P1 = auLvs device Q584
+i 584 pmos 40 1115 1118 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I175/I0/P0 = auLvs device Q585
+i 585 pmos 40 10 245 1 " m 1 l 180e-9 w 540e-9 "
+n 1123 /I173/I0/net016
+n 1126 /I173/I0/net9
+; nmos4 Instance /I173/I0/N3 = auLvs device Q586
+i 586 nmos 1123 127 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I173/I0/N2 = auLvs device Q587
+i 587 nmos 1126 215 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I173/I0/N1 = auLvs device Q588
+i 588 nmos 308 127 1126 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I173/I0/N0 = auLvs device Q589
+i 589 nmos 308 1123 215 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I173/I0/P3 = auLvs device Q590
+i 590 pmos 1123 127 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I173/I0/P2 = auLvs device Q591
+i 591 pmos 1126 215 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I173/I0/P1 = auLvs device Q592
+i 592 pmos 308 1123 1126 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I173/I0/P0 = auLvs device Q593
+i 593 pmos 308 127 215 1 " m 1 l 180e-9 w 540e-9 "
+n 1131 /I170/I0/net016
+n 1134 /I170/I0/net9
+; nmos4 Instance /I170/I0/N3 = auLvs device Q594
+i 594 nmos 1131 178 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I170/I0/N2 = auLvs device Q595
+i 595 nmos 1134 241 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I170/I0/N1 = auLvs device Q596
+i 596 nmos 335 178 1134 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I170/I0/N0 = auLvs device Q597
+i 597 nmos 335 1131 241 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I170/I0/P3 = auLvs device Q598
+i 598 pmos 1131 178 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I170/I0/P2 = auLvs device Q599
+i 599 pmos 1134 241 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I170/I0/P1 = auLvs device Q600
+i 600 pmos 335 1131 1134 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I170/I0/P0 = auLvs device Q601
+i 601 pmos 335 178 241 1 " m 1 l 180e-9 w 540e-9 "
+n 1139 /I168/I0/net016
+n 1142 /I168/I0/net9
+; nmos4 Instance /I168/I0/N3 = auLvs device Q602
+i 602 nmos 1139 275 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I168/I0/N2 = auLvs device Q603
+i 603 nmos 1142 338 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I168/I0/N1 = auLvs device Q604
+i 604 nmos 47 275 1142 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I168/I0/N0 = auLvs device Q605
+i 605 nmos 47 1139 338 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I168/I0/P3 = auLvs device Q606
+i 606 pmos 1139 275 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I168/I0/P2 = auLvs device Q607
+i 607 pmos 1142 338 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I168/I0/P1 = auLvs device Q608
+i 608 pmos 47 1139 1142 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I168/I0/P0 = auLvs device Q609
+i 609 pmos 47 275 338 1 " m 1 l 180e-9 w 540e-9 "
+n 1147 /I165/I0/net016
+n 1150 /I165/I0/net9
+; nmos4 Instance /I165/I0/N3 = auLvs device Q610
+i 610 nmos 1147 58 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I165/I0/N2 = auLvs device Q611
+i 611 nmos 1150 298 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I165/I0/N1 = auLvs device Q612
+i 612 nmos 359 58 1150 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I165/I0/N0 = auLvs device Q613
+i 613 nmos 359 1147 298 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I165/I0/P3 = auLvs device Q614
+i 614 pmos 1147 58 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I165/I0/P2 = auLvs device Q615
+i 615 pmos 1150 298 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I165/I0/P1 = auLvs device Q616
+i 616 pmos 359 1147 1150 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I165/I0/P0 = auLvs device Q617
+i 617 pmos 359 58 298 1 " m 1 l 180e-9 w 540e-9 "
+n 1155 /I163/I0/net016
+n 1158 /I163/I0/net9
+; nmos4 Instance /I163/I0/N3 = auLvs device Q618
+i 618 nmos 1155 329 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I163/I0/N2 = auLvs device Q619
+i 619 nmos 1158 264 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I163/I0/N1 = auLvs device Q620
+i 620 nmos 23 329 1158 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I163/I0/N0 = auLvs device Q621
+i 621 nmos 23 1155 264 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I163/I0/P3 = auLvs device Q622
+i 622 pmos 1155 329 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I163/I0/P2 = auLvs device Q623
+i 623 pmos 1158 264 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I163/I0/P1 = auLvs device Q624
+i 624 pmos 23 1155 1158 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I163/I0/P0 = auLvs device Q625
+i 625 pmos 23 329 264 1 " m 1 l 180e-9 w 540e-9 "
+n 1163 /I160/I0/net016
+n 1166 /I160/I0/net9
+; nmos4 Instance /I160/I0/N3 = auLvs device Q626
+i 626 nmos 1163 179 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I160/I0/N2 = auLvs device Q627
+i 627 nmos 1166 80 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I160/I0/N1 = auLvs device Q628
+i 628 nmos 357 179 1166 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I160/I0/N0 = auLvs device Q629
+i 629 nmos 357 1163 80 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I160/I0/P3 = auLvs device Q630
+i 630 pmos 1163 179 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I160/I0/P2 = auLvs device Q631
+i 631 pmos 1166 80 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I160/I0/P1 = auLvs device Q632
+i 632 pmos 357 1163 1166 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I160/I0/P0 = auLvs device Q633
+i 633 pmos 357 179 80 1 " m 1 l 180e-9 w 540e-9 "
+n 1171 /I158/I0/net016
+n 1174 /I158/I0/net9
+; nmos4 Instance /I158/I0/N3 = auLvs device Q634
+i 634 nmos 1171 330 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I158/I0/N2 = auLvs device Q635
+i 635 nmos 1174 286 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I158/I0/N1 = auLvs device Q636
+i 636 nmos 118 330 1174 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I158/I0/N0 = auLvs device Q637
+i 637 nmos 118 1171 286 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I158/I0/P3 = auLvs device Q638
+i 638 pmos 1171 330 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I158/I0/P2 = auLvs device Q639
+i 639 pmos 1174 286 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I158/I0/P1 = auLvs device Q640
+i 640 pmos 118 1171 1174 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I158/I0/P0 = auLvs device Q641
+i 641 pmos 118 330 286 1 " m 1 l 180e-9 w 540e-9 "
+n 1179 /I101/I0/net016
+n 1182 /I101/I0/net9
+; nmos4 Instance /I101/I0/N3 = auLvs device Q642
+i 642 nmos 1179 121 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I101/I0/N2 = auLvs device Q643
+i 643 nmos 1182 167 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I101/I0/N1 = auLvs device Q644
+i 644 nmos 347 121 1182 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I101/I0/N0 = auLvs device Q645
+i 645 nmos 347 1179 167 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I101/I0/P3 = auLvs device Q646
+i 646 pmos 1179 121 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I101/I0/P2 = auLvs device Q647
+i 647 pmos 1182 167 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I101/I0/P1 = auLvs device Q648
+i 648 pmos 347 1179 1182 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I101/I0/P0 = auLvs device Q649
+i 649 pmos 347 121 167 1 " m 1 l 180e-9 w 540e-9 "
+n 1187 /I38/I0/net016
+n 1190 /I38/I0/net9
+; nmos4 Instance /I38/I0/N3 = auLvs device Q650
+i 650 nmos 1187 243 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I38/I0/N2 = auLvs device Q651
+i 651 nmos 1190 81 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I38/I0/N1 = auLvs device Q652
+i 652 nmos 173 243 1190 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I38/I0/N0 = auLvs device Q653
+i 653 nmos 173 1187 81 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I38/I0/P3 = auLvs device Q654
+i 654 pmos 1187 243 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I38/I0/P2 = auLvs device Q655
+i 655 pmos 1190 81 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I38/I0/P1 = auLvs device Q656
+i 656 pmos 173 1187 1190 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I38/I0/P0 = auLvs device Q657
+i 657 pmos 173 243 81 1 " m 1 l 180e-9 w 540e-9 "
+n 1195 /I37/I0/net016
+n 1198 /I37/I0/net9
+; nmos4 Instance /I37/I0/N3 = auLvs device Q658
+i 658 nmos 1195 250 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I37/I0/N2 = auLvs device Q659
+i 659 nmos 1198 205 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I37/I0/N1 = auLvs device Q660
+i 660 nmos 17 250 1198 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I37/I0/N0 = auLvs device Q661
+i 661 nmos 17 1195 205 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I37/I0/P3 = auLvs device Q662
+i 662 pmos 1195 250 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I37/I0/P2 = auLvs device Q663
+i 663 pmos 1198 205 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I37/I0/P1 = auLvs device Q664
+i 664 pmos 17 1195 1198 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I37/I0/P0 = auLvs device Q665
+i 665 pmos 17 250 205 1 " m 1 l 180e-9 w 540e-9 "
+n 1203 /I36/I0/net016
+n 1206 /I36/I0/net9
+; nmos4 Instance /I36/I0/N3 = auLvs device Q666
+i 666 nmos 1203 177 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I36/I0/N2 = auLvs device Q667
+i 667 nmos 1206 268 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I36/I0/N1 = auLvs device Q668
+i 668 nmos 182 177 1206 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I36/I0/N0 = auLvs device Q669
+i 669 nmos 182 1203 268 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I36/I0/P3 = auLvs device Q670
+i 670 pmos 1203 177 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I36/I0/P2 = auLvs device Q671
+i 671 pmos 1206 268 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I36/I0/P1 = auLvs device Q672
+i 672 pmos 182 1203 1206 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I36/I0/P0 = auLvs device Q673
+i 673 pmos 182 177 268 1 " m 1 l 180e-9 w 540e-9 "
+n 1211 /I35/I0/net016
+n 1214 /I35/I0/net9
+; nmos4 Instance /I35/I0/N3 = auLvs device Q674
+i 674 nmos 1211 210 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I35/I0/N2 = auLvs device Q675
+i 675 nmos 1214 111 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I35/I0/N1 = auLvs device Q676
+i 676 nmos 166 210 1214 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I35/I0/N0 = auLvs device Q677
+i 677 nmos 166 1211 111 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I35/I0/P3 = auLvs device Q678
+i 678 pmos 1211 210 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I35/I0/P2 = auLvs device Q679
+i 679 pmos 1214 111 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I35/I0/P1 = auLvs device Q680
+i 680 pmos 166 1211 1214 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I35/I0/P0 = auLvs device Q681
+i 681 pmos 166 210 111 1 " m 1 l 180e-9 w 540e-9 "
+n 1219 /I34/I0/net016
+n 1222 /I34/I0/net9
+; nmos4 Instance /I34/I0/N3 = auLvs device Q682
+i 682 nmos 1219 225 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I34/I0/N2 = auLvs device Q683
+i 683 nmos 1222 302 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I34/I0/N1 = auLvs device Q684
+i 684 nmos 42 225 1222 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I34/I0/N0 = auLvs device Q685
+i 685 nmos 42 1219 302 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I34/I0/P3 = auLvs device Q686
+i 686 pmos 1219 225 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I34/I0/P2 = auLvs device Q687
+i 687 pmos 1222 302 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I34/I0/P1 = auLvs device Q688
+i 688 pmos 42 1219 1222 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I34/I0/P0 = auLvs device Q689
+i 689 pmos 42 225 302 1 " m 1 l 180e-9 w 540e-9 "
+n 1227 /I33/I0/net016
+n 1230 /I33/I0/net9
+; nmos4 Instance /I33/I0/N3 = auLvs device Q690
+i 690 nmos 1227 297 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I33/I0/N2 = auLvs device Q691
+i 691 nmos 1230 313 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I33/I0/N1 = auLvs device Q692
+i 692 nmos 238 297 1230 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I33/I0/N0 = auLvs device Q693
+i 693 nmos 238 1227 313 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I33/I0/P3 = auLvs device Q694
+i 694 pmos 1227 297 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I33/I0/P2 = auLvs device Q695
+i 695 pmos 1230 313 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I33/I0/P1 = auLvs device Q696
+i 696 pmos 238 1227 1230 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I33/I0/P0 = auLvs device Q697
+i 697 pmos 238 297 313 1 " m 1 l 180e-9 w 540e-9 "
+n 1235 /I32/I0/net016
+n 1238 /I32/I0/net9
+; nmos4 Instance /I32/I0/N3 = auLvs device Q698
+i 698 nmos 1235 113 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I32/I0/N2 = auLvs device Q699
+i 699 nmos 1238 32 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I32/I0/N1 = auLvs device Q700
+i 700 nmos 36 113 1238 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I32/I0/N0 = auLvs device Q701
+i 701 nmos 36 1235 32 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I32/I0/P3 = auLvs device Q702
+i 702 pmos 1235 113 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I32/I0/P2 = auLvs device Q703
+i 703 pmos 1238 32 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I32/I0/P1 = auLvs device Q704
+i 704 pmos 36 1235 1238 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I32/I0/P0 = auLvs device Q705
+i 705 pmos 36 113 32 1 " m 1 l 180e-9 w 540e-9 "
+n 1243 /I31/I0/net016
+n 1246 /I31/I0/net9
+; nmos4 Instance /I31/I0/N3 = auLvs device Q706
+i 706 nmos 1243 196 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I31/I0/N2 = auLvs device Q707
+i 707 nmos 1246 227 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I31/I0/N1 = auLvs device Q708
+i 708 nmos 192 196 1246 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I31/I0/N0 = auLvs device Q709
+i 709 nmos 192 1243 227 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I31/I0/P3 = auLvs device Q710
+i 710 pmos 1243 196 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I31/I0/P2 = auLvs device Q711
+i 711 pmos 1246 227 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I31/I0/P1 = auLvs device Q712
+i 712 pmos 192 1243 1246 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I31/I0/P0 = auLvs device Q713
+i 713 pmos 192 196 227 1 " m 1 l 180e-9 w 540e-9 "
+n 1251 /I30/I0/net016
+n 1254 /I30/I0/net9
+; nmos4 Instance /I30/I0/N3 = auLvs device Q714
+i 714 nmos 1251 312 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I30/I0/N2 = auLvs device Q715
+i 715 nmos 1254 59 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I30/I0/N1 = auLvs device Q716
+i 716 nmos 70 312 1254 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I30/I0/N0 = auLvs device Q717
+i 717 nmos 70 1251 59 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I30/I0/P3 = auLvs device Q718
+i 718 pmos 1251 312 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I30/I0/P2 = auLvs device Q719
+i 719 pmos 1254 59 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I30/I0/P1 = auLvs device Q720
+i 720 pmos 70 1251 1254 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I30/I0/P0 = auLvs device Q721
+i 721 pmos 70 312 59 1 " m 1 l 180e-9 w 540e-9 "
+n 1259 /I29/I0/net016
+n 1262 /I29/I0/net9
+; nmos4 Instance /I29/I0/N3 = auLvs device Q722
+i 722 nmos 1259 228 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I29/I0/N2 = auLvs device Q723
+i 723 nmos 1262 152 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I29/I0/N1 = auLvs device Q724
+i 724 nmos 52 228 1262 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I29/I0/N0 = auLvs device Q725
+i 725 nmos 52 1259 152 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I29/I0/P3 = auLvs device Q726
+i 726 pmos 1259 228 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I29/I0/P2 = auLvs device Q727
+i 727 pmos 1262 152 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I29/I0/P1 = auLvs device Q728
+i 728 pmos 52 1259 1262 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I29/I0/P0 = auLvs device Q729
+i 729 pmos 52 228 152 1 " m 1 l 180e-9 w 540e-9 "
+n 1267 /I28/I0/net016
+n 1270 /I28/I0/net9
+; nmos4 Instance /I28/I0/N3 = auLvs device Q730
+i 730 nmos 1267 246 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I28/I0/N2 = auLvs device Q731
+i 731 nmos 1270 291 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I28/I0/N1 = auLvs device Q732
+i 732 nmos 220 246 1270 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I28/I0/N0 = auLvs device Q733
+i 733 nmos 220 1267 291 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I28/I0/P3 = auLvs device Q734
+i 734 pmos 1267 246 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I28/I0/P2 = auLvs device Q735
+i 735 pmos 1270 291 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I28/I0/P1 = auLvs device Q736
+i 736 pmos 220 1267 1270 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I28/I0/P0 = auLvs device Q737
+i 737 pmos 220 246 291 1 " m 1 l 180e-9 w 540e-9 "
+n 1275 /I27/I0/net016
+n 1278 /I27/I0/net9
+; nmos4 Instance /I27/I0/N3 = auLvs device Q738
+i 738 nmos 1275 55 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I27/I0/N2 = auLvs device Q739
+i 739 nmos 1278 19 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I27/I0/N1 = auLvs device Q740
+i 740 nmos 356 55 1278 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I27/I0/N0 = auLvs device Q741
+i 741 nmos 356 1275 19 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I27/I0/P3 = auLvs device Q742
+i 742 pmos 1275 55 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I27/I0/P2 = auLvs device Q743
+i 743 pmos 1278 19 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I27/I0/P1 = auLvs device Q744
+i 744 pmos 356 1275 1278 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I27/I0/P0 = auLvs device Q745
+i 745 pmos 356 55 19 1 " m 1 l 180e-9 w 540e-9 "
+n 1283 /I26/I0/net016
+n 1286 /I26/I0/net9
+; nmos4 Instance /I26/I0/N3 = auLvs device Q746
+i 746 nmos 1283 4 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I26/I0/N2 = auLvs device Q747
+i 747 nmos 1286 169 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I26/I0/N1 = auLvs device Q748
+i 748 nmos 172 4 1286 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I26/I0/N0 = auLvs device Q749
+i 749 nmos 172 1283 169 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I26/I0/P3 = auLvs device Q750
+i 750 pmos 1283 4 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I26/I0/P2 = auLvs device Q751
+i 751 pmos 1286 169 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I26/I0/P1 = auLvs device Q752
+i 752 pmos 172 1283 1286 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I26/I0/P0 = auLvs device Q753
+i 753 pmos 172 4 169 1 " m 1 l 180e-9 w 540e-9 "
+n 1291 /I25/I0/net016
+n 1294 /I25/I0/net9
+; nmos4 Instance /I25/I0/N3 = auLvs device Q754
+i 754 nmos 1291 101 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I25/I0/N2 = auLvs device Q755
+i 755 nmos 1294 296 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I25/I0/N1 = auLvs device Q756
+i 756 nmos 217 101 1294 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I25/I0/N0 = auLvs device Q757
+i 757 nmos 217 1291 296 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I25/I0/P3 = auLvs device Q758
+i 758 pmos 1291 101 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I25/I0/P2 = auLvs device Q759
+i 759 pmos 1294 296 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I25/I0/P1 = auLvs device Q760
+i 760 pmos 217 1291 1294 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I25/I0/P0 = auLvs device Q761
+i 761 pmos 217 101 296 1 " m 1 l 180e-9 w 540e-9 "
+n 1299 /I24/I0/net016
+n 1302 /I24/I0/net9
+; nmos4 Instance /I24/I0/N3 = auLvs device Q762
+i 762 nmos 1299 247 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I24/I0/N2 = auLvs device Q763
+i 763 nmos 1302 162 0 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I24/I0/N1 = auLvs device Q764
+i 764 nmos 114 247 1302 0 " m 1 l 180e-9 w 270e-9 "
+; nmos4 Instance /I24/I0/N0 = auLvs device Q765
+i 765 nmos 114 1299 162 0 " m 1 l 180e-9 w 270e-9 "
+; pmos4 Instance /I24/I0/P3 = auLvs device Q766
+i 766 pmos 1299 247 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I24/I0/P2 = auLvs device Q767
+i 767 pmos 1302 162 1 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I24/I0/P1 = auLvs device Q768
+i 768 pmos 114 1299 1302 1 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I24/I0/P0 = auLvs device Q769
+i 769 pmos 114 247 162 1 " m 1 l 180e-9 w 540e-9 "
+n 1306 /I58/net5
+n 1308 /I58/net05
+; pmos4 Instance /I58/I3/P0 = auLvs device Q770
+i 770 pmos 227 1308 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I58/I3/N0 = auLvs device Q771
+i 771 nmos 227 1308 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I58/I2/P0 = auLvs device Q772
+i 772 pmos 1308 91 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I58/I2/N0 = auLvs device Q773
+i 773 nmos 1308 91 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I58/I1/P0 = auLvs device Q774
+i 774 pmos 95 1306 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I58/I1/N0 = auLvs device Q775
+i 775 nmos 95 1306 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I58/I0/P0 = auLvs device Q776
+i 776 pmos 1306 161 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I58/I0/N0 = auLvs device Q777
+i 777 nmos 1306 161 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1320 /I57/net5
+n 1322 /I57/net05
+; pmos4 Instance /I57/I3/P0 = auLvs device Q778
+i 778 pmos 59 1322 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I57/I3/N0 = auLvs device Q779
+i 779 nmos 59 1322 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I57/I2/P0 = auLvs device Q780
+i 780 pmos 1322 323 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I57/I2/N0 = auLvs device Q781
+i 781 nmos 1322 323 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I57/I1/P0 = auLvs device Q782
+i 782 pmos 278 1320 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I57/I1/N0 = auLvs device Q783
+i 783 nmos 278 1320 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I57/I0/P0 = auLvs device Q784
+i 784 pmos 1320 109 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I57/I0/N0 = auLvs device Q785
+i 785 nmos 1320 109 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1334 /I56/net5
+n 1336 /I56/net05
+; pmos4 Instance /I56/I3/P0 = auLvs device Q786
+i 786 pmos 19 1336 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I56/I3/N0 = auLvs device Q787
+i 787 nmos 19 1336 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I56/I2/P0 = auLvs device Q788
+i 788 pmos 1336 276 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I56/I2/N0 = auLvs device Q789
+i 789 nmos 1336 276 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I56/I1/P0 = auLvs device Q790
+i 790 pmos 340 1334 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I56/I1/N0 = auLvs device Q791
+i 791 nmos 340 1334 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I56/I0/P0 = auLvs device Q792
+i 792 pmos 1334 206 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I56/I0/N0 = auLvs device Q793
+i 793 nmos 1334 206 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1348 /I55/net5
+n 1350 /I55/net05
+; pmos4 Instance /I55/I3/P0 = auLvs device Q794
+i 794 pmos 169 1350 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I55/I3/N0 = auLvs device Q795
+i 795 nmos 169 1350 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I55/I2/P0 = auLvs device Q796
+i 796 pmos 1350 82 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I55/I2/N0 = auLvs device Q797
+i 797 nmos 1350 82 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I55/I1/P0 = auLvs device Q798
+i 798 pmos 351 1348 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I55/I1/N0 = auLvs device Q799
+i 799 nmos 351 1348 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I55/I0/P0 = auLvs device Q800
+i 800 pmos 1348 185 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I55/I0/N0 = auLvs device Q801
+i 801 nmos 1348 185 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1366 /I225/I3/net13
+n 1369 /I225/I3/net19
+; nmos4 Instance /I225/I3/N2 = auLvs device Q802
+i 802 nmos 303 212 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I225/I3/N0 = auLvs device Q803
+i 803 nmos 303 195 1366 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I225/I3/N1 = auLvs device Q804
+i 804 nmos 1366 76 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I225/I3/P2 = auLvs device Q805
+i 805 pmos 303 212 1369 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I225/I3/P1 = auLvs device Q806
+i 806 pmos 1369 76 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I225/I3/P0 = auLvs device Q807
+i 807 pmos 1369 195 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1375 /I225/I1/net12
+; nmos4 Instance /I225/I1/N1 = auLvs device Q808
+i 808 nmos 1375 128 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I225/I1/N0 = auLvs device Q809
+i 809 nmos 229 76 1375 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I225/I1/P1 = auLvs device Q810
+i 810 pmos 229 128 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I225/I1/P0 = auLvs device Q811
+i 811 pmos 229 76 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1384 /I224/I3/net13
+n 1387 /I224/I3/net19
+; nmos4 Instance /I224/I3/N2 = auLvs device Q812
+i 812 nmos 85 265 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I224/I3/N0 = auLvs device Q813
+i 813 nmos 85 255 1384 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I224/I3/N1 = auLvs device Q814
+i 814 nmos 1384 290 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I224/I3/P2 = auLvs device Q815
+i 815 pmos 85 265 1387 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I224/I3/P1 = auLvs device Q816
+i 816 pmos 1387 290 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I224/I3/P0 = auLvs device Q817
+i 817 pmos 1387 255 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1393 /I224/I1/net12
+; nmos4 Instance /I224/I1/N1 = auLvs device Q818
+i 818 nmos 1393 79 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I224/I1/N0 = auLvs device Q819
+i 819 nmos 133 290 1393 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I224/I1/P1 = auLvs device Q820
+i 820 pmos 133 79 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I224/I1/P0 = auLvs device Q821
+i 821 pmos 133 290 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1402 /I223/I3/net13
+n 1405 /I223/I3/net19
+; nmos4 Instance /I223/I3/N2 = auLvs device Q822
+i 822 nmos 319 195 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I223/I3/N0 = auLvs device Q823
+i 823 nmos 319 119 1402 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I223/I3/N1 = auLvs device Q824
+i 824 nmos 1402 128 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I223/I3/P2 = auLvs device Q825
+i 825 pmos 319 195 1405 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I223/I3/P1 = auLvs device Q826
+i 826 pmos 1405 128 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I223/I3/P0 = auLvs device Q827
+i 827 pmos 1405 119 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1411 /I223/I1/net12
+; nmos4 Instance /I223/I1/N1 = auLvs device Q828
+i 828 nmos 1411 71 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I223/I1/N0 = auLvs device Q829
+i 829 nmos 301 128 1411 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I223/I1/P1 = auLvs device Q830
+i 830 pmos 301 71 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I223/I1/P0 = auLvs device Q831
+i 831 pmos 301 128 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1420 /I222/I3/net13
+n 1423 /I222/I3/net19
+; nmos4 Instance /I222/I3/N2 = auLvs device Q832
+i 832 nmos 326 255 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I222/I3/N0 = auLvs device Q833
+i 833 nmos 326 100 1420 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I222/I3/N1 = auLvs device Q834
+i 834 nmos 1420 79 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I222/I3/P2 = auLvs device Q835
+i 835 pmos 326 255 1423 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I222/I3/P1 = auLvs device Q836
+i 836 pmos 1423 79 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I222/I3/P0 = auLvs device Q837
+i 837 pmos 1423 100 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1429 /I222/I1/net12
+; nmos4 Instance /I222/I1/N1 = auLvs device Q838
+i 838 nmos 1429 282 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I222/I1/N0 = auLvs device Q839
+i 839 nmos 155 79 1429 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I222/I1/P1 = auLvs device Q840
+i 840 pmos 155 282 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I222/I1/P0 = auLvs device Q841
+i 841 pmos 155 79 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1438 /I221/I3/net13
+n 1441 /I221/I3/net19
+; nmos4 Instance /I221/I3/N2 = auLvs device Q842
+i 842 nmos 73 267 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I221/I3/N0 = auLvs device Q843
+i 843 nmos 73 157 1438 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I221/I3/N1 = auLvs device Q844
+i 844 nmos 1438 97 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I221/I3/P2 = auLvs device Q845
+i 845 pmos 73 267 1441 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I221/I3/P1 = auLvs device Q846
+i 846 pmos 1441 97 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I221/I3/P0 = auLvs device Q847
+i 847 pmos 1441 157 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1447 /I221/I1/net12
+; nmos4 Instance /I221/I1/N1 = auLvs device Q848
+i 848 nmos 1447 57 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I221/I1/N0 = auLvs device Q849
+i 849 nmos 75 97 1447 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I221/I1/P1 = auLvs device Q850
+i 850 pmos 75 57 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I221/I1/P0 = auLvs device Q851
+i 851 pmos 75 97 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1456 /I220/I3/net13
+n 1459 /I220/I3/net19
+; nmos4 Instance /I220/I3/N2 = auLvs device Q852
+i 852 nmos 67 181 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I220/I3/N0 = auLvs device Q853
+i 853 nmos 67 219 1456 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I220/I3/N1 = auLvs device Q854
+i 854 nmos 1456 273 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I220/I3/P2 = auLvs device Q855
+i 855 pmos 67 181 1459 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I220/I3/P1 = auLvs device Q856
+i 856 pmos 1459 273 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I220/I3/P0 = auLvs device Q857
+i 857 pmos 1459 219 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1465 /I220/I1/net12
+; nmos4 Instance /I220/I1/N1 = auLvs device Q858
+i 858 nmos 1465 60 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I220/I1/N0 = auLvs device Q859
+i 859 nmos 306 273 1465 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I220/I1/P1 = auLvs device Q860
+i 860 pmos 306 60 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I220/I1/P0 = auLvs device Q861
+i 861 pmos 306 273 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1474 /I219/I3/net13
+n 1477 /I219/I3/net19
+; nmos4 Instance /I219/I3/N2 = auLvs device Q862
+i 862 nmos 88 100 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I219/I3/N0 = auLvs device Q863
+i 863 nmos 88 267 1474 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I219/I3/N1 = auLvs device Q864
+i 864 nmos 1474 282 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I219/I3/P2 = auLvs device Q865
+i 865 pmos 88 100 1477 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I219/I3/P1 = auLvs device Q866
+i 866 pmos 1477 282 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I219/I3/P0 = auLvs device Q867
+i 867 pmos 1477 267 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1483 /I219/I1/net12
+; nmos4 Instance /I219/I1/N1 = auLvs device Q868
+i 868 nmos 1483 97 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I219/I1/N0 = auLvs device Q869
+i 869 nmos 94 282 1483 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I219/I1/P1 = auLvs device Q870
+i 870 pmos 94 97 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I219/I1/P0 = auLvs device Q871
+i 871 pmos 94 282 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1492 /I218/I3/net13
+n 1495 /I218/I3/net19
+; nmos4 Instance /I218/I3/N2 = auLvs device Q872
+i 872 nmos 235 119 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I218/I3/N0 = auLvs device Q873
+i 873 nmos 235 181 1492 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I218/I3/N1 = auLvs device Q874
+i 874 nmos 1492 71 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I218/I3/P2 = auLvs device Q875
+i 875 pmos 235 119 1495 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I218/I3/P1 = auLvs device Q876
+i 876 pmos 1495 71 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I218/I3/P0 = auLvs device Q877
+i 877 pmos 1495 181 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1501 /I218/I1/net12
+; nmos4 Instance /I218/I1/N1 = auLvs device Q878
+i 878 nmos 1501 273 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I218/I1/N0 = auLvs device Q879
+i 879 nmos 203 71 1501 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I218/I1/P1 = auLvs device Q880
+i 880 pmos 203 273 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I218/I1/P0 = auLvs device Q881
+i 881 pmos 203 71 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1510 /I195/I3/net13
+n 1513 /I195/I3/net19
+; nmos4 Instance /I195/I3/N2 = auLvs device Q882
+i 882 nmos 137 132 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I195/I3/N0 = auLvs device Q883
+i 883 nmos 137 230 1510 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I195/I3/N1 = auLvs device Q884
+i 884 nmos 1510 245 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I195/I3/P2 = auLvs device Q885
+i 885 pmos 137 132 1513 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I195/I3/P1 = auLvs device Q886
+i 886 pmos 1513 245 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I195/I3/P0 = auLvs device Q887
+i 887 pmos 1513 230 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1519 /I195/I1/net12
+; nmos4 Instance /I195/I1/N1 = auLvs device Q888
+i 888 nmos 1519 150 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I195/I1/N0 = auLvs device Q889
+i 889 nmos 154 245 1519 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I195/I1/P1 = auLvs device Q890
+i 890 pmos 154 150 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I195/I1/P0 = auLvs device Q891
+i 891 pmos 154 245 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1528 /I196/I3/net13
+n 1531 /I196/I3/net19
+; nmos4 Instance /I196/I3/N2 = auLvs device Q892
+i 892 nmos 236 144 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I196/I3/N0 = auLvs device Q893
+i 893 nmos 236 311 1528 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I196/I3/N1 = auLvs device Q894
+i 894 nmos 1528 241 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I196/I3/P2 = auLvs device Q895
+i 895 pmos 236 144 1531 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I196/I3/P1 = auLvs device Q896
+i 896 pmos 1531 241 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I196/I3/P0 = auLvs device Q897
+i 897 pmos 1531 311 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1537 /I196/I1/net12
+; nmos4 Instance /I196/I1/N1 = auLvs device Q898
+i 898 nmos 1537 337 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I196/I1/N0 = auLvs device Q899
+i 899 nmos 116 241 1537 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I196/I1/P1 = auLvs device Q900
+i 900 pmos 116 337 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I196/I1/P0 = auLvs device Q901
+i 901 pmos 116 241 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1546 /I199/I3/net13
+n 1549 /I199/I3/net19
+; nmos4 Instance /I199/I3/N2 = auLvs device Q902
+i 902 nmos 139 53 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I199/I3/N0 = auLvs device Q903
+i 903 nmos 139 86 1546 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I199/I3/N1 = auLvs device Q904
+i 904 nmos 1546 298 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I199/I3/P2 = auLvs device Q905
+i 905 pmos 139 53 1549 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I199/I3/P1 = auLvs device Q906
+i 906 pmos 1549 298 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I199/I3/P0 = auLvs device Q907
+i 907 pmos 1549 86 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1555 /I199/I1/net12
+; nmos4 Instance /I199/I1/N1 = auLvs device Q908
+i 908 nmos 1555 138 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I199/I1/N0 = auLvs device Q909
+i 909 nmos 156 298 1555 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I199/I1/P1 = auLvs device Q910
+i 910 pmos 156 138 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I199/I1/P0 = auLvs device Q911
+i 911 pmos 156 298 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1564 /I200/I3/net13
+n 1567 /I200/I3/net19
+; nmos4 Instance /I200/I3/N2 = auLvs device Q912
+i 912 nmos 140 309 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I200/I3/N0 = auLvs device Q913
+i 913 nmos 140 316 1564 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I200/I3/N1 = auLvs device Q914
+i 914 nmos 1564 80 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I200/I3/P2 = auLvs device Q915
+i 915 pmos 140 309 1567 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I200/I3/P1 = auLvs device Q916
+i 916 pmos 1567 80 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I200/I3/P0 = auLvs device Q917
+i 917 pmos 1567 316 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1573 /I200/I1/net12
+; nmos4 Instance /I200/I1/N1 = auLvs device Q918
+i 918 nmos 1573 233 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I200/I1/N0 = auLvs device Q919
+i 919 nmos 103 80 1573 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I200/I1/P1 = auLvs device Q920
+i 920 pmos 103 233 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I200/I1/P0 = auLvs device Q921
+i 921 pmos 103 80 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1582 /I203/I3/net13
+n 1585 /I203/I3/net19
+; nmos4 Instance /I203/I3/N2 = auLvs device Q922
+i 922 nmos 141 204 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I203/I3/N0 = auLvs device Q923
+i 923 nmos 141 130 1582 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I203/I3/N1 = auLvs device Q924
+i 924 nmos 1582 102 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I203/I3/P2 = auLvs device Q925
+i 925 pmos 141 204 1585 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I203/I3/P1 = auLvs device Q926
+i 926 pmos 1585 102 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I203/I3/P0 = auLvs device Q927
+i 927 pmos 1585 130 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1591 /I203/I1/net12
+; nmos4 Instance /I203/I1/N1 = auLvs device Q928
+i 928 nmos 1591 214 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I203/I1/N0 = auLvs device Q929
+i 929 nmos 232 102 1591 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I203/I1/P1 = auLvs device Q930
+i 930 pmos 232 214 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I203/I1/P0 = auLvs device Q931
+i 931 pmos 232 102 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1600 /I204/I3/net13
+n 1603 /I204/I3/net19
+; nmos4 Instance /I204/I3/N2 = auLvs device Q932
+i 932 nmos 142 325 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I204/I3/N0 = auLvs device Q933
+i 933 nmos 142 180 1600 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I204/I3/N1 = auLvs device Q934
+i 934 nmos 1600 261 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I204/I3/P2 = auLvs device Q935
+i 935 pmos 142 325 1603 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I204/I3/P1 = auLvs device Q936
+i 936 pmos 1603 261 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I204/I3/P0 = auLvs device Q937
+i 937 pmos 1603 180 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1609 /I204/I1/net12
+; nmos4 Instance /I204/I1/N1 = auLvs device Q938
+i 938 nmos 1609 197 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I204/I1/N0 = auLvs device Q939
+i 939 nmos 253 261 1609 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I204/I1/P1 = auLvs device Q940
+i 940 pmos 253 197 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I204/I1/P0 = auLvs device Q941
+i 941 pmos 253 261 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1618 /I207/I3/net13
+n 1621 /I207/I3/net19
+; nmos4 Instance /I207/I3/N2 = auLvs device Q942
+i 942 nmos 66 136 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I207/I3/N0 = auLvs device Q943
+i 943 nmos 66 277 1618 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I207/I3/N1 = auLvs device Q944
+i 944 nmos 1618 300 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I207/I3/P2 = auLvs device Q945
+i 945 pmos 66 136 1621 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I207/I3/P1 = auLvs device Q946
+i 946 pmos 1621 300 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I207/I3/P0 = auLvs device Q947
+i 947 pmos 1621 277 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1627 /I207/I1/net12
+; nmos4 Instance /I207/I1/N1 = auLvs device Q948
+i 948 nmos 1627 249 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I207/I1/N0 = auLvs device Q949
+i 949 nmos 160 300 1627 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I207/I1/P1 = auLvs device Q950
+i 950 pmos 160 249 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I207/I1/P0 = auLvs device Q951
+i 951 pmos 160 300 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1636 /I208/I3/net13
+n 1639 /I208/I3/net19
+; nmos4 Instance /I208/I3/N2 = auLvs device Q952
+i 952 nmos 314 74 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I208/I3/N0 = auLvs device Q953
+i 953 nmos 314 31 1636 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I208/I3/N1 = auLvs device Q954
+i 954 nmos 1636 158 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I208/I3/P2 = auLvs device Q955
+i 955 pmos 314 74 1639 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I208/I3/P1 = auLvs device Q956
+i 956 pmos 1639 158 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I208/I3/P0 = auLvs device Q957
+i 957 pmos 1639 31 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1645 /I208/I1/net12
+; nmos4 Instance /I208/I1/N1 = auLvs device Q958
+i 958 nmos 1645 318 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I208/I1/N0 = auLvs device Q959
+i 959 nmos 120 158 1645 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I208/I1/P1 = auLvs device Q960
+i 960 pmos 120 318 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I208/I1/P0 = auLvs device Q961
+i 961 pmos 120 158 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1654 /I121/I3/net13
+n 1657 /I121/I3/net19
+; nmos4 Instance /I121/I3/N2 = auLvs device Q962
+i 962 nmos 72 61 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I121/I3/N0 = auLvs device Q963
+i 963 nmos 72 161 1654 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I121/I3/N1 = auLvs device Q964
+i 964 nmos 1654 32 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I121/I3/P2 = auLvs device Q965
+i 965 pmos 72 61 1657 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I121/I3/P1 = auLvs device Q966
+i 966 pmos 1657 32 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I121/I3/P0 = auLvs device Q967
+i 967 pmos 1657 161 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1663 /I121/I1/net12
+; nmos4 Instance /I121/I1/N1 = auLvs device Q968
+i 968 nmos 1663 91 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I121/I1/N0 = auLvs device Q969
+i 969 nmos 240 32 1663 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I121/I1/P1 = auLvs device Q970
+i 970 pmos 240 91 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I121/I1/P0 = auLvs device Q971
+i 971 pmos 240 32 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1672 /I120/I3/net13
+n 1675 /I120/I3/net19
+; nmos4 Instance /I120/I3/N2 = auLvs device Q972
+i 972 nmos 251 3 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I120/I3/N0 = auLvs device Q973
+i 973 nmos 251 109 1672 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I120/I3/N1 = auLvs device Q974
+i 974 nmos 1672 152 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I120/I3/P2 = auLvs device Q975
+i 975 pmos 251 3 1675 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I120/I3/P1 = auLvs device Q976
+i 976 pmos 1675 152 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I120/I3/P0 = auLvs device Q977
+i 977 pmos 1675 109 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1681 /I120/I1/net12
+; nmos4 Instance /I120/I1/N1 = auLvs device Q978
+i 978 nmos 1681 323 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I120/I1/N0 = auLvs device Q979
+i 979 nmos 147 152 1681 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I120/I1/P1 = auLvs device Q980
+i 980 pmos 147 323 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I120/I1/P0 = auLvs device Q981
+i 981 pmos 147 152 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1690 /I119/I3/net13
+n 1693 /I119/I3/net19
+; nmos4 Instance /I119/I3/N2 = auLvs device Q982
+i 982 nmos 50 45 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I119/I3/N0 = auLvs device Q983
+i 983 nmos 50 206 1690 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I119/I3/N1 = auLvs device Q984
+i 984 nmos 1690 291 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I119/I3/P2 = auLvs device Q985
+i 985 pmos 50 45 1693 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I119/I3/P1 = auLvs device Q986
+i 986 pmos 1693 291 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I119/I3/P0 = auLvs device Q987
+i 987 pmos 1693 206 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1699 /I119/I1/net12
+; nmos4 Instance /I119/I1/N1 = auLvs device Q988
+i 988 nmos 1699 276 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I119/I1/N0 = auLvs device Q989
+i 989 nmos 107 291 1699 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I119/I1/P1 = auLvs device Q990
+i 990 pmos 107 276 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I119/I1/P0 = auLvs device Q991
+i 991 pmos 107 291 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1708 /I118/I3/net13
+n 1711 /I118/I3/net19
+; nmos4 Instance /I118/I3/N2 = auLvs device Q992
+i 992 nmos 115 272 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I118/I3/N0 = auLvs device Q993
+i 993 nmos 115 185 1708 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I118/I3/N1 = auLvs device Q994
+i 994 nmos 1708 296 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I118/I3/P2 = auLvs device Q995
+i 995 pmos 115 272 1711 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I118/I3/P1 = auLvs device Q996
+i 996 pmos 1711 296 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I118/I3/P0 = auLvs device Q997
+i 997 pmos 1711 185 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1717 /I118/I1/net12
+; nmos4 Instance /I118/I1/N1 = auLvs device Q998
+i 998 nmos 1717 82 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I118/I1/N0 = auLvs device Q999
+i 999 nmos 190 296 1717 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I118/I1/P1 = auLvs device Q1000
+i 1000 pmos 190 82 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I118/I1/P0 = auLvs device Q1001
+i 1001 pmos 190 296 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1726 /I124/I3/net13
+n 1729 /I124/I3/net19
+; nmos4 Instance /I124/I3/N2 = auLvs device Q1002
+i 1002 nmos 131 168 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I124/I3/N0 = auLvs device Q1003
+i 1003 nmos 131 237 1726 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I124/I3/N1 = auLvs device Q1004
+i 1004 nmos 1726 205 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I124/I3/P2 = auLvs device Q1005
+i 1005 pmos 131 168 1729 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I124/I3/P1 = auLvs device Q1006
+i 1006 pmos 1729 205 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I124/I3/P0 = auLvs device Q1007
+i 1007 pmos 1729 237 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1735 /I124/I1/net12
+; nmos4 Instance /I124/I1/N1 = auLvs device Q1008
+i 1008 nmos 1735 271 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I124/I1/N0 = auLvs device Q1009
+i 1009 nmos 151 205 1735 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I124/I1/P1 = auLvs device Q1010
+i 1010 pmos 151 271 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I124/I1/P0 = auLvs device Q1011
+i 1011 pmos 151 205 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1744 /I123/I3/net13
+n 1747 /I123/I3/net19
+; nmos4 Instance /I123/I3/N2 = auLvs device Q1012
+i 1012 nmos 126 38 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I123/I3/N0 = auLvs device Q1013
+i 1013 nmos 126 153 1744 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I123/I3/N1 = auLvs device Q1014
+i 1014 nmos 1744 268 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I123/I3/P2 = auLvs device Q1015
+i 1015 pmos 126 38 1747 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I123/I3/P1 = auLvs device Q1016
+i 1016 pmos 1747 268 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I123/I3/P0 = auLvs device Q1017
+i 1017 pmos 1747 153 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1753 /I123/I1/net12
+; nmos4 Instance /I123/I1/N1 = auLvs device Q1018
+i 1018 nmos 1753 93 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I123/I1/N0 = auLvs device Q1019
+i 1019 nmos 98 268 1753 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I123/I1/P1 = auLvs device Q1020
+i 1020 pmos 98 93 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I123/I1/P0 = auLvs device Q1021
+i 1021 pmos 98 268 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1762 /I122/I3/net13
+n 1765 /I122/I3/net19
+; nmos4 Instance /I122/I3/N2 = auLvs device Q1022
+i 1022 nmos 187 258 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I122/I3/N0 = auLvs device Q1023
+i 1023 nmos 187 183 1762 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I122/I3/N1 = auLvs device Q1024
+i 1024 nmos 1762 313 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I122/I3/P2 = auLvs device Q1025
+i 1025 pmos 187 258 1765 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I122/I3/P1 = auLvs device Q1026
+i 1026 pmos 1765 313 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I122/I3/P0 = auLvs device Q1027
+i 1027 pmos 1765 183 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1771 /I122/I1/net12
+; nmos4 Instance /I122/I1/N1 = auLvs device Q1028
+i 1028 nmos 1771 200 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I122/I1/N0 = auLvs device Q1029
+i 1029 nmos 270 313 1771 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I122/I1/P1 = auLvs device Q1030
+i 1030 pmos 270 200 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I122/I1/P0 = auLvs device Q1031
+i 1031 pmos 270 313 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1780 /I131/I3/net13
+n 1783 /I131/I3/net19
+; nmos4 Instance /I131/I3/N2 = auLvs device Q1032
+i 1032 nmos 78 219 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I131/I3/N0 = auLvs device Q1033
+i 1033 nmos 78 159 1780 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I131/I3/N1 = auLvs device Q1034
+i 1034 nmos 1780 60 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I131/I3/P2 = auLvs device Q1035
+i 1035 pmos 78 219 1783 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I131/I3/P1 = auLvs device Q1036
+i 1036 pmos 1783 60 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I131/I3/P0 = auLvs device Q1037
+i 1037 pmos 1783 159 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1789 /I131/I1/net12
+; nmos4 Instance /I131/I1/N1 = auLvs device Q1038
+i 1038 nmos 1789 342 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I131/I1/N0 = auLvs device Q1039
+i 1039 nmos 254 60 1789 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I131/I1/P1 = auLvs device Q1040
+i 1040 pmos 254 342 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I131/I1/P0 = auLvs device Q1041
+i 1041 pmos 254 60 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1798 /I132/I3/net13
+n 1801 /I132/I3/net19
+; nmos4 Instance /I132/I3/N2 = auLvs device Q1042
+i 1042 nmos 124 157 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I132/I3/N0 = auLvs device Q1043
+i 1043 nmos 124 122 1798 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I132/I3/N1 = auLvs device Q1044
+i 1044 nmos 1798 57 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I132/I3/P2 = auLvs device Q1045
+i 1045 pmos 124 157 1801 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I132/I3/P1 = auLvs device Q1046
+i 1046 pmos 1801 57 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I132/I3/P0 = auLvs device Q1047
+i 1047 pmos 1801 122 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1807 /I132/I1/net12
+; nmos4 Instance /I132/I1/N1 = auLvs device Q1048
+i 1048 nmos 1807 96 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I132/I1/N0 = auLvs device Q1049
+i 1049 nmos 135 57 1807 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I132/I1/P1 = auLvs device Q1050
+i 1050 pmos 135 96 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I132/I1/P0 = auLvs device Q1051
+i 1051 pmos 135 57 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1816 /I133/I3/net13
+n 1819 /I133/I3/net19
+; nmos4 Instance /I133/I3/N2 = auLvs device Q1052
+i 1052 nmos 164 159 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I133/I3/N0 = auLvs device Q1053
+i 1053 nmos 164 194 1816 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I133/I3/N1 = auLvs device Q1054
+i 1054 nmos 1816 342 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I133/I3/P2 = auLvs device Q1055
+i 1055 pmos 164 159 1819 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I133/I3/P1 = auLvs device Q1056
+i 1056 pmos 1819 342 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I133/I3/P0 = auLvs device Q1057
+i 1057 pmos 1819 194 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1825 /I133/I1/net12
+; nmos4 Instance /I133/I1/N1 = auLvs device Q1058
+i 1058 nmos 1825 34 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I133/I1/N0 = auLvs device Q1059
+i 1059 nmos 146 342 1825 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I133/I1/P1 = auLvs device Q1060
+i 1060 pmos 146 34 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I133/I1/P0 = auLvs device Q1061
+i 1061 pmos 146 342 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1834 /I134/I3/net13
+n 1837 /I134/I3/net19
+; nmos4 Instance /I134/I3/N2 = auLvs device Q1062
+i 1062 nmos 15 122 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I134/I3/N0 = auLvs device Q1063
+i 1063 nmos 15 149 1834 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I134/I3/N1 = auLvs device Q1064
+i 1064 nmos 1834 96 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I134/I3/P2 = auLvs device Q1065
+i 1065 pmos 15 122 1837 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I134/I3/P1 = auLvs device Q1066
+i 1066 pmos 1837 96 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I134/I3/P0 = auLvs device Q1067
+i 1067 pmos 1837 149 1 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1843 /I134/I1/net12
+; nmos4 Instance /I134/I1/N1 = auLvs device Q1068
+i 1068 nmos 1843 274 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I134/I1/N0 = auLvs device Q1069
+i 1069 nmos 16 96 1843 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I134/I1/P1 = auLvs device Q1070
+i 1070 pmos 16 274 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I134/I1/P0 = auLvs device Q1071
+i 1071 pmos 16 96 1 1 " m 1 l 180e-9 w 720e-9 "
+n 1846 /I98/net5
+; pmos4 Instance /I98/I1/P0 = auLvs device Q1072
+i 1072 pmos 247 1846 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I98/I1/N0 = auLvs device Q1073
+i 1073 nmos 247 1846 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I98/I0/P0 = auLvs device Q1074
+i 1074 pmos 1846 281 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I98/I0/N0 = auLvs device Q1075
+i 1075 nmos 1846 281 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1852 /I108/net5
+n 1858 /I108/I0/net13
+n 1861 /I108/I0/net19
+; nmos4 Instance /I108/I0/N2 = auLvs device Q1076
+i 1076 nmos 1852 95 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I108/I0/N0 = auLvs device Q1077
+i 1077 nmos 1852 196 1858 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I108/I0/N1 = auLvs device Q1078
+i 1078 nmos 1858 227 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I108/I0/P2 = auLvs device Q1079
+i 1079 pmos 1852 95 1861 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I108/I0/P1 = auLvs device Q1080
+i 1080 pmos 1861 227 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I108/I0/P0 = auLvs device Q1081
+i 1081 pmos 1861 196 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I108/I1/P0 = auLvs device Q1082
+i 1082 pmos 113 1852 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I108/I1/N0 = auLvs device Q1083
+i 1083 nmos 113 1852 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1865 /I107/net5
+n 1871 /I107/I0/net13
+n 1874 /I107/I0/net19
+; nmos4 Instance /I107/I0/N2 = auLvs device Q1084
+i 1084 nmos 1865 278 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I107/I0/N0 = auLvs device Q1085
+i 1085 nmos 1865 312 1871 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I107/I0/N1 = auLvs device Q1086
+i 1086 nmos 1871 59 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I107/I0/P2 = auLvs device Q1087
+i 1087 pmos 1865 278 1874 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I107/I0/P1 = auLvs device Q1088
+i 1088 pmos 1874 59 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I107/I0/P0 = auLvs device Q1089
+i 1089 pmos 1874 312 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I107/I1/P0 = auLvs device Q1090
+i 1090 pmos 228 1865 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I107/I1/N0 = auLvs device Q1091
+i 1091 nmos 228 1865 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1878 /I106/net5
+n 1884 /I106/I0/net13
+n 1887 /I106/I0/net19
+; nmos4 Instance /I106/I0/N2 = auLvs device Q1092
+i 1092 nmos 1878 340 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I106/I0/N0 = auLvs device Q1093
+i 1093 nmos 1878 55 1884 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I106/I0/N1 = auLvs device Q1094
+i 1094 nmos 1884 19 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I106/I0/P2 = auLvs device Q1095
+i 1095 pmos 1878 340 1887 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I106/I0/P1 = auLvs device Q1096
+i 1096 pmos 1887 19 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I106/I0/P0 = auLvs device Q1097
+i 1097 pmos 1887 55 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I106/I1/P0 = auLvs device Q1098
+i 1098 pmos 246 1878 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I106/I1/N0 = auLvs device Q1099
+i 1099 nmos 246 1878 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1891 /I105/net5
+n 1897 /I105/I0/net13
+n 1900 /I105/I0/net19
+; nmos4 Instance /I105/I0/N2 = auLvs device Q1100
+i 1100 nmos 1891 351 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I105/I0/N0 = auLvs device Q1101
+i 1101 nmos 1891 4 1897 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I105/I0/N1 = auLvs device Q1102
+i 1102 nmos 1897 169 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I105/I0/P2 = auLvs device Q1103
+i 1103 pmos 1891 351 1900 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I105/I0/P1 = auLvs device Q1104
+i 1104 pmos 1900 169 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I105/I0/P0 = auLvs device Q1105
+i 1105 pmos 1900 4 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I105/I1/P0 = auLvs device Q1106
+i 1106 pmos 101 1891 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I105/I1/N0 = auLvs device Q1107
+i 1107 nmos 101 1891 0 0 " m 1 l 180e-9 w 540e-9 "
+n 1911 /I297/I2/net16
+n 1912 /I297/I2/net019
+; nmos4 Instance /I297/I2/N2 = auLvs device Q1108
+i 1108 nmos 10 108 1911 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I297/I2/N1 = auLvs device Q1109
+i 1109 nmos 1911 64 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I297/I2/N0 = auLvs device Q1110
+i 1110 nmos 1911 129 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I297/I2/P2 = auLvs device Q1111
+i 1111 pmos 10 108 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I297/I2/P1 = auLvs device Q1112
+i 1112 pmos 1912 129 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I297/I2/P0 = auLvs device Q1113
+i 1113 pmos 10 64 1912 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1921 /I296/I2/net16
+n 1922 /I296/I2/net019
+; nmos4 Instance /I296/I2/N2 = auLvs device Q1114
+i 1114 nmos 250 43 1921 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I296/I2/N1 = auLvs device Q1115
+i 1115 nmos 1921 7 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I296/I2/N0 = auLvs device Q1116
+i 1116 nmos 1921 320 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I296/I2/P2 = auLvs device Q1117
+i 1117 pmos 250 43 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I296/I2/P1 = auLvs device Q1118
+i 1118 pmos 1922 320 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I296/I2/P0 = auLvs device Q1119
+i 1119 pmos 250 7 1922 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1931 /I295/I2/net16
+n 1932 /I295/I2/net019
+; nmos4 Instance /I295/I2/N2 = auLvs device Q1120
+i 1120 nmos 297 201 1931 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I295/I2/N1 = auLvs device Q1121
+i 1121 nmos 1931 284 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I295/I2/N0 = auLvs device Q1122
+i 1122 nmos 1931 292 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I295/I2/P2 = auLvs device Q1123
+i 1123 pmos 297 201 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I295/I2/P1 = auLvs device Q1124
+i 1124 pmos 1932 292 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I295/I2/P0 = auLvs device Q1125
+i 1125 pmos 297 284 1932 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1941 /I294/I2/net16
+n 1942 /I294/I2/net019
+; nmos4 Instance /I294/I2/N2 = auLvs device Q1126
+i 1126 nmos 177 317 1941 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I294/I2/N1 = auLvs device Q1127
+i 1127 nmos 1941 327 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I294/I2/N0 = auLvs device Q1128
+i 1128 nmos 1941 145 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I294/I2/P2 = auLvs device Q1129
+i 1129 pmos 177 317 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I294/I2/P1 = auLvs device Q1130
+i 1130 pmos 1942 145 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I294/I2/P0 = auLvs device Q1131
+i 1131 pmos 177 327 1942 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1951 /I301/I2/net16
+n 1952 /I301/I2/net019
+; nmos4 Instance /I301/I2/N2 = auLvs device Q1132
+i 1132 nmos 279 198 1951 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I301/I2/N1 = auLvs device Q1133
+i 1133 nmos 1951 334 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I301/I2/N0 = auLvs device Q1134
+i 1134 nmos 1951 332 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I301/I2/P2 = auLvs device Q1135
+i 1135 pmos 279 198 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I301/I2/P1 = auLvs device Q1136
+i 1136 pmos 1952 332 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I301/I2/P0 = auLvs device Q1137
+i 1137 pmos 279 334 1952 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1961 /I300/I2/net16
+n 1962 /I300/I2/net019
+; nmos4 Instance /I300/I2/N2 = auLvs device Q1138
+i 1138 nmos 179 257 1961 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I300/I2/N1 = auLvs device Q1139
+i 1139 nmos 1961 37 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I300/I2/N0 = auLvs device Q1140
+i 1140 nmos 1961 256 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I300/I2/P2 = auLvs device Q1141
+i 1141 pmos 179 257 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I300/I2/P1 = auLvs device Q1142
+i 1142 pmos 1962 256 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I300/I2/P0 = auLvs device Q1143
+i 1143 pmos 179 37 1962 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1971 /I299/I2/net16
+n 1972 /I299/I2/net019
+; nmos4 Instance /I299/I2/N2 = auLvs device Q1144
+i 1144 nmos 58 328 1971 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I299/I2/N1 = auLvs device Q1145
+i 1145 nmos 1971 35 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I299/I2/N0 = auLvs device Q1146
+i 1146 nmos 1971 21 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I299/I2/P2 = auLvs device Q1147
+i 1147 pmos 58 328 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I299/I2/P1 = auLvs device Q1148
+i 1148 pmos 1972 21 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I299/I2/P0 = auLvs device Q1149
+i 1149 pmos 58 35 1972 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1981 /I298/I2/net16
+n 1982 /I298/I2/net019
+; nmos4 Instance /I298/I2/N2 = auLvs device Q1150
+i 1150 nmos 178 24 1981 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I298/I2/N1 = auLvs device Q1151
+i 1151 nmos 1981 48 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I298/I2/N0 = auLvs device Q1152
+i 1152 nmos 1981 22 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I298/I2/P2 = auLvs device Q1153
+i 1153 pmos 178 24 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I298/I2/P1 = auLvs device Q1154
+i 1154 pmos 1982 22 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I298/I2/P0 = auLvs device Q1155
+i 1155 pmos 178 48 1982 1 " m 1 l 180e-9 w 1.44e-6 "
+n 1991 /I116/I2/net16
+n 1992 /I116/I2/net019
+; nmos4 Instance /I116/I2/N2 = auLvs device Q1156
+i 1156 nmos 106 124 1991 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I116/I2/N1 = auLvs device Q1157
+i 1157 nmos 1991 135 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I116/I2/N0 = auLvs device Q1158
+i 1158 nmos 1991 293 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I116/I2/P2 = auLvs device Q1159
+i 1159 pmos 106 124 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I116/I2/P1 = auLvs device Q1160
+i 1160 pmos 1992 293 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I116/I2/P0 = auLvs device Q1161
+i 1161 pmos 106 135 1992 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2001 /I113/I2/net16
+n 2002 /I113/I2/net019
+; nmos4 Instance /I113/I2/N2 = auLvs device Q1162
+i 1162 nmos 299 115 2001 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I113/I2/N1 = auLvs device Q1163
+i 1163 nmos 2001 190 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I113/I2/N0 = auLvs device Q1164
+i 1164 nmos 2001 295 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I113/I2/P2 = auLvs device Q1165
+i 1165 pmos 299 115 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I113/I2/P1 = auLvs device Q1166
+i 1166 pmos 2002 295 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I113/I2/P0 = auLvs device Q1167
+i 1167 pmos 299 190 2002 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2011 /I114/I2/net16
+n 2012 /I114/I2/net019
+; nmos4 Instance /I114/I2/N2 = auLvs device Q1168
+i 1168 nmos 263 78 2011 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I114/I2/N1 = auLvs device Q1169
+i 1169 nmos 2011 254 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I114/I2/N0 = auLvs device Q1170
+i 1170 nmos 2011 242 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I114/I2/P2 = auLvs device Q1171
+i 1171 pmos 263 78 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I114/I2/P1 = auLvs device Q1172
+i 1172 pmos 2012 242 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I114/I2/P0 = auLvs device Q1173
+i 1173 pmos 263 254 2012 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2021 /I115/I2/net16
+n 2022 /I115/I2/net019
+; nmos4 Instance /I115/I2/N2 = auLvs device Q1174
+i 1174 nmos 184 164 2021 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I115/I2/N1 = auLvs device Q1175
+i 1175 nmos 2021 146 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I115/I2/N0 = auLvs device Q1176
+i 1176 nmos 2021 208 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I115/I2/P2 = auLvs device Q1177
+i 1177 pmos 184 164 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I115/I2/P1 = auLvs device Q1178
+i 1178 pmos 2022 208 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I115/I2/P0 = auLvs device Q1179
+i 1179 pmos 184 146 2022 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2031 /I302/I2/net16
+n 2032 /I302/I2/net019
+; nmos4 Instance /I302/I2/N2 = auLvs device Q1180
+i 1180 nmos 84 350 2031 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I302/I2/N1 = auLvs device Q1181
+i 1181 nmos 2031 349 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I302/I2/N0 = auLvs device Q1182
+i 1182 nmos 2031 18 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I302/I2/P2 = auLvs device Q1183
+i 1183 pmos 84 350 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I302/I2/P1 = auLvs device Q1184
+i 1184 pmos 2032 18 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I302/I2/P0 = auLvs device Q1185
+i 1185 pmos 84 349 2032 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2041 /I303/I2/net16
+n 2042 /I303/I2/net019
+; nmos4 Instance /I303/I2/N2 = auLvs device Q1186
+i 1186 nmos 2 39 2041 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I303/I2/N1 = auLvs device Q1187
+i 1187 nmos 2041 25 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I303/I2/N0 = auLvs device Q1188
+i 1188 nmos 2041 14 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I303/I2/P2 = auLvs device Q1189
+i 1189 pmos 2 39 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I303/I2/P1 = auLvs device Q1190
+i 1190 pmos 2042 14 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I303/I2/P0 = auLvs device Q1191
+i 1191 pmos 2 25 2042 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2051 /I304/I2/net16
+n 2052 /I304/I2/net019
+; nmos4 Instance /I304/I2/N2 = auLvs device Q1192
+i 1192 nmos 186 341 2051 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I304/I2/N1 = auLvs device Q1193
+i 1193 nmos 2051 28 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I304/I2/N0 = auLvs device Q1194
+i 1194 nmos 2051 199 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I304/I2/P2 = auLvs device Q1195
+i 1195 pmos 186 341 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I304/I2/P1 = auLvs device Q1196
+i 1196 pmos 2052 199 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I304/I2/P0 = auLvs device Q1197
+i 1197 pmos 186 28 2052 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2061 /I305/I2/net16
+n 2062 /I305/I2/net019
+; nmos4 Instance /I305/I2/N2 = auLvs device Q1198
+i 1198 nmos 170 336 2061 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I305/I2/N1 = auLvs device Q1199
+i 1199 nmos 2061 29 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I305/I2/N0 = auLvs device Q1200
+i 1200 nmos 2061 315 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I305/I2/P2 = auLvs device Q1201
+i 1201 pmos 170 336 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I305/I2/P1 = auLvs device Q1202
+i 1202 pmos 2062 315 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I305/I2/P0 = auLvs device Q1203
+i 1203 pmos 170 29 2062 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2071 /I117/I2/net16
+n 2072 /I117/I2/net019
+; nmos4 Instance /I117/I2/N2 = auLvs device Q1204
+i 1204 nmos 209 15 2071 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I117/I2/N1 = auLvs device Q1205
+i 1205 nmos 2071 16 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I117/I2/N0 = auLvs device Q1206
+i 1206 nmos 2071 8 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I117/I2/P2 = auLvs device Q1207
+i 1207 pmos 209 15 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I117/I2/P1 = auLvs device Q1208
+i 1208 pmos 2072 8 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I117/I2/P0 = auLvs device Q1209
+i 1209 pmos 209 16 2072 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2083 /I241/I2/net16
+n 2084 /I241/I2/net019
+; nmos4 Instance /I241/I2/N2 = auLvs device Q1210
+i 1210 nmos 65 73 2083 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I241/I2/N1 = auLvs device Q1211
+i 1211 nmos 2083 75 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I241/I2/N0 = auLvs device Q1212
+i 1212 nmos 2083 15 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I241/I2/P2 = auLvs device Q1213
+i 1213 pmos 65 73 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I241/I2/P1 = auLvs device Q1214
+i 1214 pmos 2084 15 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I241/I2/P0 = auLvs device Q1215
+i 1215 pmos 65 75 2084 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2088 /I241/I1/net012
+; nmos4 Instance /I241/I1/N1 = auLvs device Q1216
+i 1216 nmos 234 16 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I241/I1/N0 = auLvs device Q1217
+i 1217 nmos 234 75 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I241/I1/P1 = auLvs device Q1218
+i 1218 pmos 2088 75 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I241/I1/P0 = auLvs device Q1219
+i 1219 pmos 234 16 2088 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2099 /I240/I2/net16
+n 2100 /I240/I2/net019
+; nmos4 Instance /I240/I2/N2 = auLvs device Q1220
+i 1220 nmos 63 67 2099 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I240/I2/N1 = auLvs device Q1221
+i 1221 nmos 2099 306 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I240/I2/N0 = auLvs device Q1222
+i 1222 nmos 2099 164 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I240/I2/P2 = auLvs device Q1223
+i 1223 pmos 63 67 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I240/I2/P1 = auLvs device Q1224
+i 1224 pmos 2100 164 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I240/I2/P0 = auLvs device Q1225
+i 1225 pmos 63 306 2100 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2104 /I240/I1/net012
+; nmos4 Instance /I240/I1/N1 = auLvs device Q1226
+i 1226 nmos 322 146 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I240/I1/N0 = auLvs device Q1227
+i 1227 nmos 322 306 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I240/I1/P1 = auLvs device Q1228
+i 1228 pmos 2104 306 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I240/I1/P0 = auLvs device Q1229
+i 1229 pmos 322 146 2104 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2115 /I239/I2/net16
+n 2116 /I239/I2/net019
+; nmos4 Instance /I239/I2/N2 = auLvs device Q1230
+i 1230 nmos 248 88 2115 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I239/I2/N1 = auLvs device Q1231
+i 1231 nmos 2115 94 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I239/I2/N0 = auLvs device Q1232
+i 1232 nmos 2115 124 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I239/I2/P2 = auLvs device Q1233
+i 1233 pmos 248 88 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I239/I2/P1 = auLvs device Q1234
+i 1234 pmos 2116 124 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I239/I2/P0 = auLvs device Q1235
+i 1235 pmos 248 94 2116 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2120 /I239/I1/net012
+; nmos4 Instance /I239/I1/N1 = auLvs device Q1236
+i 1236 nmos 51 135 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I239/I1/N0 = auLvs device Q1237
+i 1237 nmos 51 94 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I239/I1/P1 = auLvs device Q1238
+i 1238 pmos 2120 94 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I239/I1/P0 = auLvs device Q1239
+i 1239 pmos 51 135 2120 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2131 /I238/I2/net16
+n 2132 /I238/I2/net019
+; nmos4 Instance /I238/I2/N2 = auLvs device Q1240
+i 1240 nmos 226 235 2131 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I238/I2/N1 = auLvs device Q1241
+i 1241 nmos 2131 203 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I238/I2/N0 = auLvs device Q1242
+i 1242 nmos 2131 78 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I238/I2/P2 = auLvs device Q1243
+i 1243 pmos 226 235 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I238/I2/P1 = auLvs device Q1244
+i 1244 pmos 2132 78 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I238/I2/P0 = auLvs device Q1245
+i 1245 pmos 226 203 2132 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2136 /I238/I1/net012
+; nmos4 Instance /I238/I1/N1 = auLvs device Q1246
+i 1246 nmos 280 254 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I238/I1/N0 = auLvs device Q1247
+i 1247 nmos 280 203 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I238/I1/P1 = auLvs device Q1248
+i 1248 pmos 2136 203 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I238/I1/P0 = auLvs device Q1249
+i 1249 pmos 280 254 2136 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2147 /I217/I2/net16
+n 2148 /I217/I2/net019
+; nmos4 Instance /I217/I2/N2 = auLvs device Q1250
+i 1250 nmos 212 314 2147 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I217/I2/N1 = auLvs device Q1251
+i 1251 nmos 2147 120 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I217/I2/N0 = auLvs device Q1252
+i 1252 nmos 2147 66 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I217/I2/P2 = auLvs device Q1253
+i 1253 pmos 212 314 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I217/I2/P1 = auLvs device Q1254
+i 1254 pmos 2148 66 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I217/I2/P0 = auLvs device Q1255
+i 1255 pmos 212 120 2148 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2152 /I217/I1/net012
+; nmos4 Instance /I217/I1/N1 = auLvs device Q1256
+i 1256 nmos 76 160 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I217/I1/N0 = auLvs device Q1257
+i 1257 nmos 76 120 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I217/I1/P1 = auLvs device Q1258
+i 1258 pmos 2152 120 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I217/I1/P0 = auLvs device Q1259
+i 1259 pmos 76 160 2152 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2163 /I216/I2/net16
+n 2164 /I216/I2/net019
+; nmos4 Instance /I216/I2/N2 = auLvs device Q1260
+i 1260 nmos 265 66 2163 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I216/I2/N1 = auLvs device Q1261
+i 1261 nmos 2163 160 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I216/I2/N0 = auLvs device Q1262
+i 1262 nmos 2163 142 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I216/I2/P2 = auLvs device Q1263
+i 1263 pmos 265 66 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I216/I2/P1 = auLvs device Q1264
+i 1264 pmos 2164 142 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I216/I2/P0 = auLvs device Q1265
+i 1265 pmos 265 160 2164 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2168 /I216/I1/net012
+; nmos4 Instance /I216/I1/N1 = auLvs device Q1266
+i 1266 nmos 290 253 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I216/I1/N0 = auLvs device Q1267
+i 1267 nmos 290 160 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I216/I1/P1 = auLvs device Q1268
+i 1268 pmos 2168 160 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I216/I1/P0 = auLvs device Q1269
+i 1269 pmos 290 253 2168 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2179 /I215/I2/net16
+n 2180 /I215/I2/net019
+; nmos4 Instance /I215/I2/N2 = auLvs device Q1270
+i 1270 nmos 195 142 2179 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I215/I2/N1 = auLvs device Q1271
+i 1271 nmos 2179 253 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I215/I2/N0 = auLvs device Q1272
+i 1272 nmos 2179 141 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I215/I2/P2 = auLvs device Q1273
+i 1273 pmos 195 142 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I215/I2/P1 = auLvs device Q1274
+i 1274 pmos 2180 141 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I215/I2/P0 = auLvs device Q1275
+i 1275 pmos 195 253 2180 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2184 /I215/I1/net012
+; nmos4 Instance /I215/I1/N1 = auLvs device Q1276
+i 1276 nmos 128 232 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I215/I1/N0 = auLvs device Q1277
+i 1277 nmos 128 253 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I215/I1/P1 = auLvs device Q1278
+i 1278 pmos 2184 253 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I215/I1/P0 = auLvs device Q1279
+i 1279 pmos 128 232 2184 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2195 /I214/I2/net16
+n 2196 /I214/I2/net019
+; nmos4 Instance /I214/I2/N2 = auLvs device Q1280
+i 1280 nmos 255 141 2195 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I214/I2/N1 = auLvs device Q1281
+i 1281 nmos 2195 232 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I214/I2/N0 = auLvs device Q1282
+i 1282 nmos 2195 140 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I214/I2/P2 = auLvs device Q1283
+i 1283 pmos 255 141 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I214/I2/P1 = auLvs device Q1284
+i 1284 pmos 2196 140 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I214/I2/P0 = auLvs device Q1285
+i 1285 pmos 255 232 2196 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2200 /I214/I1/net012
+; nmos4 Instance /I214/I1/N1 = auLvs device Q1286
+i 1286 nmos 79 103 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I214/I1/N0 = auLvs device Q1287
+i 1287 nmos 79 232 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I214/I1/P1 = auLvs device Q1288
+i 1288 pmos 2200 232 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I214/I1/P0 = auLvs device Q1289
+i 1289 pmos 79 103 2200 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2211 /I213/I2/net16
+n 2212 /I213/I2/net019
+; nmos4 Instance /I213/I2/N2 = auLvs device Q1290
+i 1290 nmos 119 140 2211 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I213/I2/N1 = auLvs device Q1291
+i 1291 nmos 2211 103 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I213/I2/N0 = auLvs device Q1292
+i 1292 nmos 2211 139 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I213/I2/P2 = auLvs device Q1293
+i 1293 pmos 119 140 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I213/I2/P1 = auLvs device Q1294
+i 1294 pmos 2212 139 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I213/I2/P0 = auLvs device Q1295
+i 1295 pmos 119 103 2212 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2216 /I213/I1/net012
+; nmos4 Instance /I213/I1/N1 = auLvs device Q1296
+i 1296 nmos 71 156 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I213/I1/N0 = auLvs device Q1297
+i 1297 nmos 71 103 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I213/I1/P1 = auLvs device Q1298
+i 1298 pmos 2216 103 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I213/I1/P0 = auLvs device Q1299
+i 1299 pmos 71 156 2216 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2227 /I212/I2/net16
+n 2228 /I212/I2/net019
+; nmos4 Instance /I212/I2/N2 = auLvs device Q1300
+i 1300 nmos 100 139 2227 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I212/I2/N1 = auLvs device Q1301
+i 1301 nmos 2227 156 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I212/I2/N0 = auLvs device Q1302
+i 1302 nmos 2227 236 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I212/I2/P2 = auLvs device Q1303
+i 1303 pmos 100 139 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I212/I2/P1 = auLvs device Q1304
+i 1304 pmos 2228 236 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I212/I2/P0 = auLvs device Q1305
+i 1305 pmos 100 156 2228 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2232 /I212/I1/net012
+; nmos4 Instance /I212/I1/N1 = auLvs device Q1306
+i 1306 nmos 282 116 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I212/I1/N0 = auLvs device Q1307
+i 1307 nmos 282 156 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I212/I1/P1 = auLvs device Q1308
+i 1308 pmos 2232 156 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I212/I1/P0 = auLvs device Q1309
+i 1309 pmos 282 116 2232 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2243 /I211/I2/net16
+n 2244 /I211/I2/net019
+; nmos4 Instance /I211/I2/N2 = auLvs device Q1310
+i 1310 nmos 181 236 2243 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I211/I2/N1 = auLvs device Q1311
+i 1311 nmos 2243 116 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I211/I2/N0 = auLvs device Q1312
+i 1312 nmos 2243 137 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I211/I2/P2 = auLvs device Q1313
+i 1313 pmos 181 236 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I211/I2/P1 = auLvs device Q1314
+i 1314 pmos 2244 137 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I211/I2/P0 = auLvs device Q1315
+i 1315 pmos 181 116 2244 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2248 /I211/I1/net012
+; nmos4 Instance /I211/I1/N1 = auLvs device Q1316
+i 1316 nmos 273 154 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I211/I1/N0 = auLvs device Q1317
+i 1317 nmos 273 116 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I211/I1/P1 = auLvs device Q1318
+i 1318 pmos 2248 116 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I211/I1/P0 = auLvs device Q1319
+i 1319 pmos 273 154 2248 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2259 /I210/I2/net16
+n 2260 /I210/I2/net019
+; nmos4 Instance /I210/I2/N2 = auLvs device Q1320
+i 1320 nmos 267 137 2259 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I210/I2/N1 = auLvs device Q1321
+i 1321 nmos 2259 154 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I210/I2/N0 = auLvs device Q1322
+i 1322 nmos 2259 131 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I210/I2/P2 = auLvs device Q1323
+i 1323 pmos 267 137 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I210/I2/P1 = auLvs device Q1324
+i 1324 pmos 2260 131 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I210/I2/P0 = auLvs device Q1325
+i 1325 pmos 267 154 2260 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2264 /I210/I1/net012
+; nmos4 Instance /I210/I1/N1 = auLvs device Q1326
+i 1326 nmos 97 151 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I210/I1/N0 = auLvs device Q1327
+i 1327 nmos 97 154 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I210/I1/P1 = auLvs device Q1328
+i 1328 pmos 2264 154 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I210/I1/P0 = auLvs device Q1329
+i 1329 pmos 97 151 2264 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2275 /I237/I2/net16
+n 2276 /I237/I2/net019
+; nmos4 Instance /I237/I2/N2 = auLvs device Q1330
+i 1330 nmos 207 326 2275 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I237/I2/N1 = auLvs device Q1331
+i 1331 nmos 2275 155 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I237/I2/N0 = auLvs device Q1332
+i 1332 nmos 2275 73 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I237/I2/P2 = auLvs device Q1333
+i 1333 pmos 207 326 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I237/I2/P1 = auLvs device Q1334
+i 1334 pmos 2276 73 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I237/I2/P0 = auLvs device Q1335
+i 1335 pmos 207 155 2276 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2280 /I237/I1/net012
+; nmos4 Instance /I237/I1/N1 = auLvs device Q1336
+i 1336 nmos 202 75 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I237/I1/N0 = auLvs device Q1337
+i 1337 nmos 202 155 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I237/I1/P1 = auLvs device Q1338
+i 1338 pmos 2280 155 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I237/I1/P0 = auLvs device Q1339
+i 1339 pmos 202 75 2280 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2291 /I236/I2/net16
+n 2292 /I236/I2/net019
+; nmos4 Instance /I236/I2/N2 = auLvs device Q1340
+i 1340 nmos 294 319 2291 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I236/I2/N1 = auLvs device Q1341
+i 1341 nmos 2291 301 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I236/I2/N0 = auLvs device Q1342
+i 1342 nmos 2291 67 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I236/I2/P2 = auLvs device Q1343
+i 1343 pmos 294 319 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I236/I2/P1 = auLvs device Q1344
+i 1344 pmos 2292 67 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I236/I2/P0 = auLvs device Q1345
+i 1345 pmos 294 301 2292 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2296 /I236/I1/net012
+; nmos4 Instance /I236/I1/N1 = auLvs device Q1346
+i 1346 nmos 259 306 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I236/I1/N0 = auLvs device Q1347
+i 1347 nmos 259 301 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I236/I1/P1 = auLvs device Q1348
+i 1348 pmos 2296 301 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I236/I1/P0 = auLvs device Q1349
+i 1349 pmos 259 306 2296 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2307 /I235/I2/net16
+n 2308 /I235/I2/net019
+; nmos4 Instance /I235/I2/N2 = auLvs device Q1350
+i 1350 nmos 148 85 2307 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I235/I2/N1 = auLvs device Q1351
+i 1351 nmos 2307 133 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I235/I2/N0 = auLvs device Q1352
+i 1352 nmos 2307 88 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I235/I2/P2 = auLvs device Q1353
+i 1353 pmos 148 85 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I235/I2/P1 = auLvs device Q1354
+i 1354 pmos 2308 88 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I235/I2/P0 = auLvs device Q1355
+i 1355 pmos 148 133 2308 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2312 /I235/I1/net012
+; nmos4 Instance /I235/I1/N1 = auLvs device Q1356
+i 1356 nmos 231 94 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I235/I1/N0 = auLvs device Q1357
+i 1357 nmos 231 133 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I235/I1/P1 = auLvs device Q1358
+i 1358 pmos 2312 133 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I235/I1/P0 = auLvs device Q1359
+i 1359 pmos 231 94 2312 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2323 /I234/I2/net16
+n 2324 /I234/I2/net019
+; nmos4 Instance /I234/I2/N2 = auLvs device Q1360
+i 1360 nmos 304 303 2323 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I234/I2/N1 = auLvs device Q1361
+i 1361 nmos 2323 229 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I234/I2/N0 = auLvs device Q1362
+i 1362 nmos 2323 235 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I234/I2/P2 = auLvs device Q1363
+i 1363 pmos 304 303 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I234/I2/P1 = auLvs device Q1364
+i 1364 pmos 2324 235 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I234/I2/P0 = auLvs device Q1365
+i 1365 pmos 304 229 2324 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2328 /I234/I1/net012
+; nmos4 Instance /I234/I1/N1 = auLvs device Q1366
+i 1366 nmos 339 203 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I234/I1/N0 = auLvs device Q1367
+i 1367 nmos 339 229 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I234/I1/P1 = auLvs device Q1368
+i 1368 pmos 2328 229 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I234/I1/P0 = auLvs device Q1369
+i 1369 pmos 339 203 2328 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2339 /I127/I2/net16
+n 2340 /I127/I2/net019
+; nmos4 Instance /I127/I2/N2 = auLvs device Q1370
+i 1370 nmos 122 72 2339 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I127/I2/N1 = auLvs device Q1371
+i 1371 nmos 2339 240 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I127/I2/N0 = auLvs device Q1372
+i 1372 nmos 2339 251 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I127/I2/P2 = auLvs device Q1373
+i 1373 pmos 122 72 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I127/I2/P1 = auLvs device Q1374
+i 1374 pmos 2340 251 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I127/I2/P0 = auLvs device Q1375
+i 1375 pmos 122 240 2340 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2344 /I127/I1/net012
+; nmos4 Instance /I127/I1/N1 = auLvs device Q1376
+i 1376 nmos 96 147 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I127/I1/N0 = auLvs device Q1377
+i 1377 nmos 96 240 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I127/I1/P1 = auLvs device Q1378
+i 1378 pmos 2344 240 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I127/I1/P0 = auLvs device Q1379
+i 1379 pmos 96 147 2344 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2355 /I126/I2/net16
+n 2356 /I126/I2/net019
+; nmos4 Instance /I126/I2/N2 = auLvs device Q1380
+i 1380 nmos 149 50 2355 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I126/I2/N1 = auLvs device Q1381
+i 1381 nmos 2355 107 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I126/I2/N0 = auLvs device Q1382
+i 1382 nmos 2355 115 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I126/I2/P2 = auLvs device Q1383
+i 1383 pmos 149 50 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I126/I2/P1 = auLvs device Q1384
+i 1384 pmos 2356 115 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I126/I2/P0 = auLvs device Q1385
+i 1385 pmos 149 107 2356 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2360 /I126/I1/net012
+; nmos4 Instance /I126/I1/N1 = auLvs device Q1386
+i 1386 nmos 274 190 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I126/I1/N0 = auLvs device Q1387
+i 1387 nmos 274 107 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I126/I1/P1 = auLvs device Q1388
+i 1388 pmos 2360 107 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I126/I1/P0 = auLvs device Q1389
+i 1389 pmos 274 190 2360 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2371 /I125/I2/net16
+n 2372 /I125/I2/net019
+; nmos4 Instance /I125/I2/N2 = auLvs device Q1390
+i 1390 nmos 194 251 2371 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I125/I2/N1 = auLvs device Q1391
+i 1391 nmos 2371 147 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I125/I2/N0 = auLvs device Q1392
+i 1392 nmos 2371 50 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I125/I2/P2 = auLvs device Q1393
+i 1393 pmos 194 251 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I125/I2/P1 = auLvs device Q1394
+i 1394 pmos 2372 50 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I125/I2/P0 = auLvs device Q1395
+i 1395 pmos 194 147 2372 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2376 /I125/I1/net012
+; nmos4 Instance /I125/I1/N1 = auLvs device Q1396
+i 1396 nmos 34 107 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I125/I1/N0 = auLvs device Q1397
+i 1397 nmos 34 147 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I125/I1/P1 = auLvs device Q1398
+i 1398 pmos 2376 147 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I125/I1/P0 = auLvs device Q1399
+i 1399 pmos 34 107 2376 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2387 /I128/I2/net16
+n 2388 /I128/I2/net019
+; nmos4 Instance /I128/I2/N2 = auLvs device Q1400
+i 1400 nmos 159 187 2387 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I128/I2/N1 = auLvs device Q1401
+i 1401 nmos 2387 270 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I128/I2/N0 = auLvs device Q1402
+i 1402 nmos 2387 72 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I128/I2/P2 = auLvs device Q1403
+i 1403 pmos 159 187 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I128/I2/P1 = auLvs device Q1404
+i 1404 pmos 2388 72 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I128/I2/P0 = auLvs device Q1405
+i 1405 pmos 159 270 2388 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2392 /I128/I1/net012
+; nmos4 Instance /I128/I1/N1 = auLvs device Q1406
+i 1406 nmos 342 240 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I128/I1/N0 = auLvs device Q1407
+i 1407 nmos 342 270 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I128/I1/P1 = auLvs device Q1408
+i 1408 pmos 2392 270 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I128/I1/P0 = auLvs device Q1409
+i 1409 pmos 342 240 2392 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2403 /I129/I2/net16
+n 2404 /I129/I2/net019
+; nmos4 Instance /I129/I2/N2 = auLvs device Q1410
+i 1410 nmos 157 126 2403 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I129/I2/N1 = auLvs device Q1411
+i 1411 nmos 2403 98 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I129/I2/N0 = auLvs device Q1412
+i 1412 nmos 2403 187 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I129/I2/P2 = auLvs device Q1413
+i 1413 pmos 157 126 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I129/I2/P1 = auLvs device Q1414
+i 1414 pmos 2404 187 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I129/I2/P0 = auLvs device Q1415
+i 1415 pmos 157 98 2404 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2408 /I129/I1/net012
+; nmos4 Instance /I129/I1/N1 = auLvs device Q1416
+i 1416 nmos 57 270 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I129/I1/N0 = auLvs device Q1417
+i 1417 nmos 57 98 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I129/I1/P1 = auLvs device Q1418
+i 1418 pmos 2408 98 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I129/I1/P0 = auLvs device Q1419
+i 1419 pmos 57 270 2408 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2419 /I130/I2/net16
+n 2420 /I130/I2/net019
+; nmos4 Instance /I130/I2/N2 = auLvs device Q1420
+i 1420 nmos 219 131 2419 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I130/I2/N1 = auLvs device Q1421
+i 1421 nmos 2419 151 0 0 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I130/I2/N0 = auLvs device Q1422
+i 1422 nmos 2419 126 0 0 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I130/I2/P2 = auLvs device Q1423
+i 1423 pmos 219 131 1 1 " m 1 l 180e-9 w 720e-9 "
+; pmos4 Instance /I130/I2/P1 = auLvs device Q1424
+i 1424 pmos 2420 126 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I130/I2/P0 = auLvs device Q1425
+i 1425 pmos 219 151 2420 1 " m 1 l 180e-9 w 1.44e-6 "
+n 2424 /I130/I1/net012
+; nmos4 Instance /I130/I1/N1 = auLvs device Q1426
+i 1426 nmos 60 98 0 0 " m 1 l 180e-9 w 360e-9 "
+; nmos4 Instance /I130/I1/N0 = auLvs device Q1427
+i 1427 nmos 60 151 0 0 " m 1 l 180e-9 w 360e-9 "
+; pmos4 Instance /I130/I1/P1 = auLvs device Q1428
+i 1428 pmos 2424 151 1 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I130/I1/P0 = auLvs device Q1429
+i 1429 pmos 60 98 2424 1 " m 1 l 180e-9 w 1.44e-6 "
+; pmos4 Instance /I317/P0 = auLvs device Q1430
+i 1430 pmos 307 29 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I317/N0 = auLvs device Q1431
+i 1431 nmos 307 29 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I316/P0 = auLvs device Q1432
+i 1432 pmos 189 28 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I316/N0 = auLvs device Q1433
+i 1433 nmos 189 28 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I315/P0 = auLvs device Q1434
+i 1434 pmos 244 25 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I315/N0 = auLvs device Q1435
+i 1435 nmos 244 25 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I314/P0 = auLvs device Q1436
+i 1436 pmos 331 349 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I314/N0 = auLvs device Q1437
+i 1437 nmos 331 349 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I313/P0 = auLvs device Q1438
+i 1438 pmos 286 334 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I313/N0 = auLvs device Q1439
+i 1439 nmos 286 334 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I312/P0 = auLvs device Q1440
+i 1440 pmos 264 37 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I312/N0 = auLvs device Q1441
+i 1441 nmos 264 37 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I311/P0 = auLvs device Q1442
+i 1442 pmos 338 35 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I311/N0 = auLvs device Q1443
+i 1443 nmos 338 35 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I310/P0 = auLvs device Q1444
+i 1444 pmos 215 48 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I310/N0 = auLvs device Q1445
+i 1445 nmos 215 48 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I309/P0 = auLvs device Q1446
+i 1446 pmos 302 284 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I309/N0 = auLvs device Q1447
+i 1447 nmos 302 284 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I308/P0 = auLvs device Q1448
+i 1448 pmos 111 327 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I308/N0 = auLvs device Q1449
+i 1449 nmos 111 327 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I307/P0 = auLvs device Q1450
+i 1450 pmos 81 7 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I307/N0 = auLvs device Q1451
+i 1451 nmos 81 7 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I306/P0 = auLvs device Q1452
+i 1452 pmos 167 64 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I306/N0 = auLvs device Q1453
+i 1453 nmos 167 64 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I270/P0 = auLvs device Q1454
+i 1454 pmos 292 209 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I270/N0 = auLvs device Q1455
+i 1455 nmos 292 209 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I269/P0 = auLvs device Q1456
+i 1456 pmos 145 184 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I269/N0 = auLvs device Q1457
+i 1457 nmos 145 184 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I268/P0 = auLvs device Q1458
+i 1458 pmos 320 106 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I268/N0 = auLvs device Q1459
+i 1459 nmos 320 106 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I267/P0 = auLvs device Q1460
+i 1460 pmos 129 263 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I267/N0 = auLvs device Q1461
+i 1461 nmos 129 263 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I275/P0 = auLvs device Q1462
+i 1462 pmos 211 199 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I275/N0 = auLvs device Q1463
+i 1463 nmos 211 199 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I274/P0 = auLvs device Q1464
+i 1464 pmos 62 14 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I274/N0 = auLvs device Q1465
+i 1465 nmos 62 14 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I272/P0 = auLvs device Q1466
+i 1466 pmos 329 256 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I272/N0 = auLvs device Q1467
+i 1467 nmos 329 256 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I273/P0 = auLvs device Q1468
+i 1468 pmos 252 18 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I273/N0 = auLvs device Q1469
+i 1469 nmos 252 18 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I266/P0 = auLvs device Q1470
+i 1470 pmos 127 22 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I266/N0 = auLvs device Q1471
+i 1471 nmos 127 22 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I277/P0 = auLvs device Q1472
+i 1472 pmos 275 21 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I277/N0 = auLvs device Q1473
+i 1473 nmos 275 21 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I276/P0 = auLvs device Q1474
+i 1474 pmos 123 315 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I276/N0 = auLvs device Q1475
+i 1475 nmos 123 315 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I271/P0 = auLvs device Q1476
+i 1476 pmos 330 332 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I271/N0 = auLvs device Q1477
+i 1477 nmos 330 332 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I139/P0 = auLvs device Q1478
+i 1478 pmos 55 208 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I139/N0 = auLvs device Q1479
+i 1479 nmos 55 208 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I137/P0 = auLvs device Q1480
+i 1480 pmos 4 8 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I137/N0 = auLvs device Q1481
+i 1481 nmos 4 8 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I136/P0 = auLvs device Q1482
+i 1482 pmos 8 310 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I136/N0 = auLvs device Q1483
+i 1483 nmos 8 310 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I135/P0 = auLvs device Q1484
+i 1484 pmos 310 295 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I135/N0 = auLvs device Q1485
+i 1485 nmos 310 295 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I279/P0 = auLvs device Q1486
+i 1486 pmos 243 320 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I279/N0 = auLvs device Q1487
+i 1487 nmos 243 320 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I281/P0 = auLvs device Q1488
+i 1488 pmos 225 292 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I281/N0 = auLvs device Q1489
+i 1489 nmos 225 292 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I280/P0 = auLvs device Q1490
+i 1490 pmos 210 145 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I280/N0 = auLvs device Q1491
+i 1491 nmos 210 145 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I278/P0 = auLvs device Q1492
+i 1492 pmos 121 129 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I278/N0 = auLvs device Q1493
+i 1493 nmos 121 129 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I141/P0 = auLvs device Q1494
+i 1494 pmos 196 242 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I141/N0 = auLvs device Q1495
+i 1495 nmos 196 242 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I140/P0 = auLvs device Q1496
+i 1496 pmos 312 293 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I140/N0 = auLvs device Q1497
+i 1497 nmos 312 293 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I138/P0 = auLvs device Q1498
+i 1498 pmos 208 299 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I138/N0 = auLvs device Q1499
+i 1499 nmos 208 299 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I289/I2/P0 = auLvs device Q1500
+i 1500 pmos 24 311 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I289/I2/N0 = auLvs device Q1501
+i 1501 nmos 24 311 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I289/I3/P0 = auLvs device Q1502
+i 1502 pmos 48 337 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I289/I3/N0 = auLvs device Q1503
+i 1503 nmos 48 337 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I288/I2/P0 = auLvs device Q1504
+i 1504 pmos 328 86 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I288/I2/N0 = auLvs device Q1505
+i 1505 nmos 328 86 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I288/I3/P0 = auLvs device Q1506
+i 1506 pmos 35 138 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I288/I3/N0 = auLvs device Q1507
+i 1507 nmos 35 138 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I287/I2/P0 = auLvs device Q1508
+i 1508 pmos 257 316 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I287/I2/N0 = auLvs device Q1509
+i 1509 nmos 257 316 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I287/I3/P0 = auLvs device Q1510
+i 1510 pmos 37 233 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I287/I3/N0 = auLvs device Q1511
+i 1511 nmos 37 233 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I286/I2/P0 = auLvs device Q1512
+i 1512 pmos 198 130 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I286/I2/N0 = auLvs device Q1513
+i 1513 nmos 198 130 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I286/I3/P0 = auLvs device Q1514
+i 1514 pmos 334 214 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I286/I3/N0 = auLvs device Q1515
+i 1515 nmos 334 214 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I285/I2/P0 = auLvs device Q1516
+i 1516 pmos 350 180 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I285/I2/N0 = auLvs device Q1517
+i 1517 nmos 350 180 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I285/I3/P0 = auLvs device Q1518
+i 1518 pmos 349 197 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I285/I3/N0 = auLvs device Q1519
+i 1519 nmos 349 197 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I284/I2/P0 = auLvs device Q1520
+i 1520 pmos 39 277 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I284/I2/N0 = auLvs device Q1521
+i 1521 nmos 39 277 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I284/I3/P0 = auLvs device Q1522
+i 1522 pmos 25 249 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I284/I3/N0 = auLvs device Q1523
+i 1523 nmos 25 249 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I283/I2/P0 = auLvs device Q1524
+i 1524 pmos 341 31 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I283/I2/N0 = auLvs device Q1525
+i 1525 nmos 341 31 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I283/I3/P0 = auLvs device Q1526
+i 1526 pmos 28 318 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I283/I3/N0 = auLvs device Q1527
+i 1527 nmos 28 318 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I282/I2/P0 = auLvs device Q1528
+i 1528 pmos 336 321 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I282/I2/N0 = auLvs device Q1529
+i 1529 nmos 336 321 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I282/I3/P0 = auLvs device Q1530
+i 1530 pmos 29 69 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I282/I3/N0 = auLvs device Q1531
+i 1531 nmos 29 69 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I291/I2/P0 = auLvs device Q1532
+i 1532 pmos 43 237 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I291/I2/N0 = auLvs device Q1533
+i 1533 nmos 43 237 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I291/I3/P0 = auLvs device Q1534
+i 1534 pmos 7 271 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I291/I3/N0 = auLvs device Q1535
+i 1535 nmos 7 271 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I292/I2/P0 = auLvs device Q1536
+i 1536 pmos 317 153 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I292/I2/N0 = auLvs device Q1537
+i 1537 nmos 317 153 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I292/I3/P0 = auLvs device Q1538
+i 1538 pmos 327 93 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I292/I3/N0 = auLvs device Q1539
+i 1539 nmos 327 93 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I293/I2/P0 = auLvs device Q1540
+i 1540 pmos 201 183 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I293/I2/N0 = auLvs device Q1541
+i 1541 nmos 201 183 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I293/I3/P0 = auLvs device Q1542
+i 1542 pmos 284 200 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I293/I3/N0 = auLvs device Q1543
+i 1543 nmos 284 200 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I290/I2/P0 = auLvs device Q1544
+i 1544 pmos 108 230 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I290/I2/N0 = auLvs device Q1545
+i 1545 nmos 108 230 0 0 " m 1 l 180e-9 w 540e-9 "
+; pmos4 Instance /I290/I3/P0 = auLvs device Q1546
+i 1546 pmos 64 150 1 1 " m 1 l 180e-9 w 720e-9 "
+; nmos4 Instance /I290/I3/N0 = auLvs device Q1547
+i 1547 nmos 64 150 0 0 " m 1 l 180e-9 w 540e-9 "
 t 0 gnd! global
 t 1 vdd! global
