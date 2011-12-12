@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - Adder_32bit_nlogic, View - schematic
-// LAST TIME SAVED: Dec  2 17:51:12 2011
-// NETLIST TIME: Dec  2 17:51:24 2011
+// LAST TIME SAVED: Dec 11 16:30:22 2011
+// NETLIST TIME: Dec 11 16:33:34 2011
 `timescale 1ns / 1ns 
 
 module Adder_32bit_nlogic ( Cout, S0, S1, S2, S3, S4, S5, S6, S7, S8,
@@ -171,7 +171,7 @@ n_GREY_CELL I115 ( net159, net248, net0113, net249);
 n_GREY_CELL I302 ( net0422, net0430, net0251, net0238);
 n_GREY_CELL I303 ( net0421, net0431, net0254, net0246);
 n_GREY_CELL I304 ( net0408, net0432, net0507, net0245);
-n_GREY_CELL I305 ( Cout, net0433, net0505, net0244);
+n_GREY_CELL I305 ( net0542, net0433, net0505, net0244);
 n_GREY_CELL I117 ( net158, net251, net0114, net250);
 n_BLACK_CELL I241 ( net0221, net0446, net0215, net251, net0213,
      net250);
@@ -211,6 +211,7 @@ n_BLACK_CELL I125 ( net145, net142, net133, net134, net127, net128);
 n_BLACK_CELL I128 ( net144, net141, net131, net132, net125, net126);
 n_BLACK_CELL I129 ( net254, net255, net130, net131, net124, net125);
 n_BLACK_CELL I130 ( net253, net252, net256, net130, net257, net124);
+INV_540_270 I319 ( Cout, net0567);
 INV_540_270 I317 ( net0556, net0244);
 INV_540_270 I316 ( net0449, net0245);
 INV_540_270 I315 ( net0450, net0246);
@@ -258,5 +259,6 @@ INV_2bit_540_270 I291 ( net236, net156, net260, net116);
 INV_2bit_540_270 I292 ( net237, net157, net261, net117);
 INV_2bit_540_270 I293 ( net238, net155, net262, net118);
 INV_2bit_540_270 I290 ( net0190, net0222, net259, net119);
+AND_OR_NOT I320 ( net0567, net0420, net0556, net0542);
 
 endmodule

@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - NAND, View - schematic
 // LAST TIME SAVED: Oct  3 17:57:02 2011
-// NETLIST TIME: Dec  1 16:12:42 2011
+// NETLIST TIME: Dec  1 20:41:23 2011
 `timescale 1ns / 1ns 
 
 module NAND ( OUT, IN1, IN2 );

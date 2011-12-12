@@ -22,30 +22,55 @@ Adder_32bit_nlogic DUT ( .Cout(Cout),
                   .B24(B[24]), .B25(B[25]), .B26(B[26]), .B27(B[27]), .B28(B[28]), .B29(B[29]), .B30(B[30]), .B31(B[31]),
                   .Cin(Cin));
   
-wire [31:0] S_TEST = (A + B + Cin);                
-wire ERROR =  S_TEST != S;
+wire [32:0] S_TEST = ({1'b0, A} + {1'b0, B} + Cin);                
+wire ERROR =  {Cout, S} != S_TEST;
 
 initial begin
-  Cin = 1'b0;
-  for(A = 65535; A < 66535; A = A + 1) begin
-    for(B = 65535; B < 66535; B = B + 1) begin
+  // Test Middle range of numbers
+  for(A = 65530; A < 66000; A = A + 1) begin
+    for(B = 65530; B < 66000; B = B + 1) begin
+      Cin = 1'b1;
       #100;
-      if(ERROR)
-        $display("Error: A(%d) + B(%d) + Cin(%d) == (%d) != s(%d)", A, B, Cin, S_TEST, S);
+      Cin = 1'b0;
+      #100;
     end
   end
   
-  #100;
-  Cin = 1'b1;
+  // Test lower range of numbers
   for(A = 0; A < 1000; A = A + 1) begin
     for(B = 0; B < 1000; B = B + 1) begin
+      Cin = 1'b1;
       #100;
-      if(ERROR)
-        $display("Error: A(%d) + B(%d) + Cin(%d) == %d != s(%d)", A, B, Cin, S_TEST, S);
+      Cin = 1'b0;
+      #100;
     end
   end
-  #100;
+
+  // Test largest/negative range of numbers
+  for(A = -1; A > -500; A = A - 1) begin
+    for(B = -1; B > -500; B = B - 1) begin
+      Cin = 1'b1;
+      #100;
+      Cin = 1'b0;
+      #100;
+    end
+  end
+
+  // Test negative and positive of numbers
+  for(A = 1; A < 500; A = A + 1) begin
+    for(B = -1; B > -500; B = B - 1) begin
+      Cin = 1'b1;
+      #100;
+      Cin = 1'b0;
+      #100;
+    end
+  end
+
   $stop;
+end
+
+always @(posedge ERROR) begin
+    $display("Error: A(%d) + B(%d) + Cin(%d) == %d != s(%d)", A, B, Cin, S_TEST, S);
 end
 
 endmodule

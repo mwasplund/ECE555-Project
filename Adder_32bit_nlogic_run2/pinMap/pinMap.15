@@ -1,0 +1,7 @@
+(pinMap
+    mapRefList (
+    ("I1" ("ECE555/NOR/schematic" "pinMap.14"))
+    ("I2" ("ECE555/OR_AND_NOT/schematic" "pinMap.12"))
+    )
+    isImportingHdl    nil
+)

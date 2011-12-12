@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - Buffer_1bit, View - schematic
 // LAST TIME SAVED: Nov 30 18:05:44 2011
-// NETLIST TIME: Dec  1 16:12:42 2011
+// NETLIST TIME: Dec  1 20:41:24 2011
 `timescale 1ns / 1ns 
 
 module Buffer_1bit ( OUT, IN );

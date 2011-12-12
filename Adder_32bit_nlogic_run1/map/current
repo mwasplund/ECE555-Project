@@ -8,7 +8,7 @@
   hierDelim "."
   hierPrefix "test.top"
   globalHierPrefix "cds_globals."
-  netlistDir "/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Adder_32bit_nlogic_run1"
+  netlistDir "/filespace/people/a/asplund/ECE555/cadence/Project/Adder_32bit_nlogic_run1"
   busRef   "ORDERED"
   netType   "BUS"
   leftStr  "["
