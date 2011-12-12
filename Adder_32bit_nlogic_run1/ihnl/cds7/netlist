@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - Buffer, View - schematic
 // LAST TIME SAVED: Nov 30 17:54:36 2011
-// NETLIST TIME: Dec  1 21:29:15 2011
+// NETLIST TIME: Dec 11 15:00:12 2011
 `timescale 1ns / 1ns 
 
 module Buffer ( OUT0, OUT1, IN0, IN1 );

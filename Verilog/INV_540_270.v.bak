@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - INV_540_270, View - schematic
 // LAST TIME SAVED: Oct 31 20:06:22 2011
-// NETLIST TIME: Dec  1 16:12:42 2011
+// NETLIST TIME: Dec  1 20:41:23 2011
 `timescale 1ns / 1ns 
 
 module INV_540_270 ( OUT, IN );

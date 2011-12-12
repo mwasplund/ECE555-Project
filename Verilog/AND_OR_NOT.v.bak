@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - AND_OR_NOT, View - schematic
 // LAST TIME SAVED: Nov 28 18:43:18 2011
-// NETLIST TIME: Dec  1 16:12:42 2011
+// NETLIST TIME: Dec  1 20:41:24 2011
 `timescale 1ns / 1ns 
 
 module AND_OR_NOT ( OUT, IN1, IN2, IN3 );

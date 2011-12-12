@@ -1,24 +1,52 @@
+si: simSetDef().... simHost is initialized to "localhost" .
 si: simSetDef().... simLoginName is initialized to "asplund" .
 si: simSetDef().... simHostDiffers is initialized to "nil".
 si: simSetDef().... simInteractiveSimulatorList is initialized to ("verilog") .
-si: simSetDef().... simPostAnalysisProcessingFunc is already set to
-vlogifPostBatchJobMessage. Redefinition to nil is ignored.
+si: simSetDef().... simPostAnalysisProcessingFunc is initialized to "nil".
 si: simSetDef().... simNotifyKillActionFunc is initialized to "nil".
-si: simSetDef().... simDoNotDisplayDialogBox is already set to t. Redefinition
-to nil is ignored.
+si: simSetDef().... simDoNotDisplayDialogBox is initialized to "nil".
 si: simSetDef().... simNetlistFileName is initialized to "netlist" .
-si: simSetDef().... simMaxNetlistErrors is initialized to 25 .
 si: simSetDef().... simUserDefineDefaultRunDirFunc is initialized to "nil".
 si: simSetDef().... simNlpGlobalLibName is initialized to "basic" .
 si: simSetDef().... simNlpGlobalCellName is initialized to "nlpglobals" .
-si: simSetDef().... simCommand is initialized to "" .
+si: simSetDef().... simCommand is already set to prog((status remoteDirName
+message fileName dir) simDeleteRunDirFile("raw/waves")
+simDeleteRunDirFile("raw/waves.tmp") (runDirName = simGetLocalSimrun(simRunDir))
+sprintf(fileName "%s/modelFilePaths" runDirName) when(isFile(fileName) (filePort
+= infile(fileName)) unless(filePort sprintf(s "si: Can't open the file
+'modelFilePaths' for reading. Please check the permissions on the file\n")
+simPrintError(s) return()) (simCmdLineOptions = "") foreach(dir
+parseString((car(lineread(filePort)) || "")) sprintf(simCmdLineOptions "%s -I%s"
+simCmdLineOptions simplifyFilename(dir))) close(filePort)) if((simHost !=
+"localhost") then simInitEqivRemoteSim() if((boundp('simCmdLineOptions) &&
+simCmdLineOptions && parseString(simCmdLineOptions)) then sprintf(spectreCommand
+"exec %s %s si.inp >& simout.tmp" spectreBinary simCmdLineOptions) else
+sprintf(spectreCommand "exec %s si.inp >& simout.tmp" spectreBinary)) else
+if((boundp('simCmdLineOptions) && simCmdLineOptions &&
+parseString(simCmdLineOptions)) then sprintf(spectreCommand "cd %s; exec %s %s
+si.inp > simout.tmp 2>&1" runDirName spectreBinary simCmdLineOptions) else
+sprintf(spectreCommand "cd %s; exec %s si.inp > simout.tmp 2>&1" runDirName
+spectreBinary))) if((simHost != "localhost") then (remoteDirName =
+makeTempFileName("/tmp/siXXXXXX")) simCreateRemoteCommands(simSimulator
+spectreCommand "NOTUSED" remoteDirName simRunDir) sprintf(message "si: Running
+simulation on host \"%s\".\n" simHost) simPrintError(message) (status =
+simRunEqivRemoteSim(simHost)) sprintf(fullPathName "%s/remote.out" runDirName)
+if(!fileLength(fullPathName) then simDeleteRunDirFile("remote.tmp")
+simDeleteRunDirFile("remote.out") else (simExecute sprintf(s "exec cat %s"
+fullPathName)) simDeleteRunDirFile("remote.tmp")
+simDeleteRunDirFile("remote.out") sprintf(fullPathName "%s/remote.err"
+runDirName) when(probef(fullPathName) simDeleteRunDirFile("remote.err") (status
+= nil))) else (status = (simExecute spectreCommand))) unless(status
+sprintf(message "si: spectre did not complete without errors.%s%s\n" "\tCheck
+si.out file in the simulation run directory\n" "\tfor spectre error
+messages.\n") simPrintError(message) return()) return(t)). Redefinition to "" is
+ignored.
 si: simSetDef().... simSedFile is already set to
 "/cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/etc/si/sed.ver".
 Redefinition to "" is ignored.
-si: simSetDef().... simDefaultSimulator is already set to "spice". Redefinition
-to nil is ignored.
-si: simSetDef().... simDefaultRunDir is already set to
-"/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Adder_32bit_nlogic_run1". Redefinition to nil is ignored.
+si: simSetDef().... simDefaultSimulator is initialized to "nil".
+si: simSetDef().... simDefaultRunDir is already set to "LVS". Redefinition to
+nil is ignored.
 si: simSetDef().... simSymbolModifiedAction is initialized to "ignore" .
 si: simSetDef().... simOtherInfo is initialized to "nil".
 si: simSetDef().... simIsFlattenP is initialized to "nil".
@@ -27,19 +55,15 @@ si: simSetDef().... simDiffInputFile is initialized to "simdiff.stl" .
 si: simSetDef().... simNoSimdiff is initialized to "nil".
 si: simSetDef().... simDefaultControl is initialized to "nil".
 si: simSetDef().... simControlFile is initialized to "nil".
-si: simSetDef().... simLogFile is initialized to "si.log" .
 si: simSetDef().... simTimeUnit is initialized to 1e-09 .
 si: simSetDef().... simCapUnit is initialized to 1e-15 .
 si: simSetDef().... simDoNetlist is initialized to t .
-si: simSetDef().... simDoSimulate is initialized to t .
 si: simSetDef().... simNetlistHier is already set to t. Redefinition to nil is
 ignored.
 si: simSetDef().... simGlobalPrefix is initialized to "nil".
-si: simSetDef().... simHierarchyPrefix is already set to "test.top".
-Redefinition to nil is ignored.
+si: simSetDef().... simHierarchyPrefix is initialized to "nil".
 si: simSetDef().... simNoLeadingHierarchyDelim is initialized to "nil".
 si: simSetDef().... simPrefixHierarchyWithCV is initialized to "nil".
-si: simSetDef().... simHierarchyDelimiter is initialized to "/" .
 si: simSetDef().... simNetNamePrefix is initialized to "nil".
 si: simSetDef().... simInstNamePrefix is initialized to "nil".
 si: simSetDef().... simModelNamePrefix is initialized to "nil".
@@ -53,10 +77,6 @@ si: simSetDef().... simSimulatorSaveFiles is initialized to "nil".
 si: simSetDef().... simDontCopyFileNetlistToRemoteRunDir is initialized to
 "nil".
 si: simSetDef().... simRsh is initialized to "nil".
-si: simSetDef().... simMustSaveFiles is initialized to (("si.env" "text")) .
-si: simSetDef().... simKnownSaveFiles is initialized to (("netlist" "netlist")
-("control" "text") ("si.out" "text") ("si.log" "text") ("map/current"
-"stranger") ("raw/waves" "stranger")) .
 si: simSetDef().... simNotIncremental is initialized to "nil".
 si: simSetDef().... simReNetlistAll is initialized to "nil".
 si: simSetDef().... simUnbindVars is initialized to (interactiveTAP
@@ -75,8 +95,8 @@ simPostAnalysisProcessingFunc simPrintSilosCap simReNetlistAll simRetainFterms
 simStlInputFile simSimulatorSaveFiles simSimulatorSaveVars
 simSymbolModifiedAction simTermNamePrefix simTimeUnit simViewList simViewName)
 .
-si: simSetDef().... simUnbindFuncs is initialized to (STLsimin cat netlist
-runsim sim simCatErrorFile simCheckExist simCheckHeader simCheckVariables
+si: simSetDef().... simUnbindFuncs is initialized to STLsimin(cat netlist runsim
+sim simCatErrorFile simCheckExist simCheckHeader simCheckVariables
 simCreateRemoteCommands simDateStamp simDeleteRunDirFile simDoHiloTranslation
 simDoSilosTranslation simDoTaTranslation simErrHandler simExecuteWithStatus
 simExecute simGetSiFileLocation simGetTermList simIfNoProcedure simin
@@ -86,9 +106,13 @@ simNoNetlist simout simout1 simPostFunc simPrintEnvironment simPrintTermList
 simPrintTermListWithOption simRunDirInfile simRunDirLoad simRunDirOutfile
 simRunSimdiff simRunEqivRemoteSim simRunStl simSetDef simSetDefWithNoWarn
 simGetSiFileLocation) .
-si: simSetDef().... simSaveVars is initialized to (simLibName simCellName
-simViewName simSimulator simNotIncremental simReNetlistAll) .
-si: simSetDef().... simDoNotForkNetlist is initialized to "nil".
+si: simSetDef().... simSaveVars is already set to (simLibName simCellName
+simViewName simSimulator simNotIncremental simReNetlistAll simViewList
+simStopList simNetlistHier nlFormatterClass nlCreateAmap nlDesignVarNameList).
+Redefinition to (simLibName simCellName simViewName simSimulator
+simNotIncremental simReNetlistAll) is ignored.
+si: simSetDef().... simDoNotForkNetlist is already set to t. Redefinition to nil
+is ignored.
 si: simSetDef().... interactiveTAP is initialized to "nil".
 si: simSetDef().... simPrintSilosCap is initialized to "nil".
 si: simSetDef().... simDoPostLayout is initialized to "nil".
@@ -184,7 +208,8 @@ hnlLastMapNetFirstChar hnlLastMapNetInName hnlLastMapTermFirstChar
 hnlLastMapTermInName hnlLastTermNameDifferentFrom hnlLastParamNameDifferentFrom
 hnlLastMapParamFirstChar hnlLastMapParamInName) .
 si: simSetDef().... simTermNamePrefix is initialized to "nil".
-si: simSetDef().... simParamNamePrefix is initialized to "nil".
+si: simSetDef().... simParamNamePrefix is already set to "_par". Redefinition to
+nil is ignored.
 si: simSetDef().... hnlCellOutputs is initialized to "nil".
 si: simSetDef().... hnlModCellOutputs is initialized to "nil".
 si: simSetDef().... hnlCellInputs is initialized to "nil".
@@ -259,7 +284,6 @@ si: simSetDef().... hnlNetlistFileName is initialized to "netlist" .
 si: simSetDef().... hnlMapDirName is initialized to "map" .
 si: simSetDef().... hnlMapFileName is initialized to "current" .
 si: simSetDef().... hnlNamePrefix is initialized to "hnl_" .
-si: simSetDef().... hnlBusNamePrefix is initialized to "BUS" .
 si: simSetDef().... hnlDriverWillPrint is initialized to "nil".
 si: simSetDef().... hnlLinePrefix is initialized to "nil".
 si: simSetDef().... hnlLinePostfix is initialized to "nil".
@@ -271,7 +295,8 @@ si: simSetDef().... hnlInstBased is initialized to t .
 si: simSetDef().... hnlLastTarget is initialized to "nil".
 si: simSetDef().... hnlFullNetlistName is initialized to "netlist" .
 si: simSetDef().... hnlNetlistDirectory is initialized to "nil".
-si: simSetDef().... hnlFullMasterName is initialized to "nil".
+si: simSetDef().... hnlFullMasterName is already set to
+"Adder_32bit_nlogic/schematic/current". Redefinition to nil is ignored.
 si: simSetDef().... hnlIncremental is initialized to "nil".
 si: simSetDef().... hnlIncrementalOnly is initialized to "nil".
 si: simSetDef().... simSupportNewConfig is initialized to "nil".
@@ -304,11 +329,6 @@ si: simSetDef().... hnlTopCellFuncs is initialized to ("hnlSetCellFiles()"
 si: simSetDef().... hnlMacroCellFuncs is initialized to ("hnlSetCellFiles()"
 "hnlPrintDeviceHeader()" "hnlPrintPorts()" "hnlPrintDevices()"
 "hnlPrintDeviceFooter()" "hnlCloseCellFiles()") .
-si: simSetDef().... hnlTopCellNetFuncs is initialized to
-("hnlPrintTopCellHeader()" "hnlPrintSignal()" "hnlPrintTopCellFooter()") .
-si: simSetDef().... hnlMacroCellNetFuncs is initialized to
-("hnlPrintDeviceHeader()" "hnlPrintPorts()" "hnlPrintSignal()"
-"hnlPrintDeviceFooter()") .
 Loading the file
 '/cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/etc/skill/hnl/verilog.ile'.si: simSetDef().... hnlFormatterUnbindFuncs is initialized to
 (hnlVerilogSetUnion hnlGenIncludeFile hnlPrintDeviceFooter hnlPrintDeviceHeader
@@ -571,7 +591,7 @@ si: simSetDef().... hnlVerilogTriregbusList is initialized to "nil".
 si: simSetDef().... hnlVerilogPartialNet is initialized to "nil".
 si: simSetDef().... hnlVerilogTriregStrengthList is initialized to "nil".
 Loading the file
-'/cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Dec  2 17:39:58 2011
+'/cae/apps/data/cadence-2011/installs/IC615/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Dec 11 15:00:07 2011
 si: simSetDef().... hnlMaxLineLength is initialized to 72 .
 si: simSetDef().... hnlInvalidNames is initialized to (("always" "always_")
 ("and" "and_") ("assign" "assign_") ("begin" "begin_") ("buf" "buf_") ("bufif0"
@@ -774,6 +794,104 @@ pins with initial state of "0", set
 hnlVerilogIOInitStimulusStr = "0" 
 either in CIW or the .simrc file.
  
+WARNING (OSSHNL-176): Property bag for the cell 'NAND' in library 'ECE555', has
+been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'XOR' in library 'ECE555', has
+been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'Prop_Gen' in library 'ECE555',
+has been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'AND_OR_NOT' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'Sum' in library 'ECE555', has
+been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'Buffer' in library 'ECE555',
+has been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'BLACK_CELL_n' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'Buffer_1bit' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'GREY_CELL' in library 'ECE555',
+has been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'OR_AND_NOT' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'n_GREY_CELL' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'NOR' in library 'ECE555', has
+been modified or added
+since the last netlisting session. Therefore,
+re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'n_BLACK_CELL' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
+WARNING (OSSHNL-176): Property bag for the cell 'INV_2bit_540_270' in library
+'ECE555', has been modified or added
+since the last netlisting session.
+Therefore, re-netlisting this cell view and
+all cell views where this cell is
+instantiated.
+
 INFO (VLOGNET-120): Using connection by order (implicit connections) for all the
 stopping cells.
 
@@ -803,15 +921,30 @@ CELL NAME                   VIEW NAME            NOTE
 nmos4                       functional           *Stopping View*  
 pmos4                       functional           *Stopping View*  
 Adder_32bit_nlogic          schematic                             
+INV_2bit_540_270            schematic                             
+n_BLACK_CELL                schematic                             
+NOR                         schematic                             
+n_GREY_CELL                 schematic                             
+OR_AND_NOT                  schematic                             
+GREY_CELL                   schematic                             
+Buffer_1bit                 schematic                             
+BLACK_CELL_n                schematic                             
+Buffer                      schematic                             
+Sum                         schematic                             
+GREY_CELL_n                 schematic                             
+AND_OR_NOT                  schematic                             
+Prop_Gen                    schematic                             
+XOR                         schematic                             
+NAND                        schematic                             
 
 ---------- End of netlist configuration information   ----------
 INFO (VLOGNET-80): The library 'ECE555', cell 'Adder_32bit_nlogic', and view
 'schematic' has been netlisted successfully.
 
-End netlisting Dec  2 17:40:00 2011
+End netlisting Dec 11 15:00:16 2011
 
 Running netlist
-Begin Incremental Netlisting Dec  2 17:49:22 2011
+Begin Incremental Netlisting Dec 11 16:33:34 2011
 si: simSetDef().... hnlCapability is initialized to "nil".
 si: simSetDef().... hnlBusCapability is initialized to "nil".
 INFO (VLOGNET-188): While generating implicit netlist, it is recommended to set
@@ -892,10 +1025,10 @@ Adder_32bit_nlogic          schematic
 INFO (VLOGNET-80): The library 'ECE555', cell 'Adder_32bit_nlogic', and view
 'schematic' has been netlisted successfully.
 
-End netlisting Dec  2 17:49:22 2011
+End netlisting Dec 11 16:33:35 2011
 
 Running netlist
-Begin Incremental Netlisting Dec  2 17:51:23 2011
+Begin Incremental Netlisting Dec 11 16:35:04 2011
 si: simSetDef().... hnlCapability is initialized to "nil".
 si: simSetDef().... hnlBusCapability is initialized to "nil".
 INFO (VLOGNET-188): While generating implicit netlist, it is recommended to set
@@ -970,10 +1103,92 @@ CELL NAME                   VIEW NAME            NOTE
 
 nmos4                       functional           *Stopping View*  
 pmos4                       functional           *Stopping View*  
-Adder_32bit_nlogic          schematic                             
 
 ---------- End of netlist configuration information   ----------
 INFO (VLOGNET-80): The library 'ECE555', cell 'Adder_32bit_nlogic', and view
 'schematic' has been netlisted successfully.
 
-End netlisting Dec  2 17:51:24 2011
+End netlisting Dec 11 16:35:04 2011
+
+Running netlist
+Begin Incremental Netlisting Dec 11 16:35:30 2011
+si: simSetDef().... hnlCapability is initialized to "nil".
+si: simSetDef().... hnlBusCapability is initialized to "nil".
+INFO (VLOGNET-188): While generating implicit netlist, it is recommended to set
+the Terminal SyncUp option on the Netlist Setup form as 'Honor Switch
+Master'.
+Alternatively, you can set the hnlVerilogTermSyncUp variable as
+'honorSM'.
+This option automatically resolves any mismatch between the terminals
+of an instance and its switch master while generating an implicit netlist.
+
+INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the
+
+"/filespace/people/a/asplund/ECE555/cadence/ECE555-Project/Adder_16bit_run1/testfixture.verilog" file. To print the stimulus name mapped table, set
+
+simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc file
+
+before invoking Verilog netlister.
+ 
+INFO (VLOGNET-62): Database internal net names will be printed for floating
+instance ports. To prevent 
+them from being printed, set
+simVerilogProcessNullPorts = t either in CIW or 
+the .simrc file.
+ 
+INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist
+Configuration list. 
+If you want to print only those cellviews that need to be
+re-netlisted in the 
+list, set simVerilogIncrementalNetlistConfigList = t either
+in CIW or the 
+.simrc file.
+ 
+INFO (VLOGNET-66): Module ports will be printed without the port ranges. If you
+have split busses 
+across module ports you may get an incorrect netlist. To
+print module ports 
+with the port ranges, set simVerilogDropPortRange = nil
+either in CIW or the 
+.simrc file.
+ 
+INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to
+"z". To get inout 
+pins with initial state of "0", set
+hnlVerilogIOInitStimulusStr = "0" 
+either in CIW or the .simrc file.
+ 
+INFO (VLOGNET-120): Using connection by order (implicit connections) for all the
+stopping cells.
+
+INFO (VLOGNET-169): Module port ordering for lib 'NCSU_Analog_Parts', cell
+'pmos4', view 'functional' will be
+ done using the user specified port order as
+follows:
+
+ => ("B" "D" "G" "S")
+
+INFO (VLOGNET-169): Module port ordering for lib 'NCSU_Analog_Parts', cell
+'nmos4', view 'functional' will be
+ done using the user specified port order as
+follows:
+
+ => ("B" "D" "G" "S")
+
+INFO (VLOGNET-126): ---------- Beginning netlist configuration information
+----------
+
+
+                (incremental data only)
+
+CELL NAME                   VIEW NAME            NOTE             
+---------                   ---------            ----             
+
+nmos4                       functional           *Stopping View*  
+pmos4                       functional           *Stopping View*  
+
+---------- End of netlist configuration information   ----------
+INFO (VLOGNET-80): The library 'ECE555', cell 'Adder_32bit_nlogic', and view
+'schematic' has been netlisted successfully.
+
+End netlisting Dec 11 16:35:30 2011

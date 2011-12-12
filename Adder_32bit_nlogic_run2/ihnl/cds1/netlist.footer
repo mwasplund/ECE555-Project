@@ -1,0 +1,10 @@
+nmos4 N3 ( cds_globals.gnd_, net016, A, cds_globals.gnd_);
+nmos4 N2 ( cds_globals.gnd_, net9, B, cds_globals.gnd_);
+nmos4 N1 ( cds_globals.gnd_, OUT, A, net9);
+nmos4 N0 ( cds_globals.gnd_, OUT, net016, B);
+pmos4 P3 ( cds_globals.vdd_, net016, A, cds_globals.vdd_);
+pmos4 P2 ( cds_globals.vdd_, net9, B, cds_globals.vdd_);
+pmos4 P1 ( cds_globals.vdd_, OUT, net016, net9);
+pmos4 P0 ( cds_globals.vdd_, OUT, A, B);
+
+endmodule

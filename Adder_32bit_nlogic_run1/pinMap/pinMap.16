@@ -1,5 +1,6 @@
 (pinMap
     mapRefList (
+    ("I320" ("ECE555/AND_OR_NOT/schematic" "pinMap.5"))
     ("I290" ("ECE555/INV_2bit_540_270/schematic" "pinMap.17"))
     ("I293" ("ECE555/INV_2bit_540_270/schematic" "pinMap.17"))
     ("I292" ("ECE555/INV_2bit_540_270/schematic" "pinMap.17"))
@@ -47,6 +48,7 @@
     ("I315" ("ECE555/INV_540_270/schematic" "pinMap.3"))
     ("I316" ("ECE555/INV_540_270/schematic" "pinMap.3"))
     ("I317" ("ECE555/INV_540_270/schematic" "pinMap.3"))
+    ("I319" ("ECE555/INV_540_270/schematic" "pinMap.3"))
     ("I130" ("ECE555/n_BLACK_CELL/schematic" "pinMap.15"))
     ("I129" ("ECE555/n_BLACK_CELL/schematic" "pinMap.15"))
     ("I128" ("ECE555/n_BLACK_CELL/schematic" "pinMap.15"))

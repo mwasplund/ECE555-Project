@@ -1,6 +1,6 @@
 // Library - ECE555, Cell - n_BLACK_CELL, View - schematic
 // LAST TIME SAVED: Dec  1 18:56:24 2011
-// NETLIST TIME: Dec  1 19:03:28 2011
+// NETLIST TIME: Dec  1 20:41:25 2011
 `timescale 1ns / 1ns 
 
 module n_BLACK_CELL ( cdsNet3, cdsNet0, cdsNet5, cdsNet4, cdsNet2,

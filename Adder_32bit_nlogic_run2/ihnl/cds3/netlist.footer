@@ -1,0 +1,5 @@
+NAND I0 ( net06, A, B);
+XOR I1 ( P, A, B);
+INV_540_270 I2 ( G, net06);
+
+endmodule

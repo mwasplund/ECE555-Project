@@ -1,0 +1,4 @@
+OR_AND_NOT I2 ( cdsNet3, cdsNet4, cdsNet2, cdsNet5);
+NOR I1 ( cdsNet0, cdsNet2, cdsNet1);
+
+endmodule
