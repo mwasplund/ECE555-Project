@@ -1,4 +1,0 @@
-AND_OR_NOT I0 ( net5, cdsNet1, cdsNet0, cdsNet2);
-INV_540_270 I1 ( cdsNet3, net5);
-
-endmodule

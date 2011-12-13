@@ -1,7 +1,0 @@
-(pinMap
-    mapRefList (
-    ("I0" ("ECE555/INV_540_270/schematic" "pinMap.3"))
-    ("I1" ("ECE555/INV_540_270/schematic" "pinMap.3"))
-    )
-    isImportingHdl    nil
-)

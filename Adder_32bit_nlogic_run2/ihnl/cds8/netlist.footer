@@ -1,4 +1,0 @@
-AND_OR_NOT I3 ( cdsNet5, cdsNet3, cdsNet1, cdsNet4);
-NAND I1 ( cdsNet2, cdsNet1, cdsNet0);
-
-endmodule

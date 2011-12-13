@@ -1,4 +1,0 @@
-INV_540_270 I1 ( OUT, net5);
-INV_540_270 I0 ( net5, IN);
-
-endmodule
